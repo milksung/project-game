@@ -1,0 +1,728 @@
+[
+        {
+            "GameCode": "GS001",
+            "GameName": "FORTUNE DRUM",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS001.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS002",
+            "GameName": "DRAGON GATE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS002.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS003",
+            "GameName": "GONG XI FA CHAI",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS003.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "AG001",
+            "GameName": "OCEAN PROJECT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG001.jpg",
+            "GameType": "FISHING"
+        },
+        {
+            "GameCode": "AG002",
+            "GameName": "GALAXY WAR",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG002.jpg",
+            "GameType": "FISHING"
+        },
+        {
+            "GameCode": "GS006",
+            "GameName": "77 FORTUNE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS006.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS007",
+            "GameName": "FUNTASTIC FRUIT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS007.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS008",
+            "GameName": "MAYAN TEMPLE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS008.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS009",
+            "GameName": "FIRE KINGDOM",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS009.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS010",
+            "GameName": "OCEAN ADVENTURE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS010.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS011",
+            "GameName": "GENIE RICH",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS011.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS013",
+            "GameName": "GREEN GOLD",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS013.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS012",
+            "GameName": "WILD SAFARI",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS012.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS014",
+            "GameName": "PIRATE LEGEND",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS014.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS015",
+            "GameName": "LUCKY BEASTS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS015.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "AG004",
+            "GameName": "HORSE RACING",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG004.jpg",
+            "GameType": "ARCADE"
+        },
+        {
+            "GameCode": "AG005",
+            "GameName": "DOG RACING",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG005.jpg",
+            "GameType": "ARCADE"
+        },
+        {
+            "GameCode": "GS017",
+            "GameName": "SUSHI BONANZA",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS017.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS016",
+            "GameName": "RAGNAROK FIRE STORM",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS016.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS018",
+            "GameName": "EGGY BUNNIES",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS018.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS019",
+            "GameName": "EMONJI",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS019.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "AG006",
+            "GameName": "MONKEYS THUNDERBOLT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG006.jpg",
+            "GameType": "ARCADE"
+        },
+        {
+            "GameCode": "GS020",
+            "GameName": "TWIN DRAGON",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS020.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS021",
+            "GameName": "LUCKY PET",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS021.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS022",
+            "GameName": "EASTER BUNNY",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS022.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS023",
+            "GameName": "FORTUNE DRAGON 88",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS023.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS024",
+            "GameName": "SUSHI DELIGHT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS024.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS025",
+            "GameName": "HALLOWIN",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS025.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS026",
+            "GameName": "TUTTI FRUTTI",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS026.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS027",
+            "GameName": "WILD WEST",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS027.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS028",
+            "GameName": "NIGHT OF THE SOUL",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS028.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS033",
+            "GameName": "SHIBA VILLAGE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS033.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS034",
+            "GameName": "CHRISTMAS GIFT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS034.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS035",
+            "GameName": "NEZHA DEMON REBORN",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS035.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS036",
+            "GameName": "HAPPY NEW YEAR",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS036.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS038",
+            "GameName": "BOBA BOBA",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS038.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS039",
+            "GameName": "GOLDEN LOTUS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS039.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS040",
+            "GameName": "FOUR BEAUTIES",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS040.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS041",
+            "GameName": "GOD LIST",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS041.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS042",
+            "GameName": "WAR SAINT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS042.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS043",
+            "GameName": "RICH AND WEALTHY",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS043.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS044",
+            "GameName": "JOURNEY WEST",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS044.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS045",
+            "GameName": "DOG FORTUNE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS045.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS046",
+            "GameName": "WORLD CUP FRENZY",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS046.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS047",
+            "GameName": "WATER MARGIN",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS047.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS048",
+            "GameName": "FANTASY JOURNEY",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS048.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS049",
+            "GameName": "CRAZY 7",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS049.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS050",
+            "GameName": "FUNKEY MONKEY",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS050.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS051",
+            "GameName": "8 BALL SLOTS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS051.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS052",
+            "GameName": "CIRCUS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS052.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS056",
+            "GameName": "KING GATE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS056.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS057",
+            "GameName": "MIGHTY SPARTAN",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS057.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS058",
+            "GameName": "JAPAN GOLD",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS058.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS059",
+            "GameName": "LION KING",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS059.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS060",
+            "GameName": "AMAZING THAILAND",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS060.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "AG015",
+            "GameName": "FOOTBALL STRIKE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG015.jpg",
+            "GameType": "ARCADE"
+        },
+        {
+            "GameCode": "AG012",
+            "GameName": "BENZ AND BMW",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG012.jpg",
+            "GameType": "ARCADE"
+        },
+        {
+            "GameCode": "AG016",
+            "GameName": "PACMAN LADDER",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG016.jpg",
+            "GameType": "ARCADE"
+        },
+        {
+            "GameCode": "AG007",
+            "GameName": "WHACK A MOLE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG007.jpg",
+            "GameType": "ARCADE"
+        },
+        {
+            "GameCode": "GS061",
+            "GameName": "50 LIONS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS061.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS062",
+            "GameName": "50 DRAGONS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS062.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS063",
+            "GameName": "QUEEN OF THE NILE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS063.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS064",
+            "GameName": "GEISHA",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS064.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS065",
+            "GameName": "DOLPHIN TREASURE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS065.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS066",
+            "GameName": "TIKI TORCH",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS066.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS067",
+            "GameName": "MISS KITTY",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS067.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS068",
+            "GameName": "BUFFALO",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS068.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS005",
+            "GameName": "HIGHWAY KING",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS005.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS004",
+            "GameName": "CAPTAIN TREASURE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS004.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS029",
+            "GameName": "BONUS BEAR",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS029.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS031",
+            "GameName": "PANTHER MOON",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS031.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS032",
+            "GameName": "DOLPHIN REEF",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS032.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS054",
+            "GameName": "TRIPLE TWISTER",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS054.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS053",
+            "GameName": "JIN QIAN WA",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS053.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS055",
+            "GameName": "ICELAND",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS055.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS030",
+            "GameName": "GREAT BLUE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS030.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS074",
+            "GameName": "SAFARI HEAT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS074.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS075",
+            "GameName": "FORTUNE LIONS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS075.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS076",
+            "GameName": "SILVER BULLET",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS076.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS077",
+            "GameName": "GOLDEN TOUR",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS077.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS078",
+            "GameName": "MAGICAL SPIN",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS078.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS079",
+            "GameName": "BOY KING",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS079.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS080",
+            "GameName": "ALADDIN WISHES",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS080.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS081",
+            "GameName": "THAI PARADISE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS081.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS082",
+            "GameName": "ARCHER",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS082.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS084",
+            "GameName": "MYSTIC DRAGON",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS084.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS085",
+            "GameName": "ENCHANTED GARDEN",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS085.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS071",
+            "GameName": "AMONG US",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS071.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS069",
+            "GameName": "CHOY SUN DOA",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS069.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS070",
+            "GameName": "5 DRAGONS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS070.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "AG011",
+            "GameName": "MONKEY STORY",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG011.jpg",
+            "GameType": "ARCADE"
+        },
+        {
+            "GameCode": "AG009",
+            "GameName": "RED PACKET FISHING",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG009.jpg",
+            "GameType": "FISHING"
+        },
+        {
+            "GameCode": "AG014",
+            "GameName": "OCEAN KING 2",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG014.jpg",
+            "GameType": "FISHING"
+        },
+        {
+            "GameCode": "AG013",
+            "GameName": "OCEAN KING 3",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG013.jpg",
+            "GameType": "FISHING"
+        },
+        {
+            "GameCode": "AG010",
+            "GameName": "OCEAN KING 4",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG010.jpg",
+            "GameType": "FISHING"
+        },
+        {
+            "GameCode": "GS083",
+            "GameName": "GOD OF WEALTH",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS083.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS072",
+            "GameName": "MARIO AND FRIENDS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS072.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS073",
+            "GameName": "DRAGON BALL",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS073.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "AG021",
+            "GameName": "TOKYO COMBAT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/AG021.jpg",
+            "GameType": "FISHING"
+        },
+        {
+            "GameCode": "GS087",
+            "GameName": "888 DRAGONS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS087.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS088",
+            "GameName": "AROWANAS LUCK",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS088.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS089",
+            "GameName": "CANDY CRUSH",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS089.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS090",
+            "GameName": "MARIO GOLF",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS090.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS091",
+            "GameName": "HOT FRUITS 20",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS091.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS092",
+            "GameName": "LUCKY JOKER 5",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS092.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS093",
+            "GameName": "ZHAO CAI TONG ZHI",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS093.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS094",
+            "GameName": "ZHAO CAI JIN BAO",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS094.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS095",
+            "GameName": "NIAN NIAN YOU YU",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS095.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS103",
+            "GameName": "BAI SHI",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS103.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS105",
+            "GameName": "LOTTO MADNESS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS105.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS117",
+            "GameName": "HELL HOT 100",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS117.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS114",
+            "GameName": "BOOK OF DEAD",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS114.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS113",
+            "GameName": "BOOK OF VIKING",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS113.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS112",
+            "GameName": "THE DOG HOUSE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS112.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS118",
+            "GameName": "CUTE TIGER",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS118.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS097",
+            "GameName": "A NIGHT OUT",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS097.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS098",
+            "GameName": "IRISH LUCK",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS098.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS099",
+            "GameName": "CHERRY LOVE",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS099.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS102",
+            "GameName": "FOOTBALL RULES",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS102.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS104",
+            "GameName": "CAT QUEEN",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS104.jpg",
+            "GameType": "SLOT"
+        },
+        {
+            "GameCode": "GS116",
+            "GameName": "SWORD OF KHANS",
+            "ImageIcon": "https://api.marioclub88.com/images/thumb/square/GS116.jpg",
+            "GameType": "SLOT"
+        }
+    ]

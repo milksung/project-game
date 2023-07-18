@@ -1,0 +1,1358 @@
+[
+        {
+            "id": "1",
+            "GameCode": "train2",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/train2.png",
+            "i18n": {
+                "en_US": "train2",
+                "zh_CN": "寻宝之旅2"
+            },
+            "tab": "ALL",
+            "orders": 1
+        },
+        {
+            "id": "10",
+            "GameCode": "treasures",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/treasures.png",
+            "i18n": {
+                "en_US": "Secret Treasures",
+                "th_TH": "สมบัติลับ",
+                "zh_CN": "秘密宝藏"
+            },
+            "tab": "ALL",
+            "orders": 10
+        },
+        {
+            "id": "100",
+            "GameCode": "crystal",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/crystal.png",
+            "i18n": {
+                "en_US": "Glory of Heroes",
+                "zh_CN": "英雄荣耀"
+            },
+            "tab": "ALL",
+            "orders": 100
+        },
+        {
+            "id": "101",
+            "GameCode": "crazy5x243",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/crazy5x243.png",
+            "i18n": {
+                "en_US": "Crazy GO GO GO",
+                "th_TH": "หมุนคเรสิย์หมุนๆหมุน",
+                "zh_CN": "疯狂转转转"
+            },
+            "tab": "ALL",
+            "orders": 101
+        },
+        {
+            "id": "102",
+            "GameCode": "btball5x20",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/btball5x20.png",
+            "i18n": {
+                "en_US": "Crazy Basketball",
+                "th_TH": "คเรสิย์บาสเกตบอล",
+                "zh_CN": "劲爆篮球"
+            },
+            "tab": "ALL",
+            "orders": 102
+        },
+        {
+            "id": "103",
+            "GameCode": "mysticalstones",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/mysticalstones.png",
+            "i18n": {
+                "en_US": "Mystical Stones",
+                "zh_CN": "巨石迷阵"
+            },
+            "tab": "ALL",
+            "orders": 103
+        },
+        {
+            "id": "104",
+            "GameCode": "wildchaser5x20",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/wildchaser5x20.png",
+            "i18n": {
+                "en_US": "BattleField",
+                "th_TH": "ไล่จับในทุ่งร้าง",
+                "zh_CN": "荒野追捕"
+            },
+            "tab": "ALL",
+            "orders": 104
+        },
+        {
+            "id": "105",
+            "GameCode": "lnd5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/lnd5x25.png",
+            "i18n": {
+                "en_US": "WHO IS DADDY",
+                "th_TH": "ใครเป็นคนที่รวยที่สุด",
+                "vi_VN": "Ai là người giàu nhất",
+                "zh_CN": "谁是首富"
+            },
+            "tab": "ALL",
+            "orders": 105
+        },
+        {
+            "id": "106",
+            "GameCode": "tombshadow",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/tombshadow.png",
+            "i18n": {
+                "en_US": "Tomb Shadow",
+                "th_TH": "กูตงจิง",
+                "zh_CN": "古潼京"
+            },
+            "tab": "ALL",
+            "orders": 106
+        },
+        {
+            "id": "107",
+            "GameCode": "shopping5x243",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/shopping5x243.png",
+            "i18n": {
+                "en_US": "National Carnival",
+                "th_TH": "พลเมืองรื่นเริง",
+                "zh_CN": "全民狂欢"
+            },
+            "tab": "ALL",
+            "orders": 107
+        },
+        {
+            "id": "108",
+            "GameCode": "alchemist",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/alchemist.png",
+            "i18n": {
+                "en_US": "Crazy Alchemist",
+                "zh_CN": "疯狂炼金师"
+            },
+            "tab": "ALL",
+            "orders": 108
+        },
+        {
+            "id": "109",
+            "GameCode": "circus",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/circus.png",
+            "i18n": {
+                "en_US": "crazy circus",
+                "zh_CN": "疯狂马戏团"
+            },
+            "tab": "ALL",
+            "orders": 109
+        },
+        {
+            "id": "11",
+            "GameCode": "vikings",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/vikings.png",
+            "i18n": {
+                "en_US": "Nordic Saga",
+                "zh_CN": "冰海传奇"
+            },
+            "tab": "ALL",
+            "orders": 11
+        },
+        {
+            "id": "110",
+            "GameCode": "rocket6x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/rocket6x25.png",
+            "i18n": {
+                "en_US": "Happiness Overflow",
+                "th_TH": "มหามงคล",
+                "zh_CN": "喜气冲天"
+            },
+            "tab": "ALL",
+            "orders": 110
+        },
+        {
+            "id": "111",
+            "GameCode": "easyrider",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/easyrider.png",
+            "i18n": {
+                "en_US": "Easy Rider",
+                "zh_CN": "逍遥骑士"
+            },
+            "tab": "ALL",
+            "orders": 111
+        },
+        {
+            "id": "112",
+            "GameCode": "wanderingEarth5x243",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/wanderingEarth5x243.png",
+            "i18n": {
+                "en_US": "Wandering Earth",
+                "th_TH": "ดาวเคราะห์เร่ร่อน",
+                "zh_CN": "流浪星球"
+            },
+            "tab": "ALL",
+            "orders": 112
+        },
+        {
+            "id": "113",
+            "GameCode": "goldrat5x243",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/goldrat5x243.png",
+            "i18n": {
+                "en_US": "Golden Rat",
+                "th_TH": "หนูทองต้อนรับฤดูใบไม้ผลิ",
+                "vi_VN": "Chuột Vàng Chào Xuân",
+                "zh_CN": "金鼠迎春"
+            },
+            "tab": "ALL",
+            "orders": 113
+        },
+        {
+            "id": "114",
+            "GameCode": "naruto",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/naruto.png",
+            "i18n": {
+                "en_US": "NINJA",
+                "ja_JP": "NINJA",
+                "th_TH": "นินจา",
+                "zh_CN": "NINJA"
+            },
+            "tab": "ALL",
+            "orders": 114
+        },
+        {
+            "id": "115",
+            "GameCode": "xiaoxiaole7x50",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/xiaoxiaole7x50.png",
+            "i18n": {
+                "en_US": "Monster pop",
+                "th_TH": "หายแห่งความสุขDT",
+                "zh_CN": "DT消消乐"
+            },
+            "tab": "ALL",
+            "orders": 115
+        },
+        {
+            "id": "116",
+            "GameCode": "casinomagnates",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/casinomagnates.png",
+            "i18n": {
+                "en_US": "Casino Tycoon",
+                "zh_CN": "赌场大亨"
+            },
+            "tab": "ALL",
+            "orders": 116
+        },
+        {
+            "id": "117",
+            "GameCode": "hiphop5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/hiphop5x25.png",
+            "i18n": {
+                "en_US": "Street Dance of China",
+                "th_TH": "นี่ก็คือ！สตรีทแดนซ์",
+                "zh_CN": "这就是！街舞"
+            },
+            "tab": "ALL",
+            "orders": 117
+        },
+        {
+            "id": "118",
+            "GameCode": "girlgroup5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/girlgroup5x25.png",
+            "i18n": {
+                "en_US": "Sexy Girls",
+                "th_TH": "กลุ่มไอดอลสาวเซ็กซี่",
+                "zh_CN": "性感女团"
+            },
+            "tab": "ALL",
+            "orders": 118
+        },
+        {
+            "id": "12",
+            "GameCode": "genie",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/genie.png",
+            "i18n": {
+                "en_US": "Aladdin's Wish",
+                "th_TH": "ความปรารถนาของอะลา",
+                "zh_CN": "阿拉丁愿望"
+            },
+            "tab": "ALL",
+            "orders": 12
+        },
+        {
+            "id": "13",
+            "GameCode": "museum",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/museum.png",
+            "i18n": {
+                "en_US": "Wondrous Museum",
+                "zh_CN": "奇妙博物馆"
+            },
+            "tab": "ALL",
+            "orders": 13
+        },
+        {
+            "id": "14",
+            "GameCode": "sgkill5x20",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/sgkill5x20.png",
+            "i18n": {
+                "en_US": "Three Kingdoms",
+                "th_TH": "สามก๊กฆ่า",
+                "vi_VN": "Tam quốc sát",
+                "zh_CN": "三国杀"
+            },
+            "tab": "ALL",
+            "orders": 14
+        },
+        {
+            "id": "15",
+            "GameCode": "greatgatsby",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/greatgatsby.png",
+            "i18n": {
+                "en_US": "Great Gatsby",
+                "zh_CN": "大亨小传"
+            },
+            "tab": "ALL",
+            "orders": 15
+        },
+        {
+            "id": "16",
+            "GameCode": "nezha",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/nezha.png",
+            "i18n": {
+                "en_US": "NeZha Lengend",
+                "th_TH": "ตำนานเน่อจา",
+                "zh_CN": "哪吒传奇"
+            },
+            "tab": "ALL",
+            "orders": 16
+        },
+        {
+            "id": "17",
+            "GameCode": "bloodmoon",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/bloodmoon.png",
+            "i18n": {
+                "en_US": "Blood Wolf Legend",
+                "th_TH": "ตำนานหมาป่าเลือด",
+                "zh_CN": "血狼传说"
+            },
+            "tab": "ALL",
+            "orders": 17
+        },
+        {
+            "id": "18",
+            "GameCode": "dragonball2",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/dragonball2.png",
+            "i18n": {
+                "en_US": "Heroes of the East",
+                "th_TH": "โลกแห่งอำนาจจักรพรรดิ",
+                "zh_CN": "皇权天下"
+            },
+            "tab": "ALL",
+            "orders": 18
+        },
+        {
+            "id": "19",
+            "GameCode": "wrathofthor",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/wrathofthor.png",
+            "i18n": {
+                "en_US": "wrathofthor",
+                "th_TH": "อาณาจักรของพระเจ้าทันเดอร์",
+                "zh_CN": "雷霆神域"
+            },
+            "tab": "ALL",
+            "orders": 19
+        },
+        {
+            "id": "2",
+            "GameCode": "westwild",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/westwild.png",
+            "i18n": {
+                "en_US": "West Wild",
+                "zh_CN": "西部荒野"
+            },
+            "tab": "ALL",
+            "orders": 2
+        },
+        {
+            "id": "20",
+            "GameCode": "onenight5x243",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/onenight5x243.png",
+            "i18n": {
+                "en_US": "Truffle Butter",
+                "th_TH": "บ้านหลันกุ้ย",
+                "zh_CN": "兰桂坊"
+            },
+            "tab": "ALL",
+            "orders": 20
+        },
+        {
+            "id": "21",
+            "GameCode": "superstar5x50",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/superstar5x50.png",
+            "i18n": {
+                "en_US": "Star Generation",
+                "th_TH": "ไทม์สตาร์",
+                "vi_VN": "Siêu sao thời đại",
+                "zh_CN": "时代巨星"
+            },
+            "tab": "ALL",
+            "orders": 21
+        },
+        {
+            "id": "22",
+            "GameCode": "dnp",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/dnp.png",
+            "i18n": {
+                "en_US": "DragonPhoenix Prosper",
+                "th_TH": "หงส์มังกรแสดงศิริมงคล",
+                "zh_CN": "龙凤呈祥"
+            },
+            "tab": "ALL",
+            "orders": 22
+        },
+        {
+            "id": "23",
+            "GameCode": "shokudo",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/shokudo.png",
+            "i18n": {
+                "en_US": "shokudo",
+                "th_TH": "โรงอาหารกลางคืน",
+                "zh_CN": "深夜食堂"
+            },
+            "tab": "ALL",
+            "orders": 23
+        },
+        {
+            "id": "24",
+            "GameCode": "legendary",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/legendary.png",
+            "i18n": {
+                "en_US": "Legendary Tales",
+                "th_TH": "ตำนานรุ่งโรจน์",
+                "zh_CN": "荣耀风云"
+            },
+            "tab": "ALL",
+            "orders": 24
+        },
+        {
+            "id": "25",
+            "GameCode": "casino",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/casino.png",
+            "i18n": {
+                "en_US": "3D Slot",
+                "th_TH": "เกมคาสิโนคลาสสิค3d ",
+                "zh_CN": "3D经典老虎机"
+            },
+            "tab": "ALL",
+            "orders": 25
+        },
+        {
+            "id": "26",
+            "GameCode": "muaythai",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/muaythai.png",
+            "i18n": {
+                "en_US": "Muaythai",
+                "zh_CN": "拳霸天下"
+            },
+            "tab": "ALL",
+            "orders": 26
+        },
+        {
+            "id": "27",
+            "GameCode": "lovefighters",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/lovefighters.png",
+            "i18n": {
+                "en_US": "Love Fighters",
+                "zh_CN": "仙侠情缘"
+            },
+            "tab": "ALL",
+            "orders": 27
+        },
+        {
+            "id": "28",
+            "GameCode": "boss5x20",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/boss5x20.png",
+            "i18n": {
+                "en_US": "Rich Asians",
+                "th_TH": "ประธานเอาแต่ใจ",
+                "vi_VN": "Tổng Tài Bá Đạo",
+                "zh_CN": "霸道总裁"
+            },
+            "tab": "ALL",
+            "orders": 28
+        },
+        {
+            "id": "29",
+            "GameCode": "dragonball",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/dragonball.png",
+            "i18n": {
+                "en_US": "Saiyan Battle",
+                "th_TH": "การต่อสู้ของSaiyan",
+                "zh_CN": "赛亚烈战"
+            },
+            "tab": "ALL",
+            "orders": 29
+        },
+        {
+            "id": "3",
+            "GameCode": "king5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/king5x25.png",
+            "i18n": {
+                "en_US": "I'm king",
+                "th_TH": "กูเป็นฮ่องตี้",
+                "vi_VN": "Lão tử là hoàng đế",
+                "zh_CN": "老子是皇帝"
+            },
+            "tab": "ALL",
+            "orders": 3
+        },
+        {
+            "id": "30",
+            "GameCode": "sweethouse",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/sweethouse.png",
+            "i18n": {
+                "en_US": "Candy House",
+                "zh_CN": "甜蜜糖果屋"
+            },
+            "tab": "ALL",
+            "orders": 30
+        },
+        {
+            "id": "31",
+            "GameCode": "fortuneNewYear5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/fortuneNewYear5x25.png",
+            "i18n": {
+                "en_US": "MAHJONG KING",
+                "th_TH": "พระเทพแห่งการเงิน",
+                "vi_VN": "Thần Tài đón tết",
+                "zh_CN": "财神过年"
+            },
+            "tab": "ALL",
+            "orders": 31
+        },
+        {
+            "id": "32",
+            "GameCode": "camgirl5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/camgirl5x25.png",
+            "i18n": {
+                "en_US": "Sexy Camgirl",
+                "th_TH": "ผู้ประกาศข่าวหญิงที่เต้นใจ",
+                "vi_VN": "Nữ MC Rung Động",
+                "zh_CN": "心动女主播"
+            },
+            "tab": "ALL",
+            "orders": 32
+        },
+        {
+            "id": "33",
+            "GameCode": "magicbean",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/magicbean.png",
+            "i18n": {
+                "en_US": "Magic Bean Legend",
+                "zh_CN": "魔豆传奇"
+            },
+            "tab": "ALL",
+            "orders": 33
+        },
+        {
+            "id": "34",
+            "GameCode": "icefire",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/icefire.png",
+            "i18n": {
+                "en_US": "Ice And Fire",
+                "zh_CN": "冰火之歌"
+            },
+            "tab": "ALL",
+            "orders": 34
+        },
+        {
+            "id": "35",
+            "GameCode": "legendMir5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/legendMir5x25.png",
+            "i18n": {
+                "en_US": "Legendary Hegemony",
+                "th_TH": "นิทานมหาอำนาจ",
+                "vi_VN": "Bá nghiệp truyền kỳ",
+                "zh_CN": "传奇霸业"
+            },
+            "tab": "ALL",
+            "orders": 35
+        },
+        {
+            "id": "36",
+            "GameCode": "hotpotfeast",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/hotpotfeast.png",
+            "i18n": {
+                "en_US": "HotpotFeast",
+                "zh_CN": "火锅盛宴"
+            },
+            "tab": "ALL",
+            "orders": 36
+        },
+        {
+            "id": "37",
+            "GameCode": "xjqy5x9",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/xjqy5x9.png",
+            "i18n": {
+                "en_US": "Chinese Paladin",
+                "th_TH": "ลิขิตวิเศษดาบเทพ"
+            },
+            "tab": "ALL",
+            "orders": 37
+        },
+        {
+            "id": "38",
+            "GameCode": "whitesnake",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/whitesnake.png",
+            "i18n": {
+                "en_US": "Tales of White Snake",
+                "zh_CN": "白蛇传"
+            },
+            "tab": "ALL",
+            "orders": 38
+        },
+        {
+            "id": "39",
+            "GameCode": "goldjade5x50",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/goldjade5x50.png",
+            "i18n": {
+                "en_US": "JIN YU MAN TANG",
+                "th_TH": "หนูทองต้อนรับฤดูใบไม้ผลิ",
+                "zh_CN": "金玉满堂"
+            },
+            "tab": "ALL",
+            "orders": 39
+        },
+        {
+            "id": "4",
+            "GameCode": "cute5x50",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/cute5x50.png",
+            "i18n": {
+                "en_US": "Castle Guardian",
+                "th_TH": "ปกป้องหญิงน่ารัก",
+                "zh_CN": "守护萌主"
+            },
+            "tab": "ALL",
+            "orders": 4
+        },
+        {
+            "id": "40",
+            "GameCode": "onepiece",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/onepiece.png",
+            "i18n": {
+                "en_US": "KING OF PIRATE",
+                "ja_JP": "ワンピースII",
+                "th_TH": "นักรบโจรสลัด",
+                "zh_CN": "海盗无双"
+            },
+            "tab": "ALL",
+            "orders": 40
+        },
+        {
+            "id": "41",
+            "GameCode": "chess",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/chess.png",
+            "i18n": {
+                "en_US": "Dragon Auto Chess",
+                "zh_CN": "斩龙自走棋"
+            },
+            "tab": "ALL",
+            "orders": 41
+        },
+        {
+            "id": "42",
+            "GameCode": "bird",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/bird.png",
+            "i18n": {
+                "en_US": "Bird Island",
+                "zh_CN": "不愤怒的小鸟"
+            },
+            "tab": "ALL",
+            "orders": 42
+        },
+        {
+            "id": "43",
+            "GameCode": "train",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/train.png",
+            "i18n": {
+                "en_US": "Treasure Hunt Trip",
+                "zh_CN": "寻宝之旅"
+            },
+            "tab": "ALL",
+            "orders": 43
+        },
+        {
+            "id": "44",
+            "GameCode": "clash",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/clash.png",
+            "i18n": {
+                "en_US": "Clash of Three kingdoms",
+                "zh_CN": "乱斗三国"
+            },
+            "tab": "ALL",
+            "orders": 44
+        },
+        {
+            "id": "45",
+            "GameCode": "guhuozai",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/guhuozai.png",
+            "i18n": {
+                "en_US": "Blood Street",
+                "zh_CN": "热血街头"
+            },
+            "tab": "ALL",
+            "orders": 45
+        },
+        {
+            "id": "46",
+            "GameCode": "tlod",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/tlod.png",
+            "i18n": {
+                "en_US": "Investiture of Gods",
+                "zh_CN": "封神榜"
+            },
+            "tab": "ALL",
+            "orders": 46
+        },
+        {
+            "id": "47",
+            "GameCode": "fls",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/fls.png",
+            "i18n": {
+                "en_US": "FULUSHOU",
+                "th_TH": "เทพสุข",
+                "zh_CN": "福禄寿"
+            },
+            "tab": "ALL",
+            "orders": 47
+        },
+        {
+            "id": "48",
+            "GameCode": "estate5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/estate5x25.png",
+            "i18n": {
+                "en_US": "MONOPOLY",
+                "th_TH": "มหาเศรษฐี",
+                "vi_VN": "Đại gia địa ốc",
+                "zh_CN": "地产大亨"
+            },
+            "tab": "ALL",
+            "orders": 48
+        },
+        {
+            "id": "49",
+            "GameCode": "egyptian",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/egyptian.png",
+            "i18n": {
+                "en_US": "Eye Of Egypt",
+                "th_TH": "จักรพรรดิอียิปต์",
+                "zh_CN": "埃及帝国"
+            },
+            "tab": "ALL",
+            "orders": 49
+        },
+        {
+            "id": "5",
+            "GameCode": "honor",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/honor.png",
+            "i18n": {
+                "en_US": "Field of Honor",
+                "th_TH": "กินไก่ในคืนนี้",
+                "zh_CN": "今晚吃鸡"
+            },
+            "tab": "ALL",
+            "orders": 5
+        },
+        {
+            "id": "50",
+            "GameCode": "oceanpark5x50",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/oceanpark5x50.png",
+            "i18n": {
+                "en_US": "Ocean Park",
+                "th_TH": "สนามเด็กเล่นทะเล",
+                "zh_CN": "海洋游乐场"
+            },
+            "tab": "ALL",
+            "orders": 50
+        },
+        {
+            "id": "51",
+            "GameCode": "bikini",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/bikini.png",
+            "i18n": {
+                "en_US": "bikini party",
+                "zh_CN": "比基尼派对"
+            },
+            "tab": "ALL",
+            "orders": 51
+        },
+        {
+            "id": "52",
+            "GameCode": "tgow",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/tgow.png",
+            "i18n": {
+                "en_US": "Wealthy God Arriving",
+                "th_TH": "เทพเจ้าแห่งการเงินถึง"
+            },
+            "tab": "ALL",
+            "orders": 52
+        },
+        {
+            "id": "53",
+            "GameCode": "klnz5x20",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/klnz5x20.png",
+            "i18n": {
+                "en_US": "Happy Farm",
+                "th_TH": "แฮปปี้ฟาร์ม"
+            },
+            "tab": "ALL",
+            "orders": 53
+        },
+        {
+            "id": "54",
+            "GameCode": "rocknight2",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/rocknight2.png",
+            "i18n": {
+                "en_US": "Rock Night2",
+                "zh_CN": "摇滚之夜2"
+            },
+            "tab": "ALL",
+            "orders": 54
+        },
+        {
+            "id": "55",
+            "GameCode": "bxgh5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/bxgh5x25.png",
+            "i18n": {
+                "en_US": "Eight Immortals",
+                "th_TH": "เทพเจ้าโป้ยเซียนข้ามทะเล",
+                "zh_CN": "八仙过海"
+            },
+            "tab": "ALL",
+            "orders": 55
+        },
+        {
+            "id": "56",
+            "GameCode": "sd5",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/sd5.png",
+            "i18n": {
+                "en_US": "Basketball Master 2",
+                "zh_CN": "灌篮大师2"
+            },
+            "tab": "ALL",
+            "orders": 56
+        },
+        {
+            "id": "57",
+            "GameCode": "hotpot5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/hotpot5x25.png",
+            "i18n": {
+                "en_US": "Spicy Hot Pot",
+                "th_TH": "หม้อไฟเผ็ดชา",
+                "zh_CN": "麻辣火锅"
+            },
+            "tab": "ALL",
+            "orders": 57
+        },
+        {
+            "id": "58",
+            "GameCode": "pirate5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/pirate5x25.png",
+            "i18n": {
+                "en_US": "Captain's Treasure",
+                "th_TH": "หมายเลขทอง",
+                "zh_CN": "黄金号"
+            },
+            "tab": "ALL",
+            "orders": 58
+        },
+        {
+            "id": "59",
+            "GameCode": "nightclub5x20",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/nightclub5x20.png",
+            "i18n": {
+                "en_US": "Nightclub",
+                "th_TH": "ราชาแห่งสโมสร",
+                "vi_VN": "Vua hộp đêm",
+                "zh_CN": "夜店之王"
+            },
+            "tab": "ALL",
+            "orders": 59
+        },
+        {
+            "id": "60",
+            "GameCode": "legend5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/legend5x25.png",
+            "i18n": {
+                "en_US": "Legend of the king",
+                "th_TH": "ตำนานพระราชา",
+                "zh_CN": "王者传奇"
+            },
+            "tab": "ALL",
+            "orders": 60
+        },
+        {
+            "id": "61",
+            "GameCode": "candycrush",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/candycrush.png",
+            "i18n": {
+                "en_US": "Candy Kingdom",
+                "zh_CN": "蜜糖王国"
+            },
+            "tab": "ALL",
+            "orders": 61
+        },
+        {
+            "id": "62",
+            "GameCode": "secretdate",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/secretdate.png",
+            "i18n": {
+                "en_US": "secretdate",
+                "zh_CN": "秘密约会"
+            },
+            "tab": "ALL",
+            "orders": 62
+        },
+        {
+            "id": "63",
+            "GameCode": "san",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/san.png",
+            "i18n": {
+                "en_US": "Battle of Red Cliffs",
+                "zh_CN": "赤壁之战"
+            },
+            "tab": "ALL",
+            "orders": 63
+        },
+        {
+            "id": "64",
+            "GameCode": "sincity",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/sincity.png",
+            "i18n": {
+                "en_US": "Sin City",
+                "zh_CN": "罪恶都市"
+            },
+            "tab": "ALL",
+            "orders": 64
+        },
+        {
+            "id": "65",
+            "GameCode": "newyear",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/newyear.png",
+            "i18n": {
+                "en_US": "Happy New Year",
+                "th_TH": "ปีใหม่ถึง",
+                "zh_CN": "新年到"
+            },
+            "tab": "ALL",
+            "orders": 65
+        },
+        {
+            "id": "66",
+            "GameCode": "bwzq5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/bwzq5x25.png",
+            "i18n": {
+                "en_US": "JOUST FOR A SPOUSE",
+                "th_TH": "หาคู่หมั้นโดยกงฟู",
+                "zh_CN": "比武招亲"
+            },
+            "tab": "ALL",
+            "orders": 66
+        },
+        {
+            "id": "67",
+            "GameCode": "bluesea",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/bluesea.png",
+            "i18n": {
+                "en_US": "Blue Sea",
+                "zh_CN": "深蓝海域"
+            },
+            "tab": "ALL",
+            "orders": 67
+        },
+        {
+            "id": "68",
+            "GameCode": "fantasyforest",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/fantasyforest.png",
+            "i18n": {
+                "en_US": "Elf Kingdom",
+                "zh_CN": "精灵王国"
+            },
+            "tab": "ALL",
+            "orders": 68
+        },
+        {
+            "id": "69",
+            "GameCode": "magician",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/magician.png",
+            "i18n": {
+                "en_US": "magician",
+                "zh_CN": "大魔术师"
+            },
+            "tab": "ALL",
+            "orders": 69
+        },
+        {
+            "id": "7",
+            "GameCode": "tgow2plus",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/tgow2plus.png",
+            "i18n": {
+                "en_US": "CaiShenDaoPLUS",
+                "zh_CN": "财神驾到高倍版"
+            },
+            "tab": "ALL",
+            "orders": 7
+        },
+        {
+            "id": "70",
+            "GameCode": "whackamole",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/whackamole.png",
+            "i18n": {
+                "en_US": "Whack-A-Mole",
+                "th_TH": "โกเฟอร์กาเปิ้งสุ้ย",
+                "zh_CN": "地鼠嘎嘣脆"
+            },
+            "tab": "ALL",
+            "orders": 70
+        },
+        {
+            "id": "71",
+            "GameCode": "bigred",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/bigred.png",
+            "i18n": {
+                "en_US": "Big Red",
+                "zh_CN": "满堂红"
+            },
+            "tab": "ALL",
+            "orders": 71
+        },
+        {
+            "id": "72",
+            "GameCode": "foryouth5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/foryouth5x25.png",
+            "i18n": {
+                "en_US": "So Young",
+                "th_TH": "ู่เยาวชน",
+                "vi_VN": "Gửi thanh xuân",
+                "zh_CN": "致青春"
+            },
+            "tab": "ALL",
+            "orders": 72
+        },
+        {
+            "id": "73",
+            "GameCode": "garden",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/garden.png",
+            "i18n": {
+                "en_US": "LittleBigGarden",
+                "zh_CN": "小小大花园"
+            },
+            "tab": "ALL",
+            "orders": 73
+        },
+        {
+            "id": "74",
+            "GameCode": "piratetreasure",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/piratetreasure.png",
+            "i18n": {
+                "en_US": "Pirate Treasure",
+                "zh_CN": "海盗宝藏"
+            },
+            "tab": "ALL",
+            "orders": 74
+        },
+        {
+            "id": "75",
+            "GameCode": "armorCrisis5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/armorCrisis5x25.png",
+            "i18n": {
+                "en_US": "Armor Crisis",
+                "th_TH": "วิกฤติเปลือกรบ",
+                "vi_VN": "Nguy cơ chiến giáp",
+                "zh_CN": "战甲危机"
+            },
+            "tab": "ALL",
+            "orders": 75
+        },
+        {
+            "id": "76",
+            "GameCode": "galaxywars",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/galaxywars.png",
+            "i18n": {
+                "en_US": "Galaxy War",
+                "zh_CN": "银河战争"
+            },
+            "tab": "ALL",
+            "orders": 76
+        },
+        {
+            "id": "77",
+            "GameCode": "sd",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/sd.png",
+            "i18n": {
+                "en_US": "Basketball Master",
+                "ja_JP": "スラムダンクI",
+                "zh_CN": "灌篮大师"
+            },
+            "tab": "ALL",
+            "orders": 77
+        },
+        {
+            "id": "78",
+            "GameCode": "watermargin",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/watermargin.png",
+            "i18n": {
+                "en_US": "Tales Of Wusong",
+                "zh_CN": "武松传"
+            },
+            "tab": "ALL",
+            "orders": 78
+        },
+        {
+            "id": "79",
+            "GameCode": "boxingarena",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/boxingarena.png",
+            "i18n": {
+                "en_US": "Boxing Arena",
+                "zh_CN": "铁拳擂台"
+            },
+            "tab": "ALL",
+            "orders": 79
+        },
+        {
+            "id": "8",
+            "GameCode": "tgow2",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/tgow2.png",
+            "i18n": {
+                "en_US": "caishendao",
+                "zh_CN": "财神驾到"
+            },
+            "tab": "ALL",
+            "orders": 8
+        },
+        {
+            "id": "80",
+            "GameCode": "wheel",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/wheel.png",
+            "i18n": {
+                "en_US": "Secrets of the Pentagram",
+                "zh_CN": "秘境之轮"
+            },
+            "tab": "ALL",
+            "orders": 80
+        },
+        {
+            "id": "81",
+            "GameCode": "fourbeauty",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/fourbeauty.png",
+            "i18n": {
+                "en_US": "Four Beauties",
+                "zh_CN": "倾城四美"
+            },
+            "tab": "ALL",
+            "orders": 81
+        },
+        {
+            "id": "82",
+            "GameCode": "rocknight",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/rocknight.png",
+            "i18n": {
+                "en_US": "RocknRoll Night",
+                "zh_CN": "摇滚之夜"
+            },
+            "tab": "ALL",
+            "orders": 82
+        },
+        {
+            "id": "83",
+            "GameCode": "sailor",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/sailor.png",
+            "i18n": {
+                "en_US": "Sailor Princess",
+                "zh_CN": "水手服战士"
+            },
+            "tab": "ALL",
+            "orders": 83
+        },
+        {
+            "id": "84",
+            "GameCode": "cheekyemojis",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/cheekyemojis.png",
+            "i18n": {
+                "en_US": "Cheeky Emojis",
+                "zh_CN": "魔性表情包"
+            },
+            "tab": "ALL",
+            "orders": 84
+        },
+        {
+            "id": "85",
+            "GameCode": "streetdance5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/streetdance5x25.png",
+            "i18n": {
+                "en_US": "Street Dance Show",
+                "th_TH": "สตรีทแดนซ์",
+                "zh_CN": "街头劲舞"
+            },
+            "tab": "ALL",
+            "orders": 85
+        },
+        {
+            "id": "86",
+            "GameCode": "halloween",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/halloween.png",
+            "i18n": {
+                "en_US": "Witch Winnings",
+                "th_TH": "ปาร์ตี้แม่มด",
+                "zh_CN": "女巫派对"
+            },
+            "tab": "ALL",
+            "orders": 86
+        },
+        {
+            "id": "87",
+            "GameCode": "merryxmas",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/merryxmas.png",
+            "i18n": {
+                "en_US": "Merry Xmas",
+                "zh_CN": "圣诞快乐"
+            },
+            "tab": "ALL",
+            "orders": 87
+        },
+        {
+            "id": "88",
+            "GameCode": "nightclub",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/nightclub.png",
+            "i18n": {
+                "en_US": "Infinity Club",
+                "zh_CN": "无限俱乐部"
+            },
+            "tab": "ALL",
+            "orders": 88
+        },
+        {
+            "id": "89",
+            "GameCode": "worldCup5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/worldCup5x25.png",
+            "i18n": {
+                "en_US": "FIFA World Cup",
+                "th_TH": "ต่อสู้วอร์ดคัพ"
+            },
+            "tab": "ALL",
+            "orders": 89
+        },
+        {
+            "id": "9",
+            "GameCode": "shiningstars",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/shiningstars.png",
+            "i18n": {
+                "en_US": "ShiningStars",
+                "zh_CN": "闪耀之星"
+            },
+            "tab": "ALL",
+            "orders": 9
+        },
+        {
+            "id": "90",
+            "GameCode": "jtw",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/jtw.png",
+            "i18n": {
+                "en_US": "Demon Hunt to West",
+                "zh_CN": "西游降妖"
+            },
+            "tab": "ALL",
+            "orders": 90
+        },
+        {
+            "id": "91",
+            "GameCode": "seiya",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/seiya.png",
+            "i18n": {
+                "en_US": "Seiya"
+            },
+            "tab": "ALL",
+            "orders": 91
+        },
+        {
+            "id": "92",
+            "GameCode": "opera",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/opera.png",
+            "i18n": {
+                "en_US": "Beijing Opera",
+                "zh_CN": "曲艺大秀场"
+            },
+            "tab": "ALL",
+            "orders": 92
+        },
+        {
+            "id": "93",
+            "GameCode": "bacteria",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/bacteria.png",
+            "i18n": {
+                "en_US": "Germ Lab",
+                "th_TH": "ห้องทดสอบของเชื้อน่ารัก",
+                "zh_CN": "萌菌实验室"
+            },
+            "tab": "ALL",
+            "orders": 93
+        },
+        {
+            "id": "94",
+            "GameCode": "fourss",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/fourss.png",
+            "i18n": {
+                "en_US": "Four Holy Beasts",
+                "zh_CN": "四圣兽"
+            },
+            "tab": "ALL",
+            "orders": 94
+        },
+        {
+            "id": "95",
+            "GameCode": "baseball",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/baseball.png",
+            "i18n": {
+                "en_US": "Baseball Frenzy",
+                "zh_CN": "热血棒球"
+            },
+            "tab": "ALL",
+            "orders": 95
+        },
+        {
+            "id": "96",
+            "GameCode": "dinosaur5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/dinosaur5x25.png",
+            "i18n": {
+                "en_US": "Dinosaur World",
+                "th_TH": "โลกไดโนเสาร์",
+                "zh_CN": "恐龙世界"
+            },
+            "tab": "ALL",
+            "orders": 96
+        },
+        {
+            "id": "97",
+            "GameCode": "dash",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/dash.png",
+            "i18n": {
+                "en_US": "Four Wheels & Bro",
+                "zh_CN": "四驱英雄"
+            },
+            "tab": "ALL",
+            "orders": 97
+        },
+        {
+            "id": "98",
+            "GameCode": "newyear5x25",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/newyear5x25.png",
+            "i18n": {
+                "en_US": "Happy Piggy New Year",
+                "th_TH": "ศิริมงคลปีสุกร"
+            },
+            "tab": "ALL",
+            "orders": 98
+        },
+        {
+            "id": "99",
+            "GameCode": "sq5x243",
+			"ImageIcon":"//walletbox88.com/media/egames/dreamtech/sq5x243.png",
+            "i18n": {
+                "en_US": "4X4 BATTLE",
+                "th_TH": "ประกวดขับเคลื่อนสี่ล้อ"
+            },
+            "tab": "ALL",
+            "orders": 99
+        }
+    ]

@@ -1,0 +1,1325 @@
+[
+        {
+            "GameName": "Red Envelope 2",
+            "GameCode": "qhb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019102922495059260.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Jin Ping Mei 2",
+            "GameCode": "xjpm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019102922452158581.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Water Margin Heroes",
+            "GameCode": "yxsh",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019102922393259546.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Mole Rat Catcher 3D",
+            "GameCode": "fish_lsdr",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019102423351588503.png",
+            "GameType": "fish",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Legend Of Mermaid",
+            "GameCode": "fish_mrycs",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019091023075645940.png",
+            "GameType": "fish",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Dragon Treasure",
+            "GameCode": "lztb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019091023252398266.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Benz And BMW 2",
+            "GameCode": "bcbm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019091023164559264.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Candy Party",
+            "GameCode": "cp",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019073123381268376.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Fafafa",
+            "GameCode": "fff",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019042406384442235.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Arcade Water Margin",
+            "GameCode": "mawm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019042406372240251.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Power Fishing",
+            "GameCode": "fish_3D",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019031223172047323.png",
+            "GameType": "fish",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "The Magicians",
+            "GameCode": "fish_mfwz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019031104242336734.png",
+            "GameType": "fish",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Bless&Wealth",
+            "GameCode": "dfdc",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019012823383347509.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "New Year",
+            "GameCode": "ny",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019012823321169272.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Fruit Party",
+            "GameCode": "party",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019012222204688271.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Wild Monkey",
+            "GameCode": "mcm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2019012222434847902.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Crazy 7",
+            "GameCode": "mcrazy7",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707084969538.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Magpie Bridge",
+            "GameCode": "qqh",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707083086928.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Titanic",
+            "GameCode": "mtitanic",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707090889870.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Spider Man",
+            "GameCode": "zzx",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707072588810.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Funky Monkey",
+            "GameCode": "gghz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707074427953.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Fast Furious",
+            "GameCode": "fastf",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707110073930.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Boom Beach",
+            "GameCode": "mboombeach",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707111410905.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 1,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Beauty Fishing",
+            "GameCode": "fish_mm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2022062320191914481.png",
+            "GameType": "fish",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Fish Reef",
+            "GameCode": "fish_hl",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706332653165.png",
+            "GameType": "fish",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Jin Ping Mei",
+            "GameCode": "jpm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706320955285.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Zhao Cai Jin Bao",
+            "GameCode": "zcjb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706310925444.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Qiang Hong Bao",
+            "GameCode": "mqhb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706350848065.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Serial Indiana",
+            "GameCode": "si",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706353233696.png",
+            "GameType": "fruit",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Adventures",
+            "GameCode": "fia",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706362476290.png",
+            "GameType": "fruit",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Benz And BMW",
+            "GameCode": "bzb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706593322890.png",
+            "GameType": "fruit",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Daily Fishing",
+            "GameCode": "fish_tt",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707002145549.png",
+            "GameType": "fish",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Birds Hunter",
+            "GameCode": "fish_bn",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707004050044.png",
+            "GameType": "fish",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Diamond Love",
+            "GameCode": "mdl",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707010874134.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Great Blue",
+            "GameCode": "xsjr",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706313262327.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Xi You",
+            "GameCode": "xy",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101706315244551.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Forest Dance",
+            "GameCode": "mslwh",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707014348902.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Catwoman",
+            "GameCode": "gtmymn",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707022524546.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Gong He Xin Chun",
+            "GameCode": "ghxc",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707024875690.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "King Of Glory",
+            "GameCode": "rywz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707031577019.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Egypt Queen",
+            "GameCode": "aijinw",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707033558625.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Four Beauties",
+            "GameCode": "sdmn",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707043128230.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Pink Lady",
+            "GameCode": "mpg",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707044731365.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Tarzan",
+            "GameCode": "ryts",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707051247079.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Captain‘s Treasure",
+            "GameCode": "mczbz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707053147780.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Fishing Joy",
+            "GameCode": "Fishing",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707055144736.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Lantern Festival",
+            "GameCode": "mnys",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018101707060990997.png",
+            "GameType": "slot",
+            "ishot": 1,
+            "isnew": 0,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Argentina",
+            "GameCode": "panpasixiongying",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823394319097.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Stars Shine",
+            "GameCode": "qunxshanyao",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823294730586.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Passion Fans",
+            "GameCode": "mjqqm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823113945452.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Fruit Legend",
+            "GameCode": "fl",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303305282914.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Adorable PetIndiana",
+            "GameCode": "api",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303303537789.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "World Cup",
+            "GameCode": "mjqsjb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823111079116.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "The Golden Boot",
+            "GameCode": "mjxzb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823271583215.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Golden Globe",
+            "GameCode": "jqzb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805470423780.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Golden Foot",
+            "GameCode": "hjyj",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805494941112.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 1
+        },
+        {
+            "GameName": "Fifa World",
+            "GameCode": "sjbjxw",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805545691338.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Angry Birds",
+            "GameCode": "Angrybirds",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080803211868327.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "X-Men",
+            "GameCode": "fish_zj",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303271625921.png",
+            "GameType": "fish",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Hong Lou Meng",
+            "GameCode": "hlm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823213725714.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Chinese Zodiac",
+            "GameCode": "Zodiac",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080803205436550.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "PVZ",
+            "GameCode": "PVZ",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080803125514869.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Lord Of The Ring",
+            "GameCode": "zhw",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823154983388.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Xian Jian",
+            "GameCode": "xj",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823262836926.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Guan Yun Chang",
+            "GameCode": "wsgyc",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805154128298.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Lucky Dog",
+            "GameCode": "rgyc",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805394519493.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Gladiatus",
+            "GameCode": "jiaods",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823124624254.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Kung Fu Panda",
+            "GameCode": "Panda",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802552785801.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Avatar",
+            "GameCode": "Avatar",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080803173848254.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Golden Whell",
+            "GameCode": "gw",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303320964443.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Lucky 5",
+            "GameCode": "lucky",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303345798393.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Monkey Race",
+            "GameCode": "mr",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303311672358.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Constellation",
+            "GameCode": "Constellation",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080803203115270.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Birds And Beasts",
+            "GameCode": "bbs",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303354673510.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Jin Gou Wang Cai",
+            "GameCode": "jgwc",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823131198404.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Girls Football",
+            "GameCode": "nxzqd",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805131593007.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Ne Zha Nao Hai",
+            "GameCode": "nznh",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823195032873.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Tian Long Ba Bu",
+            "GameCode": "wtlbb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823175630648.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Lu Ding Ji",
+            "GameCode": "wldj",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823171731873.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Egypt",
+            "GameCode": "Egypt",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802163126967.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Tanks",
+            "GameCode": "zz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823201111687.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Wu Song Da Hu",
+            "GameCode": "wsdf",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823181756906.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Feng Shen Bang",
+            "GameCode": "fsb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823245429794.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Transformers",
+            "GameCode": "bxjg",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823045293727.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Gold Rush",
+            "GameCode": "tjr",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802145841666.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Tanabata Love",
+            "GameCode": "qxqy",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823192811744.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "King Kong",
+            "GameCode": "jg",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802144142346.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Slamdunk",
+            "GameCode": "msd",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823122548084.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Carnival",
+            "GameCode": "kh",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802164782442.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Jurassic",
+            "GameCode": "Jurassic",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802564387842.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Black Pearl",
+            "GameCode": "hzzh",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823221251712.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "The Wizard Of Oz",
+            "GameCode": "lyxz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805201691293.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Rich Farm",
+            "GameCode": "frnc",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823215527902.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Girls Swim Team",
+            "GameCode": "sst",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823231214840.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "The Qin Empire",
+            "GameCode": "dqdg",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802175757707.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Medieval Thrones",
+            "GameCode": "zsjtq",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802172373994.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Bai She Zhuan",
+            "GameCode": "bsz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823250990449.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Pirates Fortune",
+            "GameCode": "hdcf",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823253186027.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Eiffel",
+            "GameCode": "Eiffel",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802220821394.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Mysterious East",
+            "GameCode": "smdf",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823203885384.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Lucky Fruit",
+            "GameCode": "mlfm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823291478198.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Maya",
+            "GameCode": "my",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823212148214.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Freaks Fortune",
+            "GameCode": "gwmy",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823243853166.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Warship Maiden",
+            "GameCode": "zjsn",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804434331589.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Sweet Water Oasis",
+            "GameCode": "Lushwater",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802431074697.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Las Vegas",
+            "GameCode": "wjs",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804455045995.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Street Fighter",
+            "GameCode": "jtbw",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804401059444.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Grave Robbers",
+            "GameCode": "mjxw",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823053832663.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Girls Kendo Club",
+            "GameCode": "nxjdb",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805151920884.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "King Of Fighters",
+            "GameCode": "gdzw",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805384881470.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Naruto",
+            "GameCode": "hyrz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804381467516.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Route 66",
+            "GameCode": "Route66",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823270050370.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Joyful Fruit",
+            "GameCode": "sg",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804392182373.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Zeus",
+            "GameCode": "mmm",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823275935852.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Caribbean Pirates",
+            "GameCode": "Pirates",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802513634734.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Wilderness Escort",
+            "GameCode": "nz2",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804534210107.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Doomsday",
+            "GameCode": "Doomsday",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802245264941.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "80 Days Travel",
+            "GameCode": "80tlx",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823260182063.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Girls Rugby",
+            "GameCode": "nxglq",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805150184259.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Sword Heroes",
+            "GameCode": "jxqy",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805365429381.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Marilyn Monroe",
+            "GameCode": "Pinup",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802230164473.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Azteke",
+            "GameCode": "azteke",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802160975274.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Tomb Raider",
+            "GameCode": "gmly",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805195147598.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Ny Symbols",
+            "GameCode": "Nysymbols",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802223020616.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Assassins Creed",
+            "GameCode": "ckxt",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805191618074.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "India Dreams",
+            "GameCode": "yda",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823210510893.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Eastern Countries",
+            "GameCode": "zgf",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804440584607.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Cheerleaders",
+            "GameCode": "scs",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823225340257.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Modern War",
+            "GameCode": "Mowf",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080802344139441.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Alice",
+            "GameCode": "myxj",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823261466848.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Dream Journey",
+            "GameCode": "mhxy",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805053984978.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Girls Gymnastics",
+            "GameCode": "sgt",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823223992994.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Overwatch",
+            "GameCode": "Watch",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080803133736809.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Greek Legend",
+            "GameCode": "xlcs",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804544556410.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Fantasy Earth",
+            "GameCode": "hxdl",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804452549116.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Cleopatra",
+            "GameCode": "mny",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804540596856.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Swordsman",
+            "GameCode": "wxajh",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823165487069.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Bloodz VS Wolvez",
+            "GameCode": "xxgpklr",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080805045598023.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "PSY",
+            "GameCode": "mpjs",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823273712902.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Western Cowboy",
+            "GameCode": "nz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080804450239080.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Forest Dance",
+            "GameCode": "fod",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303374836530.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Horse Race",
+            "GameCode": "hr",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303324236066.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Fruit Turntable",
+            "GameCode": "fw",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303325571727.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Fruit",
+            "GameCode": "frt",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303381172449.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Constellation",
+            "GameCode": "con",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303362415249.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Chinese Zodiac",
+            "GameCode": "chz",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018081303373238928.png",
+            "GameType": "fruit",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        },
+        {
+            "GameName": "Shen Diao Xia Lv",
+            "GameCode": "wsdxl",
+            "ImageIcon": "https://walletbox99.com/media/egames/fungameing/2018080823164070818.png",
+            "GameType": "slot",
+            "ishot": 0,
+            "isnew": 0,
+            "isrecommend": 0
+        }
+    ]

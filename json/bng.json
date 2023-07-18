@@ -1,0 +1,710 @@
+ [
+        {
+            "GameCode": "164",
+            "gameName": "solar_queen_pls",
+            "GameName": "Solar Queen",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_164_en.png?ts=1562663403264"
+        },
+        {
+            "GameCode": "166",
+            "gameName": "olympian_gods_bng",
+            "GameName": "Olympian Gods",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_166_en.jpeg?ts=1565181937129"
+        },
+        {
+            "GameCode": "167",
+            "gameName": "imperial_fruits_100_pls",
+            "GameName": "Imperial Fruits: 100 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_167_en.png?ts=1565248152093"
+        },
+        {
+            "GameCode": "160",
+            "gameName": "wild_burning_wins_5_pls",
+            "GameName": "Wild Burning Wins: 5 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_160_en.png?ts=1558954548222"
+        },
+        {
+            "GameCode": "162",
+            "gameName": "imperial_fruits_40_pls",
+            "GameName": "Imperial Fruits: 40 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_162_en.png?ts=1560241949869"
+        },
+        {
+            "GameCode": "168",
+            "gameName": "scarab_riches_bng",
+            "GameName": "Scarab Riches",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_168_en.jpe?ts=1568115171958"
+        },
+        {
+            "GameCode": "64",
+            "gameName": "poisoned_apple_bng",
+            "GameName": "Poisoned Apple",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_64_en.jpg"
+        },
+        {
+            "GameCode": "169",
+            "gameName": "clover_riches_pls",
+            "GameName": "Clover Riches",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_169_en.png?ts=1568968220834"
+        },
+        {
+            "GameCode": "14",
+            "gameName": "15_golden_eggs_bng",
+            "GameName": "15 Golden Eggs",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_14_en.png"
+        },
+        {
+            "GameCode": "129",
+            "gameName": "super_burning_wins_pls",
+            "GameName": "Super Burning Wins",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_129_en.jpg"
+        },
+        {
+            "GameCode": "227",
+            "gameName": "rich_diamonds_pls",
+            "GameName": "Rich Diamonds: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_227_en.png?ts=1621430093618"
+        },
+        {
+            "GameCode": "226",
+            "gameName": "aztec_pyramid_bng",
+            "GameName": "Aztec Pyramid Megaways",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_226_en.jpg?ts=1620729861758"
+        },
+        {
+            "GameCode": "8",
+            "gameName": "crystal_land_pls",
+            "GameName": "Crystal Land",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_8_en.jpeg"
+        },
+        {
+            "GameCode": "225",
+            "gameName": "book_of_gold_dh_pls",
+            "GameName": "Book of Gold 2: Double Hit™",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_225_en.png?ts=1621429875497"
+        },
+        {
+            "GameCode": "224",
+            "gameName": "stars_n_fruits_double_hit_pls",
+            "GameName": "Stars & Fruits: Double Hit",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_224_en.png?ts=1616672978378"
+        },
+        {
+            "GameCode": "223",
+            "gameName": "magic_ball_bng",
+            "GameName": "Magic Ball",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_223_en.jpg?ts=1618214765589"
+        },
+        {
+            "GameCode": "222",
+            "gameName": "3_fruits_win_double_hit_pls",
+            "GameName": "3 Fruits Win: Double Hit",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_222_en.png?ts=1617784858646"
+        },
+        {
+            "GameCode": "221",
+            "gameName": "hot_coins_pls",
+            "GameName": "Hot Coins: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_221_en.png?ts=1616657514396"
+        },
+        {
+            "GameCode": "220",
+            "gameName": "hand_of_gold_pls",
+            "GameName": "Hand of Gold",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_220_en.png?ts=1618995876889"
+        },
+        {
+            "GameCode": "229",
+            "gameName": "buffalo_megaways_pls",
+            "GameName": "Buffalo Power Megaways",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_229_en.png?ts=1622715850953"
+        },
+        {
+            "GameCode": "228",
+            "gameName": "hit_the_gold_bng",
+            "GameName": "Hit the Gold!",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_228_en.jpg?ts=1621873173151"
+        },
+        {
+            "GameCode": "96",
+            "gameName": "40_joker_staxx_pls",
+            "GameName": "40 Joker Staxx",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_96_en.png"
+        },
+        {
+            "GameCode": "86",
+            "gameName": "gods_temple_deluxe_bng",
+            "GameName": "God's Temple Deluxe",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_86_en.png"
+        },
+        {
+            "GameCode": "156",
+            "gameName": "fruits_and_jokers_100_pls",
+            "GameName": "Fruits & Jokers: 100 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_156_en.png?ts=1555666667753"
+        },
+        {
+            "GameCode": "157",
+            "gameName": "book_of_sun_multichance_bng",
+            "GameName": "Book of Sun Multichance",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_157_en.jpg?ts=1557834927593"
+        },
+        {
+            "GameCode": "150",
+            "gameName": "imperial_fruits_5_pls",
+            "GameName": "Imperial Fruits: 5 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_150_en.png?ts=1551264545486"
+        },
+        {
+            "GameCode": "151",
+            "gameName": "dragon_pearls_bng",
+            "GameName": "Dragon Pearls: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_151_en.jpeg?ts=1551785453936"
+        },
+        {
+            "GameCode": "152",
+            "gameName": "vikings_fortune_pls",
+            "GameName": "Vikings Fortune: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_152_en.png?ts=1553164189019"
+        },
+        {
+            "GameCode": "153",
+            "gameName": "mega_burning_wins_27_pls",
+            "GameName": "Mega Burning Wins: 27 ways",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_153_en.png?ts=1553600724132"
+        },
+        {
+            "GameCode": "158",
+            "gameName": "3_fruits_win_10_pls",
+            "GameName": "3 Fruits Win: 10 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_158_en.png?ts=1557239028441"
+        },
+        {
+            "GameCode": "159",
+            "gameName": "book_of_gold_classic_pls",
+            "GameName": "Book of Gold: Classic",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_159_en.png?ts=1557821307403"
+        },
+        {
+            "GameCode": "254",
+            "gameName": "black_wolf_bng",
+            "GameName": "Black Wolf",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_254_en.jpg?ts=1637589465054"
+        },
+        {
+            "GameCode": "253",
+            "gameName": "buddha_megaways_bng",
+            "GameName": "Buddha Megaways",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_253_en.jpg?ts=1639469418658"
+        },
+        {
+            "GameCode": "252",
+            "gameName": "golden_dancing_lion_bng",
+            "GameName": "Golden Dancing Lion",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_252_en.jpg?ts=1637050697146"
+        },
+        {
+            "GameCode": "251",
+            "gameName": "diamond_fort_pls",
+            "GameName": "Diamond Fortunator",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_251_en.png?ts=1639038462487"
+        },
+        {
+            "GameCode": "250",
+            "gameName": "candy_boom_bng",
+            "GameName": "Candy Boom",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_250_en.jpg?ts=1635783617393"
+        },
+        {
+            "GameCode": "117",
+            "gameName": "sevens_n_fruits_pls",
+            "GameName": "Sevens & Fruits",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_117_en.jpg"
+        },
+        {
+            "GameCode": "111",
+            "gameName": "joker_expand_pls",
+            "GameName": "Joker Expand",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_111_en.png"
+        },
+        {
+            "GameCode": "184",
+            "gameName": "book_of_sun_choice_bng",
+            "GameName": "Book of Sun: Choice",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_184_en.jpg?ts=1586766763403"
+        },
+        {
+            "GameCode": "185",
+            "gameName": "sevens_n_fruits_6r_pls",
+            "GameName": "Sevens & Fruits: 6 reels",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_185_en.png?ts=1586766366982"
+        },
+        {
+            "GameCode": "186",
+            "gameName": "pearl_beauty_pls",
+            "GameName": "Pearl Beauty: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_186_en.png?ts=1588919712692"
+        },
+        {
+            "GameCode": "187",
+            "gameName": "aztec_sun_bng",
+            "GameName": "Aztec Sun",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_187_en.jpe?ts=1591699656458"
+        },
+        {
+            "GameCode": "180",
+            "gameName": "sunny_fruits_pls",
+            "GameName": "Sunny Fruits: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_180_en.png?ts=1581930372117"
+        },
+        {
+            "GameCode": "181",
+            "gameName": "great_panda_bng",
+            "GameName": "Great Panda: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_181_en.jpg?ts=1583843045334"
+        },
+        {
+            "GameCode": "182",
+            "gameName": "solar_temple_pls",
+            "GameName": "Solar Temple",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_182_en.png?ts=1583843950891"
+        },
+        {
+            "GameCode": "183",
+            "gameName": "moon_sisters_bng",
+            "GameName": "Moon Sisters",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_183_en.jpg?ts=1589276977044"
+        },
+        {
+            "GameCode": "188",
+            "gameName": "fruity_crown_pls",
+            "GameName": "Fruity Crown",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_188_en.png?ts=1591266172396"
+        },
+        {
+            "GameCode": "189",
+            "gameName": "super_marble_bng",
+            "GameName": "Super Marble",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_189_en.jpg?ts=1592834985255"
+        },
+        {
+            "GameCode": "217",
+            "gameName": "super_rich_god_bng",
+            "GameName": "Super Rich God: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_217_en.jpg?ts=1614080397964"
+        },
+        {
+            "GameCode": "216",
+            "gameName": "wolf_saga_bng",
+            "GameName": "Wolf Saga",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_216_en.png?ts=1612371564816"
+        },
+        {
+            "GameCode": "215",
+            "gameName": "divine_dragon_pls",
+            "GameName": "Divine Dragon: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_215_en.png?ts=1612268184443"
+        },
+        {
+            "GameCode": "214",
+            "gameName": "5_super_sevens_n_fruits_6r_pls",
+            "GameName": "5 Super Sevens & Fruits: 6 reels",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_214_en.png?ts=1611754823528"
+        },
+        {
+            "GameCode": "213",
+            "gameName": "lord_fortune_bng",
+            "GameName": "Lord Fortune",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_213_en.jpg?ts=1612774255828"
+        },
+        {
+            "GameCode": "212",
+            "gameName": "3_coins_bng",
+            "GameName": "3 Coins",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_212_en.jpg?ts=1610363762913"
+        },
+        {
+            "GameCode": "211",
+            "gameName": "legend_of_cleopatra_megaways_pls",
+            "GameName": "Legend of Cleopatra Megaways",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_211_en.png?ts=1606820449274"
+        },
+        {
+            "GameCode": "210",
+            "gameName": "zeus_thunder_reels_pls",
+            "GameName": "Zeus: Thunder Reels",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_210_en.png?ts=1606299943589"
+        },
+        {
+            "GameCode": "219",
+            "gameName": "magic_apple_bng",
+            "GameName": "Magic Apple",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_219_en.jpg?ts=1615278797585"
+        },
+        {
+            "GameCode": "218",
+            "gameName": "wolf_power_pls",
+            "GameName": "Wolf Power: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_218_en.png?ts=1614161545071"
+        },
+        {
+            "GameCode": "174",
+            "gameName": "red_chilli_wins_pls",
+            "GameName": "Red Chilli Wins",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_174_en.png?ts=1575280724870"
+        },
+        {
+            "GameCode": "175",
+            "gameName": "777_gems_respin_bng",
+            "GameName": "777 Gems ReSpin",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_175_en.jpg?ts=1575289527907"
+        },
+        {
+            "GameCode": "176",
+            "gameName": "rome_caesars_glory_pls",
+            "GameName": "Rome: Caesar’s Glory",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_176_en.png?ts=1575285145708"
+        },
+        {
+            "GameCode": "170",
+            "gameName": "poisoned_apple_2_bng",
+            "GameName": "Poisoned Apple 2",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_170_en.jpe?ts=1571130950887"
+        },
+        {
+            "GameCode": "171",
+            "gameName": "book_of_gold_choice_pls",
+            "GameName": "Book of Gold: Symbol Choice",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_171_en.png?ts=1571395505537"
+        },
+        {
+            "GameCode": "172",
+            "gameName": "super_burning_wins_respin_pls",
+            "GameName": "Super Burning Wins: Respin",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_172_en.png?ts=1572602157711"
+        },
+        {
+            "GameCode": "173",
+            "gameName": "sun_of_egypt_bng",
+            "GameName": "Sun of Egypt: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_173_en.jpe?ts=1573550830337"
+        },
+        {
+            "GameCode": "178",
+            "gameName": "tigers_gold_bng",
+            "GameName": "Tiger's Gold",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_178_en.jpe?ts=1580204919370"
+        },
+        {
+            "GameCode": "179",
+            "gameName": "three_gems_bng",
+            "GameName": "Three Gems Adjacent",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_179_en.jpe?ts=1581943804640"
+        },
+        {
+            "GameCode": "197",
+            "gameName": "15_dragon_pearls_bng",
+            "GameName": "15 Dragon Pearls",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_197_en.jpeg?ts=1597062411022"
+        },
+        {
+            "GameCode": "190",
+            "gameName": "buddha_fortune_bng",
+            "GameName": "Buddha Fortune",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_190_en.jpg?ts=1594723112381"
+        },
+        {
+            "GameCode": "191",
+            "gameName": "buffalo_power_pls",
+            "GameName": "Buffalo Power",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_191_en.png?ts=1593525804264"
+        },
+        {
+            "GameCode": "192",
+            "gameName": "rise_of_egypt_deluxe_pls",
+            "GameName": "Rise of Egypt Deluxe",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_192_en.png?ts=1595411405666"
+        },
+        {
+            "GameCode": "85",
+            "gameName": "vikings_gods_gold_bng",
+            "GameName": "Viking's Gods Gold",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_85_en.jpg"
+        },
+        {
+            "GameCode": "198",
+            "gameName": "diamond_wins_pls",
+            "GameName": "Diamond Wins: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_198_en.png?ts=1597231673814"
+        },
+        {
+            "GameCode": "199",
+            "gameName": "book_of_gold_multichance_pls",
+            "GameName": "Book of Gold: Multichance",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_199_en.png?ts=1597746487278"
+        },
+        {
+            "GameCode": "136",
+            "gameName": "fruits_and_jokers_40_pls",
+            "GameName": "Fruits & Jokers: 40 Lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_136_en.png"
+        },
+        {
+            "GameCode": "130",
+            "gameName": "fruits_and_jokers_20_pls",
+            "GameName": "Fruits & Jokers: 20 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_130_en.jpg"
+        },
+        {
+            "GameCode": "132",
+            "gameName": "joker_expand_40_pls",
+            "GameName": "Joker Expand: 40 Lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_132_en.png"
+        },
+        {
+            "GameCode": "133",
+            "gameName": "book_of_gold_pls",
+            "GameName": "Book of Gold: Double Chance",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_133_en.png"
+        },
+        {
+            "GameCode": "51",
+            "gameName": "gods_temple_bng",
+            "GameName": "God's Temple",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_51_en.jpg"
+        },
+        {
+            "GameCode": "138",
+            "gameName": "wild_warriors_pls",
+            "GameName": "Wild Warriors",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_138_en.png"
+        },
+        {
+            "GameCode": "139",
+            "gameName": "book_of_sun_bng",
+            "GameName": "Book of Sun",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_139_en.jpg"
+        },
+        {
+            "GameCode": "237",
+            "gameName": "wolf_night_bng",
+            "GameName": "Wolf Night",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_237_en.jpg?ts=1628583185745"
+        },
+        {
+            "GameCode": "236",
+            "gameName": "3_coins_egypt_bng",
+            "GameName": "3 Coins: Egypt",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_236_en.jpg?ts=1626173501198"
+        },
+        {
+            "GameCode": "235",
+            "gameName": "eagle_power_pls",
+            "GameName": "Eagle Power: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_235_en.png?ts=1626865164611"
+        },
+        {
+            "GameCode": "234",
+            "gameName": "5_fortunator_pls",
+            "GameName": "5 Fortunator",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_234_en.png?ts=1626259849547"
+        },
+        {
+            "GameCode": "233",
+            "gameName": "wukong_bng",
+            "GameName": "Wukong",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_233_en.jpg?ts=1624348278790"
+        },
+        {
+            "GameCode": "232",
+            "gameName": "pearl_diver_bng",
+            "GameName": "Pearl Diver",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_232_en.jpg?ts=1624952929307"
+        },
+        {
+            "GameCode": "231",
+            "gameName": "scarab_boost_bng",
+            "GameName": "Scarab Boost",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_231_en.jpg?ts=1623137017503"
+        },
+        {
+            "GameCode": "230",
+            "gameName": "9_happy_pharaohs_pls",
+            "GameName": "9 Happy Pharaohs",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_230_en.png?ts=1624444967291"
+        },
+        {
+            "GameCode": "144",
+            "gameName": "100_joker_staxx_pls",
+            "GameName": "100 Joker Staxx",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_144_en.png"
+        },
+        {
+            "GameCode": "146",
+            "gameName": "mighty_africa_pls",
+            "GameName": "Mighty Africa: 4096 ways",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_146_en.png"
+        },
+        {
+            "GameCode": "239",
+            "gameName": "hot_burning_wins_pls",
+            "GameName": "Hot Burning Wins",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_239_en.png?ts=1625756365833"
+        },
+        {
+            "GameCode": "238",
+            "gameName": "spirit_of_egypt_pls",
+            "GameName": "Spirit of Egypt: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_238_en.png?ts=1628759910174"
+        },
+        {
+            "GameCode": "147",
+            "gameName": "fruits_and_clovers_20_pls",
+            "GameName": "Fruits & Clovers: 20 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_147_en.png"
+        },
+        {
+            "GameCode": "148",
+            "gameName": "777_gems_bng",
+            "GameName": "777 Gems",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_148_en.jpeg"
+        },
+        {
+            "GameCode": "149",
+            "gameName": "sevens_n_fruits_20_pls",
+            "GameName": "Sevens & Fruits: 20 lines",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_149_en.png?ts=1551172767340"
+        },
+        {
+            "GameCode": "247",
+            "gameName": "solar_queen_mega_pls",
+            "GameName": "Solar Queen Megaways™",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_247_en.png?ts=1635765702775"
+        },
+        {
+            "GameCode": "246",
+            "gameName": "burning_wins_x2_pls",
+            "GameName": "Burning Wins x2",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_246_en.png?ts=1634812676623"
+        },
+        {
+            "GameCode": "245",
+            "gameName": "lord_fortune_2_bng",
+            "GameName": "Lord Fortune 2",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_245_en.jpg?ts=1633430937520"
+        },
+        {
+            "GameCode": "244",
+            "gameName": "book_of_wizard_bng",
+            "GameName": "Book of Wizard",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_244_en.jpg?ts=1632823480279"
+        },
+        {
+            "GameCode": "243",
+            "gameName": "the_fruit_mega_pls",
+            "GameName": "The Fruit Megaways™ ",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_243_en.png?ts=1632995682484"
+        },
+        {
+            "GameCode": "242",
+            "gameName": "tiger_jungle_bng",
+            "GameName": "Tiger Jungle",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_242_en.jpg?ts=1630999887216"
+        },
+        {
+            "GameCode": "241",
+            "gameName": "royal_coins_pls",
+            "GameName": "Royal Coins: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_241_en.png?ts=1629887411299"
+        },
+        {
+            "GameCode": "240",
+            "gameName": "ganesha_boost_bng",
+            "GameName": "Ganesha Boost",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_240_en.jpg?ts=1629708978121"
+        },
+        {
+            "GameCode": "249",
+            "gameName": "gold_express_bng",
+            "GameName": "Gold Express",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_249_en.jpg?ts=1634629019700"
+        },
+        {
+            "GameCode": "248",
+            "gameName": "buffalo_xmas_pls",
+            "GameName": "Buffalo Power: Christmas",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_248_en.png?ts=1636625671014"
+        },
+        {
+            "GameCode": "100",
+            "gameName": "rise_of_egypt_pls",
+            "GameName": "Rise of Egypt",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_100_en.png"
+        },
+        {
+            "GameCode": "102",
+            "gameName": "burning_wins_pls",
+            "GameName": "Burning Wins",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_102_en.png"
+        },
+        {
+            "GameCode": "69",
+            "gameName": "legend_of_cleopatra_pls",
+            "GameName": "Legend of Cleopatra",
+            "ImageIcon": "//cdn46952.bngsrv.com/static/games/banner_69_en.jpg"
+        },
+        {
+            "GameCode": "206",
+            "gameName": "super_sunny_fruits_pls",
+            "GameName": "Super Sunny Fruits: Hold and Win",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_206_en.png?ts=1601378329231"
+        },
+        {
+            "GameCode": "205",
+            "gameName": "solar_king_pls",
+            "GameName": "Solar King",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_205_en.png?ts=1600332552256"
+        },
+        {
+            "GameCode": "204",
+            "gameName": "eye_of_gold_bng",
+            "GameName": "Eye of Gold",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_204_en.jpg?ts=1607423095999"
+        },
+        {
+            "GameCode": "203",
+            "gameName": "beast_saga_bng",
+            "GameName": "Beast Saga",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_203_en.jpe?ts=1603782466535"
+        },
+        {
+            "GameCode": "202",
+            "gameName": "sun_of_egypt_2_bng",
+            "GameName": "Sun of Egypt 2",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_202_en.jpg?ts=1602582288012"
+        },
+        {
+            "GameCode": "201",
+            "gameName": "scarab_temple_bng",
+            "GameName": "Scarab Temple",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_201_en.jpeg?ts=1601369529833"
+        },
+        {
+            "GameCode": "200",
+            "gameName": "thunder_of_olympus_bng",
+            "GameName": "Thunder of Olympus",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_200_en.jpe?ts=1599463031466"
+        },
+        {
+            "GameCode": "209",
+            "gameName": "tiger_stone_bng",
+            "GameName": "Tiger Stone",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_209_en.jpg?ts=1604945706164"
+        },
+        {
+            "GameCode": "208",
+            "gameName": "5_super_sevens_n_fruits_pls",
+            "GameName": "5 Super Sevens & Fruits",
+            "ImageIcon": "//cdn46952.bngsrv.com/games/banner_208_en.png?ts=1603444358243"
+        }
+    ]

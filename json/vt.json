@@ -1,0 +1,338 @@
+[
+    {"GameCode": "DuoFuDuoCai88Fortune", "GameName": "DuoFuDuoCai 88 Fortune", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/DuoFuDuoCai88Fortune_en-us.png" },
+    {"GameCode": "DuoFuDuoCai5Treasures", "GameName": "DuoFuDuoCai 5 Treasures", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/DuoFuDuoCai5Treasures_en-us.png" },
+    {"GameCode": "DuoFuDuoCaiDiamondEternity", "GameName": "DuoFuDuoCai Diamond Eternity", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/DuoFuDuoCaiDiamondEternity_en-us.png" },
+    {"GameCode": "DuoFuDuoCaiDancingDrum", "GameName": "DuoFuDuoCai Dancing Drum", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/DuoFuDuoCaiDancingDrum_en-us.png" },
+    {"GameCode": "JuFuGoldenTale", "GameName": "JuFu Golden Tale", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/JuFuGoldenTale_en-us.png" },
+    {"GameCode": "JuFuEternalDiamond", "GameName": "JuFuEternal Diamond", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/JuFuEternalDiamond_en-us.png" },
+    {"GameCode": "JuFuFountainOfWealth", "GameName": "JuFu Fountain Of Wealth", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/JuFuFountainOfWealth_en-us.png" },
+    {"GameCode": "JuFuRhythmOfFortune", "GameName": "JuFu Rhythm Of Fortune", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/JuFuRhythmOfFortune_en-us.png" },
+    {"GameCode": "JuFuBloomingRiches", "GameName": "JuFu Blooming Riches", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/JuFuBloomingRiches_en-us.png" },
+    {"GameCode": "DuoFuDuoCaiFlowerOfRiches", "GameName": "DuoFuDuoCai Flower Of Riches", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/JuFuBloomingRiches_en-us.png" },
+    {"GameCode": "TrueBreakAway", "GameName": "True BreakAway", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/TrueBreakAway_en-us.png" },
+    {"GameCode": "BreakAway", "GameName": "Break Away", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/BreakAway_en-us.png" },
+    {"GameCode": "Circus", "GameName": "Circus", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/Circus_en-us.png" },
+    {"GameCode": "JurassicWorld", "GameName": "Jurassic World", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/JurassicWorld_en-us.png" },
+    {"GameCode": "LostCityOfGold", "GameName": "LostCity Of Gold", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/LostCityOfGold_en-us.png" },
+    {"GameCode": "BuffaloBlitz", "GameName": "Buffalo Blitz", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/BuffaloBlitz_en-us.png" },
+    {"GameCode": "MysticNine", "GameName": "Mystic Nine", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/MysticNine_en-us.png" },
+    {"GameCode": "FiftyLions", "GameName": "FiftyLions", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/FiftyLions_en-us.png" },
+    {"GameCode": "Tarzan", "GameName": "Tarzan", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/Tarzan_en-us.png" },
+    {"GameCode": "TaiWangSiShen", "GameName": "TaiWang SiShen", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/TaiWangSiShen_en-us.png" },
+    {"GameCode": "DJRemix", "GameName": "DJRemix", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/DJRemix_en-us.png" },
+    {"GameCode": "TripleMonkey", "GameName": "Triple Monkey", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/TripleMonkey_en-us.png" },
+    {"GameCode": "Triple7", "GameName": "Triple7", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/Triple7_en-us.png" },
+    {"GameCode": "LongLongLong", "GameName": "Long Long Long", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/LongLongLong_en-us.png" },
+    {"GameCode": "FaFaFa", "GameName": "FaFaFa", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/FaFaFa_en-us.png" },
+    {"GameCode": "FunkyMonkey", "GameName": "Funky Monkey", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/FunkyMonkey_en-us.png" },
+    {"GameCode": "TrueZhaoCaiJinBao", "GameName": "True Zhao CaiJin Bao", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/TrueZhaoCaiJinBao_en-us.png" },
+    {"GameCode": "LuckyTwins", "GameName": "Lucky Twins", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/LuckyTwins_en-us.png" },
+    {"GameCode": "ZhaoCaiTongZi", "GameName": "ZhaoCaiTongZi", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/ZhaoCaiTongZi_en-us.png" },
+    {"GameCode": "SevenLuckyGod", "GameName": "Seven Lucky God", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/SevenLuckyGod_en-us.png" },
+    {"GameCode": "WaterMargin", "GameName": "Water Margin", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/WaterMargin_en-us.png" },
+    {"GameCode": "Slot2", "GameName":"Slot2", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/Slot2_en-us.png" },
+    {"GameCode": "ZhaoCaiJinBao", "GameName": "ZhaoCai JinBao", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/ZhaoCaiJinBao_en-us.png" },
+    {"GameCode": "FortuneKing", "GameName": "FortuneKing", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/FortuneKing_en-us.png" },
+    {"GameCode": "WuLuCaiShen", "GameName": "WuLu CaiShen", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/WuLuCaiShen_en-us.png" },
+    {"GameCode": "PurePlatinum", "GameName": "Pure Platinum", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/PurePlatinum_en-us.png" },
+    {"GameCode": "FiveDragons", "GameName": "Five Dragons", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/FiveDragons_en-us.png" },
+    {"GameCode": "Halloween", "GameName": "Halloween", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/Halloween_en-us.png" },
+    {"GameCode": "Aladin", "GameName": "Aladin", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/Aladin_en-us.png" },
+    {"GameCode": "MapleStory", "GameName": "MapleStory", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/MapleStory_en-us.png" },
+    {"GameCode": "WuFuTongZi", "GameName": "WuFu TongZi", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/WuFuTongZi_en-us.png" },
+    {"GameCode": "FiveFlowers", "GameName": "Five Flowers", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/FiveFlowers_en-us.png" },
+    {"GameCode": "LionDance2","GameName": "Lion Dance2","GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/LionDance2_en-us.png"},
+    {"GameCode": "DiamondSlot", "GameName": "Diamond Slot", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/DiamondSlot_en-us.png" },
+    {"GameCode": "MagicCandy", "GameName": "Magic Candy", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/MagicCandy_en-us.png" },
+    {"GameCode": "EgyptCity", "GameName": "Egypt City", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/EgyptCity_en-us.png" },
+    {"GameCode": "GreatBlue", "GameName": "Great Blue", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/GreatBlue_en-us.png" },
+    {"GameCode": "Horizon", "GameName": "Horizon", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/Horizon_en-us.png" },
+    {"GameCode": "Arcadia", "GameName": "Arcadia", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/Arcadia_en-us.png" },
+    {"GameCode": "FiveChildTeasingMaitreya", "GameName": "FiveChild Teasing Maitreya", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/FiveChildTeasingMaitreya_en-us.png" },
+    {"GameCode": "IceWind", "GameName": "IceWind", "GameType":"Slot",
+        "ImageIcon": "/media/egames/virtualtech/IceWind_en-us.png" },
+    {
+        "GameCode": "Chaoji8",
+        "GameName": "Chaoji8",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Chaoji8_en-us.png"
+    },
+    {
+        "GameCode": "VT",
+        "GameName": "VT",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/VT_en-us.png"
+    },
+    {
+        "GameCode": "AsTheGodsWill",
+        "GameName": "AsThe GodsWill",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/AsTheGodsWill_en-us.png"
+    },
+    {
+        "GameCode": "HungryHungryShark",
+        "GameName": "Hungry Hungry Shark",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/HungryHungryShark_en-us.png"
+    },
+    {
+        "GameCode": "PokerCity",
+        "GameName": "Poker City",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/PokerCity_en-us.png"
+    },
+    {
+        "GameCode": "78",
+        "GameName": "Marvel Tsum",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/MarvelTsum_en-us.png"
+    },
+    {
+        "GameCode": "LineBrownDaydream",
+        "GameName": "Line Brown Daydream",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/LineBrownDaydream_en-us.png"
+    },
+    {
+        "GameCode": "SpecialChef",
+        "GameName": "SpecialChef",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/SpecialChef_en-us.png"
+    },
+    {
+        "GameCode": "FishingExpert",
+        "GameName": "Fishing Expert",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/FishingExpert_en-us.png"
+    },
+    {
+        "GameCode": "FishParty",
+        "GameName": "Fish Party",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/FishParty_en-us.png"
+    },
+    {
+        "GameCode": "KingsOfCash",
+        "GameName": "Kings Of Cash",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/KingsOfCash_en-us.png"
+    },
+    {
+        "GameCode": "SunQuest",
+        "GameName": "Sun Quest",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/SunQuest_en-us.png"
+    },
+    {
+        "GameCode": "MoneyFarm",
+        "GameName": "Money Farm",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/MoneyFarm_en-us.png"
+    },
+    {
+        "GameCode": "SixLions",
+        "GameName": "Six Lions",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/SixLions_en-us.png"
+    },
+    {
+        "GameCode": "BarBarSheep",
+        "GameName": "Bar Bar Sheep",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/BarBarSheep_en-us.png"
+    },
+    {
+        "GameCode": "TaikoDrumMaster",
+        "GameName": "Taiko Drum Master",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/TaikoDrumMaster_en-us.png"
+    },
+    {
+        "GameCode": "Onmologist",
+        "GameName": "Onmologist",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Onmologist_en-us.png"
+    },
+    {
+        "GameCode": "Pirates",
+        "GameName": "Pirates",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Pirates_en-us.png"
+    },
+    {
+        "GameCode": "AzurLane",
+        "GameName": "AzurLane",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/AzurLane_en-us.png"
+    },
+    {
+        "GameCode": "MarvelClassic",
+        "GameName": "MarvelClassic",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/MarvelClassic_en-us.png"
+    },
+    {
+        "GameCode": "War Hammer 40K",
+        "GameName": "War Hammer 40K",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/WarHammer40K_en-us.png"
+    },
+    {
+        "GameCode": "TravelFrog",
+        "GameName": "Travel Frog",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/TravelFrog_en-us.png"
+    },
+    {
+        "GameCode": "CrossyRoad",
+        "GameName": "Crossy Road",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/CrossyRoad_en-us.png"
+    },
+    {
+        "GameCode": "ZombieHunter",
+        "GameName": "Zombie Hunter",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/ZombieHunter_en-us.png"
+    },
+    {
+        "GameCode": "ArtificialGirl",
+        "GameName": "Artificial Girl",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/ArtificialGirl_en-us.png"
+    },
+    {
+        "GameCode": "FallingSakura",
+        "GameName": "Falling Sakura",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/FallingSakura_en-us.png"
+    },
+    {
+        "GameCode": "LionDance2",
+        "GameName": "LionDance2",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/LionDance2_en-us.png"
+    },
+    {
+        "GameCode": "PixelWar",
+        "GameName": "PixelWar",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/PixelWar_en-us.png"
+    },
+    {
+        "GameCode": "Alice Adv",
+        "GameName": "Alice Adv",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/AliceAdv_en-us.png"
+    },
+    {
+        "GameCode": "9",
+        "GameName": "Mojin2",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Mojin2_en-us.png"
+    },
+    {
+        "GameCode": "SlotJumanji",
+        "GameName": "Slot Jumanji",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/SlotJumanji_en-us.png"
+    },
+    {
+        "GameCode": "6",
+        "GameName": "Military",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Military_en-us.png"
+    },
+    {
+        "GameCode": "MightMagic",
+        "GameName": "Might Magic",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/MightMagic_en-us.png"
+    },
+    {
+        "GameCode": "Geisha",
+        "GameName": "Geisha",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Geisha_en-us.png"
+    },
+    {
+        "GameCode": "Tropics",
+        "GameName": "Tropics",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Tropics_en-us.png"
+    },
+    {
+        "GameCode": "Odin",
+        "GameName": "Odin",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Odin_en-us.png"
+    },
+    {
+        "GameCode": "Ninja",
+        "GameName": "Ninja",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/Ninja_en-us.png"
+    },
+    {
+        "GameCode": "FoxSpirit",
+        "GameName": "Fox Spirit",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/FoxSpirit_en-us.png"
+    },
+    {
+        "GameCode": "BeanStalk",
+        "GameName": "Bean Stalk",
+        "GameType": "Slot",
+        "ImageIcon": "/media/egames/virtualtech/BeanStalk_en-us.png"
+    }
+]

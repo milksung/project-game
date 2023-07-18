@@ -1,0 +1,212 @@
+[
+  {
+    "GameCode": "WHG-0014",
+    "GameName": "5 Times Vegas",
+    "GameNameCN": "5倍赌城" ,
+	"ImageIcon": "/media/egames/genesis/WHG-0014.jpg"
+  },
+  {
+    "GameCode": "WHG-0001",
+    "GameName": "Golden Savanna",
+	"ImageIcon": "/media/egames/genesis/WHG-0001.jpg",
+    "GameNameCN": "金币莽原" 
+  },
+  {
+    "GameCode": "WHG-0008",
+    "GameName": "Gods of Luxor",
+	"ImageIcon": "/media/egames/genesis/WHG-0008.jpg",
+    "GameNameCN": "卢克索之神"
+  },
+  {
+    "GameCode": "WHG-0015",
+    "GameName": "Golden Buffalo",
+	"ImageIcon": "/media/egames/genesis/WHG-0015.jpg",
+    "GameNameCN": "黄金野牛"
+  },
+  {
+    "GameCode": "WHG-0006",
+    "GameName": "Pandas Go Wild",
+	  "ImageIcon": "/media/egames/genesis/WHG-0006.jpg",
+    "GameNameCN": "狂野熊猫"
+  },
+  {
+    "GameCode": "WHG-0007",
+    "GameName": "Fast and Sexy",
+    "ImageIcon": "/media/egames/genesis/WHG-0007.jpg",
+    "GameNameCN": "疾速辣妹"
+  },
+  {
+    "GameCode": "NG-1029",
+    "GameName": "Safari Stampede",
+    "ImageIcon": "/media/egames/genesis/NG-1029.jpg",
+    "GameNameCN": "原野爭霸"
+  },
+  {
+    "GameCode": "NG-1028",
+    "GameName": "Panda Fortune",
+    "ImageIcon": "/media/egames/genesis/NG-1028.jpg",
+    "GameNameCN": "富贵熊猫"
+  },
+  {
+    "GameCode": "NG-1020",
+    "GameName": "Gods Of Giza Enhanced",
+    "ImageIcon": "/media/egames/genesis/NG-1020.jpg",
+    "GameNameCN": "古埃及之神升级版"
+  },
+  {
+    "GameCode": "NG-1027",
+    "GameName": "Savanna King XL",
+    "ImageIcon": "/media/egames/genesis/NG-1027.jpg",
+    "GameNameCN": "草原争霸战XL"
+  },
+  {
+    "GameCode": "M4-0001",
+    "GameName": "Savanna King",
+    "ImageIcon": "/media/egames/genesis/M4-0001.jpg",
+    "GameNameCN": "草原争霸战"
+  },
+  {
+    "GameCode": "M4-0002",
+    "GameName": "Leprechaun Legends",
+    "ImageIcon": "/media/egames/genesis/M4-0002.jpg",
+    "GameNameCN": "妖精传奇"
+  },
+  {
+    "GameCode": "M4-0003",
+    "GameName": "Fortune Turtle",
+    "ImageIcon": "/media/egames/genesis/M4-0003.jpg",
+    "GameNameCN": "招福钱龟"
+  },
+  {
+    "GameCode": "M4-0004",
+    "GameName": "Gods of Giza",
+    "ImageIcon": "/media/egames/genesis/M4-0004.jpg",
+    "GameNameCN": "古埃及之神"
+  },
+  {
+    "GameCode": "M4-0006",
+    "GameName": "Sugar Smash",
+    "ImageIcon": "/media/egames/genesis/M4-0006.jpg",
+    "GameNameCN": "糖果粉碎大战"
+  },
+  {
+    "GameCode": "M4-0008",
+    "GameName": "Rich Panda",
+    "ImageIcon": "/media/egames/genesis/M4-0008.jpg",
+    "GameNameCN": "熊猫发财记"
+  },
+  {
+    "GameCode": "M4-0012",
+    "GameName": "Super Wilds",
+    "ImageIcon": "/media/egames/genesis/M4-0012.jpg",
+    "GameNameCN": "狂野英雄"
+  },
+  {
+    "GameCode": "M4-0026",
+    "GameName": "Riches In The Rough",
+    "ImageIcon": "/media/egames/genesis/M4-0026.jpg",
+    "GameNameCN": "钻石暴富王"
+  },
+  {
+    "GameCode": "M4-0035",
+    "GameName": "More Cheese Please",
+    "ImageIcon": "/media/egames/genesis/M4-0035.jpg",
+    "GameNameCN": "奶酪大冒险"
+  },
+  {
+    "GameCode": "M4-0039",
+    "GameName": "Mirror Magic",
+    "ImageIcon": "/media/egames/genesis/M4-0039.jpg",
+    "GameNameCN": "魔镜魔镜"
+  },
+  {
+    "GameCode": "M4-0041",
+    "GameName": "Reindeer Wild Wins",
+    "ImageIcon": "/media/egames/genesis/M4-0041.jpg",
+    "GameNameCN": "银雪驯鹿"
+  },
+  {
+    "GameCode": "M4-0068",
+    "GameName": "Lust and Fortune",
+    "ImageIcon": "/media/egames/genesis/M4-0068.jpg",
+    "GameNameCN": "金欲滿堂"
+  },
+  {
+    "GameCode": "M4-0069",
+    "GameName": "Lucky Dragon Boat",
+    "ImageIcon": "/media/egames/genesis/M4-0069.jpg",
+    "GameNameCN": "开运龙舟"
+  },
+  {
+    "GameCode": "M4-0072",
+    "GameName": "Rumpel Thrill Spins",
+    "ImageIcon": "/media/egames/genesis/M4-0072.jpg",
+    "GameNameCN": "金線奇緣"
+  },
+  {
+    "GameCode": "M4-0076",
+    "GameName": "Tiger Temple",
+    "ImageIcon": "/media/egames/genesis/M4-0076.jpg",
+    "GameNameCN": "金虎殿"
+  },
+  {
+    "GameCode": "M4-0077",
+    "GameName": "Night of Sevens",
+    "ImageIcon": "/media/egames/genesis/M4-0077.jpg",
+    "GameNameCN": "七夕情緣"
+  },
+  {
+    "GameCode": "M4-0079",
+    "GameName": "Singles' Day",
+    "ImageIcon": "/media/egames/genesis/M4-0079.jpg",
+    "GameNameCN": "单身小时代"
+  },
+  {
+    "GameCode": "M4-0082",
+    "GameName": "Da Hong Bao",
+    "ImageIcon": "/media/egames/genesis/M4-0082.jpg",
+    "GameNameCN": "大红包"
+  },
+  {
+    "GameCode": "M4-0083",
+    "GameName": "God of Cookery",
+    "ImageIcon": "/media/egames/genesis/M4-0083.jpg",
+    "GameNameCN": "食来运转"
+  },
+  {
+    "GameCode": "M4-0086",
+    "GameName": "Fa Fa Fa",
+    "ImageIcon": "/media/egames/genesis/M4-0086.jpg",
+    "GameNameCN": "发发发"
+  },
+  {
+    "GameCode": "M4-0089",
+    "GameName": "Bounty Hunter",
+    "ImageIcon": "/media/egames/genesis/M4-0089.jpg",
+    "GameNameCN": "赏金猎人"
+  },
+  {
+    "GameCode": "M4-0092",
+    "GameName": "Lion's Fortune",
+    "ImageIcon": "/media/egames/genesis/M4-0092.jpg",
+    "GameNameCN": "祥狮夺宝"
+  },
+  {
+    "GameCode": "M4-0099",
+    "GameName": "Fafafa XL",
+    "ImageIcon": "/media/egames/genesis/M4-0099.jpg",
+    "GameNameCN": "发发发 XL"
+  },
+  {
+    "GameCode": "M4-0100",
+    "GameName": "Reindeer Wild Wins XL",
+    "ImageIcon": "/media/egames/genesis/M4-0100.jpg",
+    "GameNameCN": "银雪驯鹿 XL"
+  },
+  {
+    "GameCode": "M4-0101",
+    "GameName": "Superwilds XL",
+    "ImageIcon": "/media/egames/genesis/M4-0101.jpg",
+    "GameNameCN": "狂野英雄 XL" 
+  }
+]

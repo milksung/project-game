@@ -1,0 +1,434 @@
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:306
+[0.852ms] [rows:-] SELECT DATABASE()
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:306
+[7.859ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'cybergame%' ORDER BY SCHEMA_NAME='cybergame' DESC,SCHEMA_NAME limit 1
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:306
+[13.867ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = ? AND table_name = ? AND table_type = ?
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:87
+[5.661ms] [rows:1] SELECT * FROM `Migrations` ORDER BY `Migrations`.`id` LIMIT 1
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[57.374ms] [rows:0] ALTER TABLE `Setting_web`
+ADD COLUMN `auto_withdraw` VARCHAR (20) DEFAULT NULL AFTER `otp_register`
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[38.811ms] [rows:0] 
+
+CREATE TABLE `Line_notify`
+    ( `id` bigint PRIMARY KEY AUTO_INCREMENT, 
+    `start_credit` DECIMAL (14, 2) NULL DEFAULT 0.00,
+    `token` varchar (255) DEFAULT NULL,
+    `notify_id` bigint (20), 
+    status ENUM('ACTIVE', 'DEACTIVE') DEFAULT 'ACTIVE',
+    `created_at` DATETIME DEFAULT current_timestamp(), 
+    `updated_at` DATETIME DEFAULT NULL )
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[42.409ms] [rows:0] 
+
+ALTER TABLE `Line_notify`
+ADD INDEX `idx_notify_id` (`notify_id`)
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[18.986ms] [rows:0] 
+
+CREATE TABLE `Type_notify`
+    ( `id` bigint PRIMARY KEY AUTO_INCREMENT, 
+    `name` varchar(255) DEFAULT NULL,
+    `status` ENUM('ACTIVE', 'DEACTIVE') DEFAULT 'ACTIVE',
+    `created_at` DATETIME DEFAULT current_timestamp(), 
+    `updated_at` DATETIME DEFAULT NULL )
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[9.896ms] [rows:10] 
+    
+INSERT INTO `Type_notify` (`name`)
+VALUES
+    ( 'แจ้งเตือนเมื่อมีการสมัครสมาชิก') ,
+    ('แจ้งเตือนเมื่อแอดมินล็อกอิน'),
+    ('แจ้งเตือนเมื่อแอดมินล็อกเอ้าท์') , 
+    ('แจ้งเตือนสรุปยอดฝากรายวัน') , 
+    ('แจ้งเตือนสรุปยอดถอนรายวัน'), 
+    ('แจ้งเตือนเมื่อมีการฝาก (ก่อนปรับเครดิต)'), 
+    ('แจ้งเตือนเมื่อมีการฝาก (หลังปรับเครดิต)'), 
+    ('แจ้งเตือนเมื่อมีการถอน (ก่อนปรับเครดิต)'),
+    ('แจ้งเตือนเมื่อมีการถอน (หลังปรับเครดิต)') , 
+    ('แจ้งเตือนเมื่อมีการถอน (รอโอนเงิน)')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[19.623ms] [rows:0] 
+
+
+CREATE TABLE `Line_notifygame`
+    ( `id` bigint PRIMARY KEY AUTO_INCREMENT, 
+    `token` varchar (255) DEFAULT NULL,
+    `tag` varchar(255)  DEFAULT NULL,
+    `typenotify_id` bigint DEFAULT NULL,
+    `status` ENUM('ACTIVE', 'DEACTIVE') DEFAULT 'DEACTIVE',
+    `created_at` DATETIME DEFAULT current_timestamp(), 
+    `updated_at` DATETIME DEFAULT NULL )
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[6.067ms] [rows:1] 
+
+
+UPDATE `Permissions` SET `permission_key` = 'marketing_manage' WHERE (`id` = '14')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.976ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'marketing_manage_link' WHERE (`id` = '15')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.502ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'marketing_manage_partner' WHERE (`id` = '16')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.408ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'marketing_report' WHERE (`id` = '36')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.303ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'marketing_report_return' WHERE (`id` = '37')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[3.453ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'marketing_report_link' WHERE (`id` = '38')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.506ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'marketing_report_partner' WHERE (`id` = '39')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.055ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'activity_manage' WHERE (`id` = '17')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.139ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'activity_manage_return' WHERE (`id` = '18')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.070ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'activity_manage_lucky' WHERE (`id` = '19')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.770ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'activity_manage_checkin' WHERE (`id` = '20')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.726ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'activity_manage_coupon' WHERE (`id` = '21')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.194ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'activity_report' WHERE (`id` = '41')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.996ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'activity_report_lucky' WHERE (`id` = '42')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.939ms] [rows:1] 
+UPDATE `Permissions` SET `permission_key` = 'winlose_report' WHERE (`id` = '40')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.951ms] [rows:1] 
+
+DELETE FROM `Permissions` WHERE (`id` = '43')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.529ms] [rows:1] 
+DELETE FROM `Permissions` WHERE (`id` = '45')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.238ms] [rows:1] 
+DELETE FROM `Permissions` WHERE (`id` = '46')
+
+2023/06/26 15:52:28 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.011ms] [rows:1] 
+DELETE FROM `Permissions` WHERE (`id` = '47')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[82.963ms] [rows:0] 
+
+ALTER TABLE `Permissions` 
+ADD COLUMN `position` INT NULL DEFAULT NULL AFTER `name`,
+ADD INDEX `idx_position` (`position` ASC)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[6.780ms] [rows:1] 
+
+INSERT INTO `Permissions` (`permission_key`, `main`, `name`, `position`) VALUES ('deposit_list', '1', 'รายการฝาก', 43)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.855ms] [rows:1] 
+INSERT INTO `Permissions` (`permission_key`, `main`, `name`, `position`) VALUES ('withdraw_list', '1', 'รายการถอน', 44)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.708ms] [rows:1] 
+
+UPDATE `Permissions` SET `position` = '0', `name` = 'คู่มือการใช้งาน' WHERE (`id` = '1')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.507ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '1', `name` = 'ผู้ดูแลระบบ' WHERE (`id` = '2')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.124ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '2' WHERE (`id` = '3')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.530ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '3' WHERE (`id` = '4')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.704ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '4' WHERE (`id` = '5')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.910ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '5' WHERE (`id` = '6')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.868ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '6' WHERE (`id` = '7')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.985ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '7' WHERE (`id` = '8')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[3.077ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '8' WHERE (`id` = '9')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.719ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '9' WHERE (`id` = '10')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.958ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '10' WHERE (`id` = '11')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.285ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '11' WHERE (`id` = '12')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.847ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '12' WHERE (`id` = '13')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.834ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '13' WHERE (`id` = '14')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.125ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '14' WHERE (`id` = '15')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.775ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '15' WHERE (`id` = '16')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.010ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '16' WHERE (`id` = '17')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.126ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '17' WHERE (`id` = '18')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.153ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '18' WHERE (`id` = '19')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.841ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '19' WHERE (`id` = '20')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.195ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '20' WHERE (`id` = '21')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.653ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '21' WHERE (`id` = '22')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.860ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '22' WHERE (`id` = '23')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.059ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '23' WHERE (`id` = '24')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.813ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '24' WHERE (`id` = '25')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.795ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '25' WHERE (`id` = '26')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.538ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '26' WHERE (`id` = '27')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.183ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '27' WHERE (`id` = '28')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.140ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '28' WHERE (`id` = '29')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.703ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '29' WHERE (`id` = '30')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.619ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '30' WHERE (`id` = '31')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[1.804ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '31' WHERE (`id` = '32')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.576ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '32' WHERE (`id` = '33')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[4.359ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '33' WHERE (`id` = '34')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.583ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '34' WHERE (`id` = '35')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.638ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '35' WHERE (`id` = '36')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.715ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '36' WHERE (`id` = '37')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[16.549ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '37' WHERE (`id` = '38')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[8.782ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '38' WHERE (`id` = '39')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[7.714ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '39' WHERE (`id` = '40')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[6.285ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '40' WHERE (`id` = '41')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[4.085ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '41' WHERE (`id` = '42')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[3.407ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '42' WHERE (`id` = '44')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.648ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '45' WHERE (`id` = '48')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[3.157ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '46' WHERE (`id` = '49')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.303ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '47' WHERE (`id` = '50')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[3.166ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '48' WHERE (`id` = '51')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.890ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '49' WHERE (`id` = '52')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.533ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '50' WHERE (`id` = '53')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[2.400ms] [rows:1] 
+UPDATE `Permissions` SET `position` = '51' WHERE (`id` = '54')
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[27.293ms] [rows:0] 
+
+ALTER TABLE `Line_notifygame`
+ADD COLUMN `admin_id` bigint DEFAULT 0 AFTER `token`
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[21.731ms] [rows:0] 
+
+ALTER TABLE `Line_notifygame`
+	ADD UNIQUE INDEX `uni_admin_id` (`admin_id`)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:195
+[3.746ms] [rows:1] UPDATE `Migrations` SET `version`=?,`updated_at`=? WHERE id = ?
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[69.754ms] [rows:0] ALTER TABLE `Users`
+CHANGE COLUMN `member_code` `member_code` VARCHAR(255) DEFAULT NULL,
+CHANGE COLUMN `username` `username` VARCHAR(255) DEFAULT NULL,
+CHANGE COLUMN `password` `password` VARCHAR(255) DEFAULT NULL,
+ADD COLUMN `verified_at` DATETIME DEFAULT NULL AFTER `created_at`,
+ADD COLUMN `bank_id` INT NULL DEFAULT NULL AFTER `bank_account`,
+ADD COLUMN `is_reset_password` TINYINT DEFAULT 0 AFTER `ip`,
+ADD INDEX `idx_bank_id` (`bank_id` ASC),
+ADD INDEX `idx_verified_at` (`verified_at` ASC),
+ADD UNIQUE INDEX `uni_phone` (`phone` ASC)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[25.257ms] [rows:0] 
+
+CREATE TABLE `User_otps` (
+  `id` bigint PRIMARY KEY AUTO_INCREMENT,
+  `code` varchar(10),
+  `ref` varchar(10),
+  `type` ENUM ('REGISTER', 'FORGET'),
+  `user_id` bigint,
+  `created_at` datetime DEFAULT (now()),
+  `verified_at` datetime,
+  `expired_at` datetime
+)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[27.541ms] [rows:0] 
+
+CREATE INDEX `idx_code` ON `User_otps` (`code`)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[22.683ms] [rows:0] 
+CREATE INDEX `idx_ref` ON `User_otps` (`ref`)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[27.552ms] [rows:0] 
+CREATE INDEX `idx_verified_at` ON `User_otps` (`verified_at`)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[27.601ms] [rows:0] 
+CREATE INDEX `idx_created_at` ON `User_otps` (`created_at`)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:183
+[29.167ms] [rows:0] 
+CREATE INDEX `idx_expired_at` ON `User_otps` (`expired_at`)
+
+2023/06/26 15:52:29 /Users/macbook/Documents/project cyber/cybergame-backend-api/migration/migrate.go:195
+[3.134ms] [rows:1] UPDATE `Migrations` SET `version`=?,`updated_at`=? WHERE id = ?

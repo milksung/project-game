@@ -1,0 +1,2298 @@
+[
+        {
+            "GameName": "Ancient Fortunes: Poseidon Megaways ™",
+            "GameCode": "SMG_ancientFortunesPoseidonMegaways",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ancientfortunesposeidonmegaways_icon_square_600x600_en.jpg",
+            "cnName": "古代财富 Poseidon Megaways™"
+        }, 
+        {
+            "GameName": "Wildfire Wins",
+            "GameCode": "SMG_wildfireWins",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_wildfirewins_icon_square_600x600_en.png",
+            "cnName": "Zeus古代财富"
+        },
+        {
+            "GameName": "Ancient Fortunes: Zeus",
+            "GameCode": "SMG_ancientFortunesZeus", 
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ancientfortuneszeus_icon_square_600x600_en.jpg",
+            "cnName": "Zeus古代财富"
+        },
+        {
+            "GameName": "Amazing Link™ Apollo",
+            "GameCode": "SMG_amazingLinkApollo",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_amazinglinkapollo_icon_square_600x600_en.jpg",
+            "cnName": "神奇 连环 阿波罗 "
+        },
+        {
+            "GameName": "10000 Wishes",
+            "GameCode": "SMG_10000Wishes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_10000wishes_icon_square_600x600_en.jpg",
+            "cnName": "10000个愿望"
+        },
+        {
+            "GameName": "Happy Monster Claw",
+            "GameCode": "SMG_happyMonsterClaw",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_happymonsterclaw_icon_square_600x600_en.jpg",
+            "cnName": "开心娃娃机"
+        },	
+        {
+            "GameName": "108 Heroes",
+            "GameCode": "SMG_108Heroes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_108heroes_icon_square_600x600_en.jpg",
+            "cnName": "108好汉"
+        },
+        {
+            "GameName": "108 Heroes Multiplier Fortunes",
+            "GameCode": "SMG_108heroesMultiplierFortunes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_108heroesmultiplierfortunes_icon_square_600x600_en.jpg",
+            "cnName": "一零八好汉 乘数财富"
+        },
+        {
+            "GameName": "Dungeons and Diamonds",
+            "GameCode": "SMG_dungeonsAndDiamonds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_dungeonsanddiamonds_icon_square_600x600_en.png",
+            "cnName": "4 钻石蓝调 MEGAWAYS"
+        },
+        {
+            "GameName": "4 Diamond Blues™ - Megaways™",
+            "GameCode": "SMG_4DiamondBlues",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_4diamondblues_icon_square_600x600_en.jpg",
+            "cnName": "4 钻石蓝调 MEGAWAYS"
+        },
+        {
+            "GameName": "5 Reel Drive",
+            "GameCode": "SMG_5ReelDrive",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_5reeldrive_icon_square_600x600_en.jpg",
+            "cnName": "5轴驱动"
+        },
+        {
+            "GameName": "777 Mega Deluxe™",
+            "GameCode": "SMG_777MegaDeluxe",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_777megadeluxe_icon_square_600x600_en.jpg",
+            "cnName": "777绝对豪华™"
+        },
+        {
+            "GameName": "777 Royal Wheel",
+            "GameCode": "SMG_777RoyalWheel",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_777royalwheel_icon_square_600x600_en.jpg",
+            "cnName": "777皇家幸运轮"
+        },
+        {
+            "GameName": "8 Golden Skulls of the Holly Roger Megaways™",
+            "GameCode": "SMG_8GoldenSkullsOfHollyRoger",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_8goldenskullsofhollyroger_icon_square_600x600_en.jpg",
+            "cnName": "8个Holly Roger™金骷髅Megaways™"
+        },
+        {
+            "GameName": "9 Blazing Diamonds",
+            "GameCode": "SMG_9BlazingDiamonds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_9blazingdiamonds_icon_square_600x600_en.jpg",
+            "cnName": "9颗炽热钻石"
+        },
+        {
+            "GameName": "9 Masks Of Fire",
+            "GameCode": "SMG_9masksOfFire",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_9masksoffire_icon_square_600x600_en.jpg",
+            "cnName": "9个烈焰面具"
+        },
+        {
+            "GameName": "9 Masks of Fire™ HyperSpins™",
+            "GameCode": "SMG_9masksOfFireHyperSpins",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_9masksoffirehyperspins_icon_square_600x600_en.jpg",
+            "cnName": "9 个烈焰面具 HyperSpins™"
+        },
+        {
+            "GameName": "9 Pots of Gold",
+            "GameCode": "SMG_9potsOfGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_9potsofgold_icon_square_600x600_en.jpg",
+            "cnName": "9罐黄金"
+        },
+        {
+            "GameName": "A Dark Matter",
+            "GameCode": "SMG_aDarkMatter",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_adarkmatter_icon_square_600x600_en.jpg",
+            "cnName": "黑暗阴影"
+        },
+        {
+            "GameName": "A Tale of Elves",
+            "GameCode": "SMG_aTaleOfElves",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ataleofelves_icon_square_600x600_en.jpg",
+            "cnName": "精灵传说"
+        },
+        {
+            "GameName": "Aces and Eights",
+            "GameCode": "SMG_acesAndEights",
+            "GameType": "Video Pokers",
+            "ImageIcon": "/media/egames/microgaming/smg_acesandeights_icon_square_600x600_en.jpg",
+            "cnName": "A&8 红利5PK"
+        },
+        {
+            "GameName": "Aces and Faces",
+            "GameCode": "SMG_acesAndFaces",
+            "GameType": "Video Pokers",
+            "ImageIcon": "/media/egames/microgaming/smg_acesandfaces_icon_square_600x600_en.jpg",
+            "cnName": "经典5PK"
+        },
+        {
+            "GameName": "ActionOps Snow and Sable",
+            "GameCode": "SMG_actionOpsSnowAndSable",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_actionopssnowandsable_icon_square_600x600_en.jpg",
+            "cnName": "秘密行动-雪诺和塞布尔"
+        },
+        {
+            "GameName": "Adventure Palace",
+            "GameCode": "SMG_adventurePalace",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_adventurepalace_icon_square_600x600_en.jpg",
+            "cnName": "奇遇宫殿"
+        },
+        {
+            "GameName": "Adventures Of Doubloon Island",
+            "GameCode": "SMG_adventuresOfDoubloonIsland",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_adventuresofdoubloonisland_icon_square_600x600_en.jpg",
+            "cnName": "金币岛大冒险"
+        },
+        {
+            "GameName": "Africa X UP™",
+            "GameCode": "SMG_africaXUP",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_africaxup_icon_square_600x600_en.jpg",
+            "cnName": "非洲X UP"
+        },
+        {
+            "GameName": "Age of Conquest",
+            "GameCode": "SMG_ageOfConquest",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ageofconquest_icon_square_600x600_en.jpg",
+            "cnName": "征服 时代"
+        },
+        {
+            "GameName": "Age Of Discovery",
+            "GameCode": "SMG_ageOfDiscovery",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ageofdiscovery_icon_square_600x600_en.jpg",
+            "cnName": "探索时代"
+        },
+        {
+            "GameName": "Agent Jane Blonde",
+            "GameCode": "SMG_agentJaneBlonde",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_agentjaneblonde_icon_square_600x600_en.jpg",
+            "cnName": "特工简布隆德"
+        },
+        {
+            "GameName": "Agent Jane Blonde Returns",
+            "GameCode": "SMG_agentjaneblondereturns",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_agentjaneblondereturns_icon_square_600x600_en.jpg",
+            "cnName": "特工简.布隆德归来"
+        },
+        {
+            "GameName": "Alaskan Fishing",
+            "GameCode": "SMG_alaskanFishing",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_alaskanfishing_icon_square_600x600_en.jpg",
+            "cnName": "阿拉斯加钓鱼"
+        },
+        {
+            "GameName": "Alchemist Stone",
+            "GameCode": "SMG_alchemistStone",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_alchemiststone_icon_square_600x600_en.jpg",
+            "cnName": "贤者之石"
+        },
+        {
+            "GameName": "Alchemy Blast",
+            "GameCode": "SMG_alchemyBlast",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_alchemyblast_icon_square_600x600_en.jpg",
+            "cnName": "炼金爆炸"
+        },
+        {
+            "GameName": "Alchemy Fortunes",
+            "GameCode": "SMG_alchemyFortunes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_alchemyfortunes_icon_square_600x600_en.jpg",
+            "cnName": "炼金财宝"
+        },
+        {
+            "GameName": "All Aces",
+            "GameCode": "SMG_RubyAllAces",
+            "GameType": "Video Pokers",
+            "ImageIcon": "/media/egames/microgaming/smg_rubyallaces_icon_square_600x600_en.jpg",
+            "cnName": "全A扑克"
+        },
+        {
+            "GameName": "Amazing Link Zeus",
+            "GameCode": "SMG_amazingLinkZeus",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_amazinglinkzeus_icon_square_600x600_en.jpg",
+            "cnName": "神奇连环宙斯"
+        },
+        {
+            "GameName": "Ariana",
+            "GameCode": "SMG_ariana",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ariana_icon_square_600x600_en.jpg",
+            "cnName": "爱丽娜"
+        },
+        {
+            "GameName": "Asian Beauty",
+            "GameCode": "SMG_asianBeauty",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_asianbeauty_icon_square_600x600_en.jpg",
+            "cnName": "亚洲美人"
+        },
+        {
+            "GameName": "Assassin Moon",
+            "GameCode": "SMG_assassinMoon",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_assassinmoon_icon_square_600x600_en.jpg",
+            "cnName": "刺客之月"
+        },
+        {
+            "GameName": "Astro Legends: Lyra and Erion",
+            "GameCode": "SMG_astroLegendsLyraandErion",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_astrolegendslyraanderion_icon_square_600x600_en.jpg",
+            "cnName": "太空传奇-莱拉和叶莉昂"
+        },
+        {
+            "GameName": "Atlantis Rising",
+            "GameCode": "SMG_atlantisRising",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_atlantisrising_icon_square_600x600_en.jpg",
+            "cnName": "亚特兰蒂斯 崛起"
+        },
+        {
+            "GameName": "Augustus",
+            "GameCode": "SMG_augustus",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_augustus_icon_square_600x600_en.jpg",
+            "cnName": "奥古斯都"
+        },
+        {
+            "GameName": "Aurora Wilds",
+            "GameCode": "SMG_auroraWilds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_aurorawilds_icon_square_600x600_en.jpg",
+            "cnName": "极光百搭"
+        },
+        {
+            "GameName": "Avalon",
+            "GameCode": "SMG_avalon",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_avalon_icon_square_600x600_en.jpg",
+            "cnName": "阿瓦隆"
+        },
+        {
+            "GameName": "Badminton Hero",
+            "GameCode": "SMG_badmintonHero",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_badmintonhero_icon_square_600x600_en.jpg",
+            "cnName": "热血羽毛球"
+        },
+        {
+            "GameName": "Banana Odyssey",
+            "GameCode": "SMG_bananaOdyssey",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bananaodyssey_icon_square_600x600_en.jpg",
+            "cnName": "香蕉奥德赛"
+        },
+        {
+            "GameName": "Bar Bar Black Sheep 5 Reel",
+            "GameCode": "SMG_barBarBlackSheep5Reel",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_barbarblacksheep5reel_icon_square_600x600_en.jpg",
+            "cnName": "黑绵羊咩咩叫"
+        },
+        {
+            "GameName": "Bars And Stripes",
+            "GameCode": "SMG_BarsAndStripes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_barsandstripes_icon_square_600x600_en.jpg",
+            "cnName": "条条纹纹 "
+        },
+        {
+            "GameName": "Basketball Star",
+            "GameCode": "SMG_basketballStar",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_basketballstar_icon_square_600x600_en.jpg",
+            "cnName": "篮球巨星"
+        },
+        {
+            "GameName": "Basketball Star Deluxe",
+            "GameCode": "SMG_basketballStarDeluxe",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_basketballstardeluxe_icon_square_600x600_en.jpg",
+            "cnName": "篮球巨星豪华版"
+        },
+        {
+            "GameName": "Basketball Star on Fire",
+            "GameCode": "SMG_basketballStaronFire",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_basketballstaronfire_icon_square_600x600_en.jpg",
+            "cnName": "篮球巨星 火力全开"
+        },
+        {
+            "GameName": "Battle Royale",
+            "GameCode": "SMG_battleRoyale",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_battleroyale_icon_square_600x600_en.jpg",
+            "cnName": "大逃杀"
+        },
+        {
+            "GameName": "Beach Babes",
+            "GameCode": "SMG_beachBabes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_beachbabes_icon_square_600x600_en.jpg",
+            "cnName": "沙滩女孩"
+        },
+        {
+            "GameName": "Beautiful Bones",
+            "GameCode": "SMG_beautifulBones",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_beautifulbones_icon_square_600x600_en.jpg",
+            "cnName": "美丽骷髅"
+        },
+        {
+            "GameName": "Big Kahuna",
+            "GameCode": "SMG_bigKahuna",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bigkahuna_icon_square_600x600_en.jpg",
+            "cnName": "森林之王"
+        },
+        {
+            "GameName": "Big Top",
+            "GameCode": "SMG_bigTop",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bigtop_icon_square_600x600_en.jpg",
+            "cnName": "马戏团"
+        },
+        {
+            "GameName": "Bikini Party",
+            "GameCode": "SMG_bikiniParty",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bikiniparty_icon_square_600x600_en.jpg",
+            "cnName": "比基尼派对"
+        },
+        {
+            "GameName": "Blazing Mammoth",
+            "GameCode": "SMG_blazingMammoth",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_blazingmammoth_icon_square_600x600_en.jpg",
+            "cnName": "炽热猛犸象"
+        },
+        {
+            "GameName": "Boat of Fortune",
+            "GameCode": "SMG_boatofFortune",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_boatoffortune_icon_square_600x600_en.jpg",
+            "cnName": "金龙财宝"
+        },
+        {
+            "GameName": "Bonus Deuces Wild",
+            "GameCode": "SMG_bonusDeucesWild",
+            "GameType": "Video Pokers",
+            "ImageIcon": "/media/egames/microgaming/smg_bonusdeuceswild_icon_square_600x600_en.jpg",
+            "cnName": "超级百搭二王"
+        },
+        {
+            "GameName": "Boogie Monsters",
+            "GameCode": "SMG_boogieMonsters",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_boogiemonsters_icon_square_600x600_en.jpg",
+            "cnName": "摇滚怪兽"
+        },
+        {
+            "GameName": "Book of King Arthur",
+            "GameCode": "SMG_bookOfKingArthur",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bookofkingarthur_icon_square_600x600_en.jpg",
+            "cnName": "亚瑟王之书"
+        },
+        {
+            "GameName": "Book Of Mrs Claus",
+            "GameCode": "SMG_bookOfMrsClaus",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bookofmrsclaus_icon_square_600x600_en.jpg",
+            "cnName": "圣诞老婆婆之书"
+        },
+        {
+            "GameName": "Book of Oz",
+            "GameCode": "SMG_bookOfOz",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bookofoz_icon_square_600x600_en.jpg",
+            "cnName": "Oz之书"
+        },
+        {
+            "GameName": "Book of Oz Lock 'N Spin",
+            "GameCode": "SMG_bookOfOzLockNSpin",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bookofozlocknspin_icon_square_600x600_en.jpg",
+            "cnName": "Oz之书锁定并旋转"
+        },
+        {
+            "GameName": "Bookie of Odds",
+            "GameCode": "SMG_bookieOfOdds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bookieofodds_icon_square_600x600_en.jpg",
+            "cnName": "好运经纪人"
+        },
+        {
+            "GameName": "Boom Pirates",
+            "GameCode": "SMG_boomPirates",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_boompirates_icon_square_600x600_en.jpg",
+            "cnName": "炸弹海盗"
+        },
+        {
+            "GameName": "Break Away",
+            "GameCode": "SMG_breakAway",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakaway_icon_square_600x600_en.jpg",
+            "cnName": "冰球突破"
+        },
+        {
+            "GameName": "Break Away Deluxe",
+            "GameCode": "SMG_breakAwayDeluxe",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakawaydeluxe_icon_square_600x600_en.jpg",
+            "cnName": "冰球突破豪华版"
+        },
+        {
+            "GameName": "Break Away Lucky Wilds",
+            "GameCode": "SMG_breakAwayLuckyWilds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakawayluckywilds_icon_square_600x600_en.jpg",
+            "cnName": "冰球突破幸运百搭"
+        },
+        {
+            "GameName": "Break Away Ultra",
+            "GameCode": "SMG_breakAwayUltra",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakawayultra_icon_square_600x600_en.jpg",
+            "cnName": "冰球突破 终极全胜"
+        },
+        {
+            "GameName": "Break Away v90",
+            "GameCode": "SMG_BreakAwayV90",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakawayv90_icon_square_600x600_en.jpg",
+            "cnName": "冰球突破 V90"
+        },
+        {
+            "GameName": "Break da Bank",
+            "GameCode": "SMG_breakDaBank",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakdabank_icon_square_600x600_en.jpg",
+            "cnName": "抢银行"
+        },
+        {
+            "GameName": "Break da Bank Again",
+            "GameCode": "SMG_breakDaBankAgain",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakdabankagain_icon_square_600x600_en.jpg",
+            "cnName": "再抢银行"
+        },
+        {
+            "GameName": "Break da Bank Again Respin",
+            "GameCode": "SMG_breakDaBankAgainRespin",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakdabankagainrespin_icon_square_600x600_en.jpg",
+            "cnName": "再抢银行再旋转"
+        },
+        {
+            "GameName": "Break Da Bank Again™ MEGAWAYS™",
+            "GameCode": "SMG_breakDaBankAgainMegaways",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_breakdabankagainmegaways_icon_square_600x600_en.jpg",
+            "cnName": "再抢银行 MEGAWAYS™"
+        },
+        {
+            "GameName": "Bridesmaids",
+            "GameCode": "SMG_bridesmaids",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bridesmaids_icon_square_600x600_en.jpg",
+            "cnName": "伴娘我最大"
+        },
+        {
+            "GameName": "Burning Desire",
+            "GameCode": "SMG_burningDesire",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_burningdesire_icon_square_600x600_en.jpg",
+            "cnName": "炙热欲望"
+        },
+        {
+            "GameName": "Bush Telegraph",
+            "GameCode": "SMG_bushTelegraph",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bushtelegraph_icon_square_600x600_en.jpg",
+            "cnName": "丛林传讯"
+        },
+        {
+            "GameName": "Bust the Bank",
+            "GameCode": "SMG_bustTheBank",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_bustthebank_icon_square_600x600_en.jpg",
+            "cnName": "爆破银行"
+        },
+        {
+            "GameName": "Candy Dreams",
+            "GameCode": "SMG_candyDreams",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_candydreams_icon_square_600x600_en.jpg",
+            "cnName": "梦果子乐园"
+        },
+        {
+            "GameName": "Carnaval",
+            "GameCode": "SMG_carnaval",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_carnaval_icon_square_600x600_en.jpg",
+            "cnName": "嘉年华"
+        },
+        {
+            "GameName": "Carnaval Jackpot ",
+            "GameCode": "SMG_carnavalJackpot",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_carnavaljackpot_icon_square_600x600_en.jpg",
+            "cnName": "嘉年华大奖"
+        },
+        {
+            "GameName": "Cash Crazy",
+            "GameCode": "SMG_cashCrazy",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_cashcrazy_icon_square_600x600_en.jpg",
+            "cnName": "疯狂现金"
+        },
+        {
+            "GameName": "Cash of Kingdoms",
+            "GameCode": "SMG_cashOfKingdoms",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_cashofkingdoms_icon_square_600x600_en.jpg",
+            "cnName": "富贵王国"
+        },
+        {
+            "GameName": "Cashapillar",
+            "GameCode": "SMG_cashapillar",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_cashapillar_icon_square_600x600_en.jpg",
+            "cnName": "金钱蝶蛹"
+        },
+        {
+            "GameName": "CashOccino",
+            "GameCode": "SMG_cashoccino",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_cashoccino_icon_square_600x600_en.jpg",
+            "cnName": "现金咖啡"
+        },
+        {
+            "GameName": "Cashville",
+            "GameCode": "SMG_cashville",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_cashville_icon_square_600x600_en.jpg",
+            "cnName": "现金威乐"
+        },
+        {
+            "GameName": "Cat Clans",
+            "GameCode": "SMG_catClans",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_catclans_icon_square_600x600_en.jpg",
+            "cnName": "猫咪部落"
+        },
+        {
+            "GameName": "Centre Court",
+            "GameCode": "SMG_centreCourt",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_centrecourt_icon_square_600x600_en.jpg",
+            "cnName": "网球冠军"
+        },
+        {
+            "GameName": "Chicago Gold",
+            "GameCode": "SMG_chicagoGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_chicagogold_icon_square_600x600_en.jpg",
+            "cnName": "芝加哥黄金"
+        },
+        {
+            "GameName": "Chronicles of Olympus X UP",
+            "GameCode": "SMG_chroniclesOfOlympusXUP",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_chroniclesofolympusxup_icon_square_600x600_en.jpg",
+            "cnName": "奥林匹斯編年史 X UP"
+        },
+        {
+            "GameName": "Classic 243",
+            "GameCode": "SMG_classic243",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_classic243_icon_square_600x600_en.jpg",
+            "cnName": "经典243​"
+        },
+        {
+            "GameName": "Cool Buck - 5 Reel",
+            "GameCode": "SMG_coolBuck5Reel",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_coolbuck5reel_icon_square_600x600_en.jpg",
+            "cnName": "运财酷儿"
+        },
+        {
+            "GameName": "Cool Wolf",
+            "GameCode": "SMG_coolWolf",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_coolwolf_icon_square_600x600_en.jpg",
+            "cnName": "酷派狼人"
+        },
+        {
+            "GameName": "Cossacks: The Wild Hunt",
+            "GameCode": "SMG_cossacksTheWildHunt",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_cossacksthewildhunt_icon_square_600x600_en.jpg",
+            "cnName": "哥萨克勇士：荒野狩猎"
+        },
+        {
+            "GameName": "Couch Potato",
+            "GameCode": "SMG_couchPotato",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_couchpotato_icon_square_600x600_en.jpg",
+            "cnName": "慵懒土豆"
+        },
+        {
+            "GameName": "Crazy Chameleons",
+            "GameCode": "SMG_crazyChameleons",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_crazychameleons_icon_square_600x600_en.jpg",
+            "cnName": "疯狂变色龙"
+        },
+        {
+            "GameName": "Cricket Star",
+            "GameCode": "SMG_cricketStar",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_cricketstar_icon_square_600x600_en.jpg",
+            "cnName": "板球明星"
+        },
+        {
+            "GameName": "Cricket Star Scratch",
+            "GameCode": "SMG_cricketStarScratch",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_cricketstarscratch_icon_square_600x600_en.jpg",
+            "cnName": "板球明星 Scratch"
+        },
+        {
+            "GameName": "deadmau5",
+            "GameCode": "SMG_deadmau5",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_deadmau5_icon_square_600x600_en.jpg",
+            "cnName": "deadmau5"
+        },
+        {
+            "GameName": "Deck the Halls",
+            "GameCode": "SMG_deckTheHalls",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_deckthehalls_icon_square_600x600_en.jpg",
+            "cnName": "闪亮的圣诞节"
+        },
+        {
+            "GameName": "Deco Diamonds",
+            "GameCode": "SMG_decoDiamonds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_decodiamonds_icon_square_600x600_en.jpg",
+            "cnName": "德科钻石"
+        },
+        {
+            "GameName": "Deuces Wild",
+            "GameCode": "SMG_deucesWild",
+            "GameType": "Video Pokers",
+            "ImageIcon": "/media/egames/microgaming/smg_deuceswild_icon_square_600x600_en.jpg",
+            "cnName": "百搭二王"
+        },
+        {
+            "GameName": "Diamond Empire",
+            "GameCode": "SMG_diamondEmpire",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_diamondempire_icon_square_600x600_en.jpg",
+            "cnName": "钻石帝国"
+        },
+        {
+            "GameName": "Diamond King Jackpots",
+            "GameCode": "SMG_diamondKingJackpots",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_diamondkingjackpots_icon_square_600x600_en.jpg",
+            "cnName": "钻石之王"
+        },
+        {
+            "GameName": "Divine Diamonds",
+            "GameCode": "SMG_divineDiamonds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_divinediamonds_icon_square_600x600_en.jpg",
+            "cnName": "神圣钻石"
+        },
+        {
+            "GameName": "Dolphin Coast",
+            "GameCode": "SMG_dolphinCoast",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_dolphincoast_icon_square_600x600_en.jpg",
+            "cnName": "海豚海岸"
+        },
+        {
+            "GameName": "Dolphin Quest",
+            "GameCode": "SMG_dolphinQuest",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_dolphinquest_icon_square_600x600_en.jpg",
+            "cnName": "海豚历奇"
+        },
+        {
+            "GameName": "Double Double Bonus Poker",
+            "GameCode": "SMG_doubleDoubleBonus",
+            "GameType": "Video Pokers",
+            "ImageIcon": "/media/egames/microgaming/smg_doubledoublebonus_icon_square_600x600_en.jpg",
+            "cnName": "四倍红利5PK"
+        },
+        {
+            "GameName": "Double Wammy",
+            "GameCode": "SMG_doubleWammy",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_doublewammy_icon_square_600x600_en.jpg",
+            "cnName": "双倍惊喜"
+        },
+        {
+            "GameName": "Dragon Dance",
+            "GameCode": "SMG_dragonDance",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_dragondance_icon_square_600x600_en.jpg",
+            "cnName": "舞龙"
+        },
+        {
+            "GameName": "Dragon Shard",
+            "GameCode": "SMG_dragonShard",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_dragonshard_icon_square_600x600_en.jpg",
+            "cnName": "神龙碎片"
+        },
+        {
+            "GameName": "Dragon's Breath",
+            "GameCode": "SMG_dragonsBreath",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_dragonsbreath_icon_square_600x600_en.jpg",
+            "cnName": "龙息之焰"
+        },
+        {
+            "GameName": "Dragonz",
+            "GameCode": "SMG_dragonz",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_dragonz_icon_square_600x600_en.jpg",
+            "cnName": "幸运龙宝贝"
+        },
+        {
+            "GameName": "Dream Date",
+            "GameCode": "SMG_dreamDate",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_dreamdate_icon_square_600x600_en.jpg",
+            "cnName": "梦幻邂逅"
+        },
+        {
+            "GameName": "Eagle's Wings",
+            "GameCode": "SMG_eaglesWings",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_eagleswings_icon_square_600x600_en.jpg",
+            "cnName": "雄鹰之翼"
+        },
+        {
+            "GameName": "Egyptian Tombs",
+            "GameCode": "SMG_egyptianTombs",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_egyptiantombs_icon_square_600x600_en.jpg",
+            "cnName": "埃及古墓"
+        },
+        {
+            "GameName": "Elven Gold",
+            "GameCode": "SMG_elvenGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_elvengold_icon_square_600x600_en.jpg",
+            "cnName": "精灵黄金"
+        },
+        {
+            "GameName": "Emerald Gold",
+            "GameCode": "SMG_emeraldGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_emeraldgold_icon_square_600x600_en.jpg",
+            "cnName": "金翠绿"
+        },
+        {
+            "GameName": "EmotiCoins",
+            "GameCode": "SMG_emotiCoins",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_emoticoins_icon_square_600x600_en.jpg",
+            "cnName": "表情金币 "
+        },
+        {
+            "GameName": "Emperor Of The Sea",
+            "GameCode": "SMG_emperorOfTheSea",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_emperorofthesea_icon_square_600x600_en.jpg",
+            "cnName": "青龙出海"
+        },
+        {
+            "GameName": "Emperor of the Sea Deluxe",
+            "GameCode": "SMG_emperorOfTheSeaDeluxe",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_emperoroftheseadeluxe_icon_square_600x600_en.jpg",
+            "cnName": "青龙出海豪华版"
+        },
+        {
+            "GameName": "Exotic Cats",
+            "GameCode": "SMG_exoticCats",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_exoticcats_icon_square_600x600_en.jpg",
+            "cnName": "异域狂兽"
+        },
+        {
+            "GameName": "Fire Forge",
+            "GameCode": "SMG_fireForge",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_fireforge_icon_square_600x600_en.jpg",
+            "cnName": "烈火锻金"
+        },
+        {
+            "GameName": "Fish Party",
+            "GameCode": "SMG_fishParty",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_fishparty_icon_square_600x600_en.jpg",
+            "cnName": "海底派对"
+        },
+        {
+            "GameName": "Flower Fortunes Asia",
+            "GameCode": "SMG_flowerFortunesAsia",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_flowerfortunesasia_icon_square_600x600_en.jpg",
+            "cnName": "花的幸运"
+        },
+        {
+            "GameName": "Football Star",
+            "GameCode": "SMG_footballStar",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_footballstar_icon_square_600x600_en.jpg",
+            "cnName": "足球明星"
+        },
+        {
+            "GameName": "Football Star Deluxe",
+            "GameCode": "SMG_footballStarDeluxe",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_footballstardeluxe_icon_square_600x600_en.jpg",
+            "cnName": "足球明星豪华版"
+        },
+        {
+            "GameName": "Forbidden Throne",
+            "GameCode": "SMG_forbiddenThrone",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_forbiddenthrone_icon_square_600x600_en.jpg",
+            "cnName": "禁忌王座"
+        },
+        {
+            "GameName": "Forgotten Island",
+            "GameCode": "SMG_forgottenIsland",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_forgottenisland_icon_square_600x600_en.jpg",
+            "cnName": "遗忘之岛"
+        },
+        {
+            "GameName": "Fortune Girl",
+            "GameCode": "SMG_fortuneGirl",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_fortunegirl_icon_square_600x600_en.jpg",
+            "cnName": "金库甜心"
+        },
+        {
+            "GameName": "Fortune Rush",
+            "GameCode": "SMG_fortuneRush",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_fortunerush_icon_square_600x600_en.jpg",
+            "cnName": "瑞龙献宝"
+        },
+        {
+            "GameName": "Fortunium",
+            "GameCode": "SMG_fortunium",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_fortunium_icon_square_600x600_en.jpg",
+            "cnName": "财富之都"
+        },
+        {
+            "GameName": "Frozen Diamonds",
+            "GameCode": "SMG_frozenDiamonds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_frozendiamonds_icon_square_600x600_en.jpg",
+            "cnName": " 急冻钻石​"
+        },
+        {
+            "GameName": "Fruit Blast",
+            "GameCode": "SMG_fruitBlast",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_fruitblast_icon_square_600x600_en.jpg",
+            "cnName": "水果大爆发"
+        },
+        {
+            "GameName": "Fruit vs Candy",
+            "GameCode": "SMG_fruitVSCandy",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_fruitvscandy_icon_square_600x600_en.jpg",
+            "cnName": "水果vs糖果"
+        },
+        {
+            "GameName": "Galaxy Glider",
+            "GameCode": "SMG_galaxyGlider",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_galaxyglider_icon_square_600x600_en.jpg",
+            "cnName": "星际骑手"
+        },
+        {
+            "GameName": "Gems And Dragons",
+            "GameCode": "SMG_gemsAndDragons",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_gemsanddragons_icon_square_600x600_en.jpg",
+            "cnName": "魔龙宝珠"
+        },
+        {
+            "GameName": "Gems Odyssey",
+            "GameCode": "SMG_gemsOdyssey",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_gemsodyssey_icon_square_600x600_en.jpg",
+            "cnName": "宝石奥德赛"
+        },
+        {
+            "GameName": "Girls With Guns - Jungle Heat",
+            "GameCode": "SMG_girlsWithGunsJungleHeat",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_girlswithgunsjungleheat_icon_square_600x600_en.jpg",
+            "cnName": "美女抢手丛林激战"
+        },
+        {
+            "GameName": "Gnome Wood",
+            "GameCode": "SMG_gnomeWood",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_gnomewood_icon_square_600x600_en.jpg",
+            "cnName": "矮木"
+        },
+        {
+            "GameName": "Gold Collector",
+            "GameCode": "SMG_goldCollector",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_goldcollector_icon_square_600x600_en.jpg",
+            "cnName": "淘金者"
+        },
+        {
+            "GameName": "Gold Factory",
+            "GameCode": "SMG_goldFactory",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_goldfactory_icon_square_600x600_en.jpg",
+            "cnName": "黄金工厂"
+        },
+        {
+            "GameName": "Goldaur Guardians",
+            "GameCode": "SMG_goldaurGuardians",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_goldaurguardians_icon_square_600x600_en.jpg",
+            "cnName": "黄金守卫"
+        },
+        {
+            "GameName": "Golden Era",
+            "GameCode": "SMG_goldenEra",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_goldenera_icon_square_600x600_en.jpg",
+            "cnName": "黄金时代"
+        },
+        {
+            "GameName": "Golden Princess",
+            "GameCode": "SMG_goldenPrincess",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_goldenprincess_icon_square_600x600_en.jpg",
+            "cnName": "黄金公主"
+        },
+        {
+            "GameName": "Golden Stallion",
+            "GameCode": "SMG_goldenStallion",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_goldenstallion_icon_square_600x600_en.jpg",
+            "cnName": "金色骏马"
+        },
+        {
+            "GameName": "Gopher Gold",
+            "GameCode": "SMG_gopherGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_gophergold_icon_square_600x600_en.jpg",
+            "cnName": "黄金地鼠"
+        },
+        {
+            "GameName": "Halloweenies",
+            "GameCode": "SMG_halloweenies",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_halloweenies_icon_square_600x600_en.jpg",
+            "cnName": "万圣节派对"
+        },
+        {
+            "GameName": "Happy Holidays",
+            "GameCode": "SMG_HappyHolidays",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_happyholidays_icon_square_600x600_en.jpg",
+            "cnName": "快乐假日"
+        },
+        {
+            "GameName": "Harveys",
+            "GameCode": "SMG_harveys",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_harveys_icon_square_600x600_en.jpg",
+            "cnName": "哈维斯的晚餐"
+        },
+        {
+            "GameName": "High Society",
+            "GameCode": "SMG_highSociety",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_highsociety_icon_square_600x600_en.jpg",
+            "cnName": "上流社会"
+        },
+        {
+            "GameName": "Hippie Days",
+            "GameCode": "SMG_hippieDays",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_hippiedays_icon_square_600x600_en.jpg",
+            "cnName": "嬉皮时光"
+        },
+        {
+            "GameName": "Holly Jolly Penguins",
+            "GameCode": "SMG_hollyJollyPenguins",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_hollyjollypenguins_icon_square_600x600_en.jpg",
+            "cnName": "圣诞企鹅"
+        },
+        {
+            "GameName": "Hound Hotel",
+            "GameCode": "SMG_HoundHotel",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_houndhotel_icon_square_600x600_en.jpg",
+            "cnName": "酷犬酒店"
+        },
+        {
+            "GameName": "Huangdi - The Yellow Emperor",
+            "GameCode": "SMG_huangdiTheYellowEmperor",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_huangditheyellowemperor_icon_square_600x600_en.jpg",
+            "cnName": "轩辕帝传"
+        },
+        {
+            "GameName": "Hyper Gold",
+            "GameCode": "SMG_hyperGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_hypergold_icon_square_600x600_en.jpg",
+            "cnName": "超猎黄金"
+        },
+        {
+            "GameName": "Hyper Strike™",
+            "GameCode": "SMG_hyperStrike",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_hyperstrike_icon_square_600x600_en.jpg",
+            "cnName": "究极闪电"
+        },
+        {
+            "GameName": "Immortal Romance",
+            "GameCode": "SMG_immortalRomance",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_immortalromance_icon_square_600x600_en.jpg",
+            "cnName": "不朽情缘"
+        },
+        {
+            "GameName": "Immortal Romance v90",
+            "GameCode": "SMG_ImmortalRomancev90",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_immortalromancev90_icon_square_600x600_en.jpg",
+            "cnName": "不朽情缘 v90"
+        },
+        {
+            "GameName": "Incan Adventure",
+            "GameCode": "SMG_incanAdventure",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_incanadventure_icon_square_600x600_en.jpg",
+            "cnName": "挖到宝"
+        },
+        {
+            "GameName": "Ingots of Cai Shen",
+            "GameCode": "SMG_ingotsOfCaiShen",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ingotsofcaishen_icon_square_600x600_en.jpg",
+            "cnName": "财神 元宝"
+        },
+        {
+            "GameName": "Isis",
+            "GameCode": "SMG_isis",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_isis_icon_square_600x600_en.jpg",
+            "cnName": "伊希斯"
+        },
+        {
+            "GameName": "Jacks or Better",
+            "GameCode": "SMG_jacksOrBetter",
+            "GameType": "Video Pokers",
+            "ImageIcon": "/media/egames/microgaming/smg_jacksorbetter_icon_square_600x600_en.jpg",
+            "cnName": "对J高手5PK"
+        },
+        {
+            "GameName": "Joker Poker",
+            "GameCode": "SMG_Jokerpok",
+            "GameType": "Video Pokers",
+            "ImageIcon": "/media/egames/microgaming/smg_jokerpok_icon_square_600x600_en.jpg",
+            "cnName": "小丑扑克"
+        },
+        {
+            "GameName": "Joyful Joker Megaways",
+            "GameCode": "SMG_joyfulJoker",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_joyfuljoker_icon_square_600x600_en.jpg",
+            "cnName": "欢乐小丑 Megaways"
+        },
+        {
+            "GameName": "Jungle Jim - El Dorado",
+            "GameCode": "SMG_jungleJimElDorado",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_junglejimeldorado_icon_square_600x600_en.jpg",
+            "cnName": "丛林吉姆黄金国​"
+        },
+        {
+            "GameName": "Jungle Jim and the Lost Sphinx",
+            "GameCode": "SMG_jungleJimAndTheLostSphinx",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_junglejimandthelostsphinx_icon_square_600x600_en.jpg",
+            "cnName": "丛林吉姆失落的狮身人面像"
+        },
+        {
+            "GameName": "Jurassic World",
+            "GameCode": "SMG_jurassicWorld",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_jurassicworld_icon_square_600x600_en.jpg",
+            "cnName": "侏罗纪世界"
+        },
+        {
+            "GameName": "Jurassic World Raptor Riches",
+            "GameCode": "SMG_jurassicWorldRaptorRiches",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_jurassicworldraptorriches_icon_square_600x600_en.jpg",
+            "cnName": "Jurassic World 迅猛龙送财"
+        },
+        {
+            "GameName": "Karaoke Party",
+            "GameCode": "SMG_karaokeParty",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_karaokeparty_icon_square_600x600_en.jpg",
+            "cnName": " K歌乐韵"
+        },
+        {
+            "GameName": "Kathmandu",
+            "GameCode": "SMG_kathmandu",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_kathmandu_icon_square_600x600_en.jpg",
+            "cnName": "加德满都"
+        },
+        {
+            "GameName": "King Tusk",
+            "GameCode": "SMG_kingTusk",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_kingtusk_icon_square_600x600_en.jpg",
+            "cnName": "大象之王"
+        },
+        {
+            "GameName": "Kings Of Cash",
+            "GameCode": "SMG_kingsOfCash",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_kingsofcash_icon_square_600x600_en.jpg",
+            "cnName": "现金之王"
+        },
+        {
+            "GameName": "Kitty Cabana",
+            "GameCode": "SMG_KittyCabana",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_kittycabana_icon_square_600x600_en.jpg",
+            "cnName": "凯蒂卡巴拉"
+        },
+        {
+            "GameName": "Ladies Nite",
+            "GameCode": "SMG_ladiesNite",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ladiesnite_icon_square_600x600_en.jpg",
+            "cnName": "淑女派对"
+        },
+        {
+            "GameName": "Ladies Nite 2 Turn Wild",
+            "GameCode": "SMG_ladiesNite2TurnWild",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ladiesnite2turnwild_icon_square_600x600_en.jpg",
+            "cnName": "淑女之夜2 狂野变身"
+        },
+        {
+            "GameName": "Ladies Nite v90",
+            "GameCode": "SMG_LadiesNiteV90",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ladiesnitev90_icon_square_600x600_en.jpg",
+            "cnName": "淑女派对 V90"
+        },
+        {
+            "GameName": "Lady In Red",
+            "GameCode": "SMG_ladyInRed",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ladyinred_icon_square_600x600_en.jpg",
+            "cnName": "红衣女郎"
+        },
+        {
+            "GameName": "Lara Croft: Temples and Tombs",
+            "GameCode": "SMG_laraCroftTemplesAndTombs",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_laracrofttemplesandtombs_icon_square_600x600_en.jpg",
+            "cnName": "萝拉卡芙特之神庙古墓"
+        },
+        {
+            "GameName": "Legacy of Oz ™",
+            "GameCode": "SMG_legacyOfOz",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_legacyofoz_icon_square_600x600_en.jpg",
+            "cnName": "奥兹Oz传奇"
+        },
+        {
+            "GameName": "Legend of the Moon Lovers",
+            "GameCode": "SMG_LegendOftheMoonLovers",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_legendofthemoonlovers_icon_square_600x600_en.jpg",
+            "cnName": "奔月传说"
+        },
+        {
+            "GameName": "Life Of Riches",
+            "GameCode": "SMG_lifeOfRiches",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_lifeofriches_icon_square_600x600_en.jpg",
+            "cnName": "富裕人生"
+        },
+        {
+            "GameName": "Lion's Pride",
+            "GameCode": "SMG_lionsPride",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_lionspride_icon_square_600x600_en.jpg",
+            "cnName": "雄狮昂扬"
+        },
+        {
+            "GameName": "Liquid Gold",
+            "GameCode": "SMG_liquidGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_liquidgold_icon_square_600x600_en.jpg",
+            "cnName": "液态黄金"
+        },
+        {
+            "GameName": "Loaded",
+            "GameCode": "SMG_loaded",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_loaded_icon_square_600x600_en.jpg",
+            "cnName": "腰缠万贯"
+        },
+        {
+            "GameName": "Long Mu Fortunes",
+            "GameCode": "SMG_longMuFortunes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_longmufortunes_icon_square_600x600_en.jpg",
+            "cnName": "龙母财富"
+        },
+        {
+            "GameName": "Lost Vegas",
+            "GameCode": "SMG_lostVegas",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_lostvegas_icon_square_600x600_en.jpg",
+            "cnName": "迷失拉斯维加斯"
+        },
+        {
+            "GameName": "Lucha Legends",
+            "GameCode": "SMG_luchaLegends",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luchalegends_icon_square_600x600_en.jpg",
+            "cnName": "摔角传奇"
+        },
+        {
+            "GameName": "Lucky Bachelors",
+            "GameCode": "SMG_luckyBachelors",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckybachelors_icon_square_600x600_en.jpg",
+            "cnName": "幸运单身族"
+        },
+        {
+            "GameName": "Lucky Clucks",
+            "GameCode": "SMG_luckyClucks",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckyclucks_icon_square_600x600_en.jpg",
+            "cnName": "幸运鸡™"
+        },
+        {
+            "GameName": "Lucky Firecracker",
+            "GameCode": "SMG_luckyfirecracker",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckyfirecracker_icon_square_600x600_en.jpg",
+            "cnName": "招财鞭炮"
+        },
+        {
+            "GameName": "Lucky Koi",
+            "GameCode": "SMG_luckyKoi",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckykoi_icon_square_600x600_en.jpg",
+            "cnName": "幸运锦鲤"
+        },
+        {
+            "GameName": "Lucky Leprechaun",
+            "GameCode": "SMG_luckyLeprechaun",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckyleprechaun_icon_square_600x600_en.jpg",
+            "cnName": "幸运矮妖精"
+        },
+        {
+            "GameName": "Lucky Little Gods",
+            "GameCode": "SMG_luckyLittleGods",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckylittlegods_icon_square_600x600_en.jpg",
+            "cnName": "宝贝财神"
+        },
+        {
+            "GameName": "Lucky Riches Hyperspins",
+            "GameCode": "SMG_luckyRichesHyperspins",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckyricheshyperspins_icon_square_600x600_en.jpg",
+            "cnName": "幸运富豪 Hyperspins"
+        },
+        {
+            "GameName": "Lucky Twins",
+            "GameCode": "SMG_luckyTwins",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckytwins_icon_square_600x600_en.jpg",
+            "cnName": "幸运双星"
+        },
+        {
+            "GameName": "Lucky Twins Catcher",
+            "GameCode": "SMG_luckyTwinsCatcher",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_luckytwinscatcher_icon_square_600x600_en.jpg",
+            "cnName": "幸运双星 接财神"
+        },
+        {
+            "GameName": "Lucky Twins Jackpot",
+            "GameCode": "SMG_luckyTwinsJackpot",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckytwinsjackpot_icon_square_600x600_en.jpg",
+            "cnName": "幸运双星大奖"
+        },
+        {
+            "GameName": "Lucky Twins Wilds",
+            "GameCode": "SMG_luckyTwinsWilds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckytwinswilds_icon_square_600x600_en.jpg",
+            "cnName": "幸运双星百搭"
+        },
+        {
+            "GameName": "Lucky Zodiac",
+            "GameCode": "SMG_luckyZodiac",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_luckyzodiac_icon_square_600x600_en.jpg",
+            "cnName": "幸运生肖"
+        },
+        {
+            "GameName": "Mad Hatters",
+            "GameCode": "SMG_madHatters",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_madhatters_icon_square_600x600_en.jpg",
+            "cnName": "疯狂帽匠"
+        },
+        {
+            "GameName": "Magic of Sahara",
+            "GameCode": "SMG_magicOfSahara",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_magicofsahara_icon_square_600x600_en.jpg",
+            "cnName": "魔力撒哈拉"
+        },
+        {
+            "GameName": "Maui Mischief",
+            "GameCode": "SMG_mauiMischief",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_mauimischief_icon_square_600x600_en.jpg",
+            "cnName": "毛伊大乱斗"
+        },
+        {
+            "GameName": "Max Damage and the Alien Attack",
+            "GameCode": "SMG_maxDamageArcade",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_maxdamagearcade_icon_square_600x600_en.jpg",
+            "cnName": "终结侵略者"
+        },
+        {
+            "GameName": "Mayan Princess",
+            "GameCode": "SMG_mayanPrincess",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_mayanprincess_icon_square_600x600_en.jpg",
+            "cnName": "玛雅公主"
+        },
+        {
+            "GameName": "Mega Money Multiplier",
+            "GameCode": "SMG_megaMoneyMultiplier",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_megamoneymultiplier_icon_square_600x600_en.jpg",
+            "cnName": "巨额现金乘数"
+        },
+        {
+            "GameName": "Mega Money Rush",
+            "GameCode": "SMG_megaMoneyRush",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_megamoneyrush_icon_square_600x600_en.jpg",
+            "cnName": "巨款大冲击"
+        },
+        {
+            "GameName": "Mermaids Millions",
+            "GameCode": "SMG_mermaidsMillions",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_mermaidsmillions_icon_square_600x600_en.jpg",
+            "cnName": "百万人鱼"
+        },
+        {
+            "GameName": "Moby Dick",
+            "GameCode": "SMG_mobyDickOnlineSlot",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_mobydickonlineslot_icon_square_600x600_en.jpg",
+            "cnName": "大白鲸"
+        },
+        {
+            "GameName": "Monster Blast",
+            "GameCode": "SMG_monsterBlast",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_monsterblast_icon_square_600x600_en.jpg",
+            "cnName": "怪物爆炸"
+        },
+        {
+            "GameName": "Monster Wheels",
+            "GameCode": "SMG_monsterWheels",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_monsterwheels_icon_square_600x600_en.jpg",
+            "cnName": "怪物赛车"
+        },
+        {
+            "GameName": "Munchkins",
+            "GameCode": "SMG_munchkins",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_munchkins_icon_square_600x600_en.jpg",
+            "cnName": "小小矮人"
+        },
+        {
+            "GameName": "Mystic Dreams",
+            "GameCode": "SMG_mysticDreams",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_mysticdreams_icon_square_600x600_en.jpg",
+            "cnName": "神秘的梦"
+        },
+        {
+            "GameName": "Neptune's Riches: Ocean of Wilds",
+            "GameCode": "SMG_neptunesRichesOceanOfWilds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_neptunesrichesoceanofwilds_icon_square_600x600_en.jpg",
+            "cnName": "海王星宝藏狂野之海"
+        },
+        {
+            "GameName": "Noble Sky",
+            "GameCode": "SMG_nobleSky",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_noblesky_icon_square_600x600_en.jpg",
+            "cnName": "宏伟苍穹"
+        },
+        {
+            "GameName": "Odin's Riches",
+            "GameCode": "SMG_odinsRiches",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_odinsriches_icon_square_600x600_en.jpg",
+            "cnName": "奥丁的财宝"
+        },
+        {
+            "GameName": "Oink Country Love",
+            "GameCode": "SMG_oinkCountryLove",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_oinkcountrylove_icon_square_600x600_en.jpg",
+            "cnName": "呼噜噜爱上乡下 "
+        },
+        {
+            "GameName": "Oni Hunter",
+            "GameCode": "SMG_oniHunter",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_onihunter_icon_square_600x600_en.jpg",
+            "cnName": "鬼狩"
+        },
+        {
+            "GameName": "Oni Hunter Plus",
+            "GameCode": "SMG_oniHunterPlus",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_onihunterplus_icon_square_600x600_en.jpg",
+            "cnName": "鬼狩加強版"
+        },
+        {
+            "GameName": "Our Days",
+            "GameCode": "SMG_ourDaysA",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_ourdaysa_icon_square_600x600_en.jpg",
+            "cnName": "有你的校园"
+        },
+        {
+            "GameName": "Party Island",
+            "GameCode": "SMG_partyIsland",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_partyisland_icon_square_600x600_en.jpg",
+            "cnName": "派对岛屿"
+        },
+        {
+            "GameName": "Peek-a-Boo - 5 Reel",
+            "GameCode": "SMG_peekABoo5Reel",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_peekaboo5reel_icon_square_600x600_en.jpg",
+            "cnName": "躲猫猫"
+        },
+        {
+            "GameName": "Pets Go Wild",
+            "GameCode": "SMG_petsGoWild",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_petsgowild_icon_square_600x600_en.jpg",
+            "cnName": "狂野宠物"
+        },
+        {
+            "GameName": "Pistoleras",
+            "GameCode": "SMG_pistoleras",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_pistoleras_icon_square_600x600_en.jpg",
+            "cnName": "持枪王者"
+        },
+        {
+            "GameName": "Playboy",
+            "GameCode": "SMG_playboy",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_playboy_icon_square_600x600_en.jpg",
+            "cnName": "花花公子"
+        },
+        {
+            "GameName": "Playboy Fortunes",
+            "GameCode": "SMG_playboyFortunes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_playboyfortunes_icon_square_600x600_en.jpg",
+            "cnName": "PLAYBOY® 财富™"
+        },
+        {
+            "GameName": "Playboy Gold",
+            "GameCode": "SMG_playboyGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_playboygold_icon_square_600x600_en.jpg",
+            "cnName": "Playboy 黄金"
+        },
+        {
+            "GameName": "Playboy Gold Jackpots",
+            "GameCode": "SMG_playboyGoldJackpots",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_playboygoldjackpots_icon_square_600x600_en.jpg",
+            "cnName": "Playboy黄金大奖"
+        },
+        {
+            "GameName": "Poke The Guy",
+            "GameCode": "SMG_pokeTheGuy",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_poketheguy_icon_square_600x600_en.jpg",
+            "cnName": "进击的猿人"
+        },
+        {
+            "GameName": "Pollen Party",
+            "GameCode": "SMG_pollenParty",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_pollenparty_icon_square_600x600_en.jpg",
+            "cnName": "花粉之国"
+        },
+        {
+            "GameName": "Pretty Kitty",
+            "GameCode": "SMG_prettyKitty",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_prettykitty_icon_square_600x600_en.jpg",
+            "cnName": "漂亮猫咪"
+        },
+        {
+            "GameName": "Pure Platinum",
+            "GameCode": "SMG_purePlatinum",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_pureplatinum_icon_square_600x600_en.jpg",
+            "cnName": "完美白金"
+        },
+        {
+            "GameName": "Queen of Alexandria™",
+            "GameCode": "SMG_queenofAlexandria",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_queenofalexandria_icon_square_600x600_en.jpg",
+            "cnName": "亚历山大女王"
+        },
+        {
+            "GameName": "Queen of the Crystal Rays",
+            "GameCode": "SMG_queenOfTheCrystalRays",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_queenofthecrystalrays_icon_square_600x600_en.jpg",
+            "cnName": "水晶射线女王"
+        },
+        {
+            "GameName": "Rabbit In The Hat",
+            "GameCode": "SMG_rabbitinthehat",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_rabbitinthehat_icon_square_600x600_en.jpg",
+            "cnName": "帽中的兔子"
+        },
+        {
+            "GameName": "Reel Gems",
+            "GameCode": "SMG_reelGems",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_reelgems_icon_square_600x600_en.jpg",
+            "cnName": "宝石转轴"
+        },
+        {
+            "GameName": "Reel Gems Deluxe",
+            "GameCode": "SMG_reelGemsDeluxe",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_reelgemsdeluxe_icon_square_600x600_en.jpg",
+            "cnName": "宝石转轴 豪华版"
+        },
+        {
+            "GameName": "Reel Spinner",
+            "GameCode": "SMG_reelSpinner",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_reelspinner_icon_square_600x600_en.jpg",
+            "cnName": "旋转大战"
+        },
+        {
+            "GameName": "Reel Strike",
+            "GameCode": "SMG_reelStrike",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_reelstrike_icon_square_600x600_en.jpg",
+            "cnName": "海洋争夺"
+        },
+        {
+            "GameName": "Reel Talent",
+            "GameCode": "SMG_ReelTalent",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_reeltalent_icon_square_600x600_en.jpg",
+            "cnName": "真正高手"
+        },
+        {
+            "GameName": "Reel Thunder",
+            "GameCode": "SMG_reelThunder",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_reelthunder_icon_square_600x600_en.jpg",
+            "cnName": "转轴雷电"
+        },
+        {
+            "GameName": "Relic Seekers",
+            "GameCode": "SMG_relicSeekers",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_relicseekers_icon_square_600x600_en.jpg",
+            "cnName": "探陵人"
+        },
+        {
+            "GameName": "Retro Reels",
+            "GameCode": "SMG_retroReels",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_retroreels_icon_square_600x600_en.jpg",
+            "cnName": "经典老虎机"
+        },
+        {
+            "GameName": "Retro Reels - Diamond Glitz",
+            "GameCode": "SMG_retroReelsDiamondGlitz",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_retroreelsdiamondglitz_icon_square_600x600_en.jpg",
+            "cnName": "复古转轴之炫目钻石"
+        },
+        {
+            "GameName": "Retro Reels - Extreme Heat",
+            "GameCode": "SMG_retroReelsExtremeHeat",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_retroreelsextremeheat_icon_square_600x600_en.jpg",
+            "cnName": "酷热经典"
+        },
+        {
+            "GameName": "Rhyming Reels Georgie Porgie",
+            "GameCode": "SMG_rhymingReelsGeorgiePorgie",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_rhymingreelsgeorgieporgie_icon_square_600x600_en.jpg",
+            "cnName": "乔治与柏志"
+        },
+        {
+            "GameName": "Rhyming Reels Hearts And Tarts",
+            "GameCode": "SMG_rhymingReelsHeartsAndTarts",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_rhymingreelsheartsandtarts_icon_square_600x600_en.jpg",
+            "cnName": "童话转轴 红心皇后"
+        },
+        {
+            "GameName": "Riviera Riches",
+            "GameCode": "SMG_rivieraRiches",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_rivierariches_icon_square_600x600_en.jpg",
+            "cnName": "瑞维拉财宝"
+        },
+        {
+            "GameName": "Romanov Riches",
+            "GameCode": "SMG_romanovRiches",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_romanovriches_icon_square_600x600_en.jpg",
+            "cnName": "罗曼诺夫财富"
+        },
+        {
+            "GameName": "Rugby Star",
+            "GameCode": "SMG_rugbyStar",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_rugbystar_icon_square_600x600_en.jpg",
+            "cnName": "橄榄球明星"
+        },
+        {
+            "GameName": "Rugby Star Deluxe",
+            "GameCode": "SMG_rugbyStarDeluxe",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_rugbystardeluxe_icon_square_600x600_en.jpg",
+            "cnName": "橄榄球明星豪华版"
+        },
+        {
+            "GameName": "Santa Paws",
+            "GameCode": "SMG_santaPaws",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_santapaws_icon_square_600x600_en.jpg",
+            "cnName": "圣诞狗狗"
+        },
+        {
+            "GameName": "Santa's Wild Ride",
+            "GameCode": "SMG_santasWildRide",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_santaswildride_icon_square_600x600_en.jpg",
+            "cnName": "圣诞老人的百搭摩托车"
+        },
+        {
+            "GameName": "Scrooge",
+            "GameCode": "SMG_scrooge",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_scrooge_icon_square_600x600_en.jpg",
+            "cnName": "小气财神"
+        },
+        {
+            "GameName": "Secret Admirer",
+            "GameCode": "SMG_secretAdmirer",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_secretadmirer_icon_square_600x600_en.jpg",
+            "cnName": "暗恋"
+        },
+        {
+            "GameName": "Secret Romance",
+            "GameCode": "SMG_secretRomance",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_secretromance_icon_square_600x600_en.jpg",
+            "cnName": "秘密爱慕者"
+        },
+        {
+            "GameName": "Serengeti Gold",
+            "GameCode": "SMG_serengetiGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_serengetigold_icon_square_600x600_en.jpg",
+            "cnName": "塞伦盖蒂黄金"
+        },
+        {
+            "GameName": "Shamrock Holmes Megaways™",
+            "GameCode": "SMG_shamrockHolmes",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_shamrockholmes_icon_square_600x600_en.jpg",
+            "cnName": "三叶草福尔摩斯 Megaways™"
+        },
+        {
+            "GameName": "Shanghai Beauty",
+            "GameCode": "SMG_shanghaiBeauty",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_shanghaibeauty_icon_square_600x600_en.jpg",
+            "cnName": "上海美女"
+        },
+        {
+            "GameName": "Sherlock Of London Online Slot",
+            "GameCode": "SMG_sherlockOfLondonOnlineSlot",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_sherlockoflondononlineslot_icon_square_600x600_en.jpg",
+            "cnName": "伦敦的夏洛克"
+        },
+        {
+            "GameName": "Shogun of Time",
+            "GameCode": "SMG_shogunofTime",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_shogunoftime_icon_square_600x600_en.jpg",
+            "cnName": "时界门之将军"
+        },
+        {
+            "GameName": "Showdown Saloon",
+            "GameCode": "SMG_showdownSaloon",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_showdownsaloon_icon_square_600x600_en.jpg",
+            "cnName": "对决沙龙"
+        },
+        {
+            "GameName": "Silver Fang",
+            "GameCode": "SMG_silverFang",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_silverfang_icon_square_600x600_en.jpg",
+            "cnName": "银狼"
+        },
+        {
+            "GameName": "Silver Lioness 4x",
+            "GameCode": "SMG_silverLioness4x",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_silverlioness4x_icon_square_600x600_en.jpg",
+            "cnName": "银色雌狮4x"
+        },
+        {
+            "GameName": "Silver Seas",
+            "GameCode": "SMG_silverSeas",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_silverseas_icon_square_600x600_en.jpg",
+            "cnName": "银色之海"
+        },
+        {
+            "GameName": "Silverback Multiplier Mountain",
+            "GameCode": "SMG_silverbackMultiplierMountain",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_silverbackmultipliermountain_icon_square_600x600_en.jpg",
+            "cnName": "银背乘数山"
+        },
+        {
+            "GameName": "Sisters of Oz: Jackpots",
+            "GameCode": "SMG_sistersofOzJackpots",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_sistersofozjackpots_icon_square_600x600_en.jpg",
+            "cnName": "Oz姐妹累积奖金"
+        },
+        {
+            "GameName": "Six Acrobats",
+            "GameCode": "SMG_sixAcrobats",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_sixacrobats_icon_square_600x600_en.jpg",
+            "cnName": "杂技群英会"
+        },
+        {
+            "GameName": "So Many Monsters",
+            "GameCode": "SMG_soManyMonsters",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_somanymonsters_icon_square_600x600_en.jpg",
+            "cnName": "多多怪兽"
+        },
+        {
+            "GameName": "So Much Candy",
+            "GameCode": "SMG_soMuchCandy",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_somuchcandy_icon_square_600x600_en.jpg",
+            "cnName": "多多糖果"
+        },
+        {
+            "GameName": "So Much Sushi",
+            "GameCode": "SMG_soMuchSushi",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_somuchsushi_icon_square_600x600_en.jpg",
+            "cnName": "多多寿司"
+        },
+        {
+            "GameName": "Soccer Striker",
+            "GameCode": "SMG_soccerStriker",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_soccerstriker_icon_square_600x600_en.jpg",
+            "cnName": "足球前锋"
+        },
+        {
+            "GameName": "Solar Wilds",
+            "GameCode": "SMG_solarWilds",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_solarwilds_icon_square_600x600_en.jpg",
+            "cnName": "太阳系百搭符号"
+        },
+        {
+            "GameName": "Spring Break",
+            "GameCode": "SMG_springBreak",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_springbreak_icon_square_600x600_en.jpg",
+            "cnName": "放浪假日"
+        },
+        {
+            "GameName": "Squealin' Riches",
+            "GameCode": "SMG_squealinRiches",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_squealinriches_icon_square_600x600_en.jpg",
+            "cnName": "喝彩的旺财"
+        },
+        {
+            "GameName": "Stardust",
+            "GameCode": "SMG_stardust",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_stardust_icon_square_600x600_en.jpg",
+            "cnName": "星尘"
+        },
+        {
+            "GameName": "Starlight Kiss",
+            "GameCode": "SMG_starlightKiss",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_starlightkiss_icon_square_600x600_en.jpg",
+            "cnName": "星光之吻"
+        },
+        {
+            "GameName": "Stash of the Titans",
+            "GameCode": "SMG_stashOfTheTitans",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_stashofthetitans_icon_square_600x600_en.jpg",
+            "cnName": "泰坦帝国"
+        },
+        {
+            "GameName": "Sterling Silver",
+            "GameCode": "SMG_sterlingSilver",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_sterlingsilver_icon_square_600x600_en.jpg",
+            "cnName": "纯银"
+        },
+        {
+            "GameName": "Sugar Parade",
+            "GameCode": "SMG_sugarParade",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_sugarparade_icon_square_600x600_en.jpg",
+            "cnName": "糖果巡游"
+        },
+        {
+            "GameName": "Summer Holiday",
+            "GameCode": "SMG_summerHoliday",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_summerholiday_icon_square_600x600_en.jpg",
+            "cnName": "暑假"
+        },
+        {
+            "GameName": "Summertime",
+            "GameCode": "SMG_summertime",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_summertime_icon_square_600x600_en.jpg",
+            "cnName": "暑假时光"
+        },
+        {
+            "GameName": "Sun Quest",
+            "GameCode": "SMG_sunQuest",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_sunquest_icon_square_600x600_en.jpg",
+            "cnName": "追寻太阳"
+        },
+        {
+            "GameName": "SunTide",
+            "GameCode": "SMG_sunTide",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_suntide_icon_square_600x600_en.jpg",
+            "cnName": "太阳征程​"
+        },
+        {
+            "GameName": "Supe It Up",
+            "GameCode": "SMG_supeItUp",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_supeitup_icon_square_600x600_en.jpg",
+            "cnName": "增强马力"
+        },
+        {
+            "GameName": "Sure Win",
+            "GameCode": "SMG_sureWin",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_surewin_icon_square_600x600_en.jpg",
+            "cnName": "必胜"
+        },
+        {
+            "GameName": "Tally Ho",
+            "GameCode": "SMG_tallyHo",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_tallyho_icon_square_600x600_en.jpg",
+            "cnName": "狩猎游戏"
+        },
+        {
+            "GameName": "Tarzan",
+            "GameCode": "SMG_tarzan",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_tarzan_icon_square_600x600_en.jpg",
+            "cnName": "泰山传奇"
+        },
+        {
+            "GameName": "TARZAN® and the Jewels of Opar",
+            "GameCode": "SMG_tarzanAndtheJewelsofOpar",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_tarzanandthejewelsofopar_icon_square_600x600_en.jpg",
+            "cnName": "Tarzan® 和欧巴珠宝"
+        },
+        {
+            "GameName": "Tasty Street",
+            "GameCode": "SMG_tastyStreet",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_tastystreet_icon_square_600x600_en.jpg",
+            "cnName": "妹妹很饿"
+        },
+        {
+            "GameName": "The Finer Reels of Life",
+            "GameCode": "SMG_theFinerReelsOfLife",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_thefinerreelsoflife_icon_square_600x600_en.jpg",
+            "cnName": "至尊人生"
+        },
+        {
+            "GameName": "The Grand Journey",
+            "GameCode": "SMG_theGrandJourney",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_thegrandjourney_icon_square_600x600_en.jpg",
+            "cnName": "探险之旅"
+        },
+        {
+            "GameName": "The Great Albini",
+            "GameCode": "SMG_theGreatAlbini",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_thegreatalbini_icon_square_600x600_en.jpg",
+            "cnName": "伟大魔术师"
+        },
+        {
+            "GameName": "The Heat Is On",
+            "GameCode": "SMG_theHeatIsOn",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_theheatison_icon_square_600x600_en.jpg",
+            "cnName": "极速抢钱"
+        },
+        {
+            "GameName": "The Incredible Balloon Machine",
+            "GameCode": "SMG_theIncredibleBalloonMachine",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_theincredibleballoonmachine_icon_square_600x600_en.jpg",
+            "cnName": "不可思议的气球机"
+        },
+        {
+            "GameName": "The Phantom of the Opera",
+            "GameCode": "SMG_thePhantomOfTheOpera",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_thephantomoftheopera_icon_square_600x600_en.jpg",
+            "cnName": "歌剧魅影"
+        },
+        {
+            "GameName": "The Rat Pack",
+            "GameCode": "SMG_theRatPack",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_theratpack_icon_square_600x600_en.jpg",
+            "cnName": "鼠帮"
+        },
+        {
+            "GameName": "The Twisted Circus",
+            "GameCode": "SMG_theTwistedCircus",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_thetwistedcircus_icon_square_600x600_en.jpg",
+            "cnName": "奇妙马戏团"
+        },
+        {
+            "GameName": "Thunderstruck",
+            "GameCode": "SMG_thunderstruck",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_thunderstruck_icon_square_600x600_en.jpg",
+            "cnName": "雷霆万钧"
+        },
+        {
+            "GameName": "ThunderStruck II",
+            "GameCode": "SMG_thunderstruck2",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_thunderstruck2_icon_square_600x600_en.jpg",
+            "cnName": "雷霆万钧2"
+        },
+        {
+            "GameName": "Thunderstruck Wild Lightning",
+            "GameCode": "SMG_thunderstruckWildLightning",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_thunderstruckwildlightning_icon_square_600x600_en.jpg",
+            "cnName": "雷霆万钧之百搭闪电"
+        },
+        {
+            "GameName": "Tiger's Eye",
+            "GameCode": "SMG_tigersEye",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_tigerseye_icon_square_600x600_en.jpg",
+            "cnName": "虎眼"
+        },
+        {
+            "GameName": "Tiki Reward",
+            "GameCode": "SMG_tikiReward",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_tikireward_icon_square_600x600_en.jpg",
+            "cnName": "提基奖励"
+        },
+        {
+            "GameName": "Tiki Vikings",
+            "GameCode": "SMG_tikiVikings",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_tikivikings_icon_square_600x600_en.jpg",
+            "cnName": "蒂基维京"
+        },
+        {
+            "GameName": "Titans of the Sun - Hyperion",
+            "GameCode": "SMG_titansOfTheSunHyperion",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_titansofthesunhyperion_icon_square_600x600_en.jpg",
+            "cnName": "太阳神之许珀里翁"
+        },
+        {
+            "GameName": "Titans of the Sun - Theia",
+            "GameCode": "SMG_titansOfTheSunTheia",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_titansofthesuntheia_icon_square_600x600_en.jpg",
+            "cnName": "太阳神之忒伊亚"
+        },
+        {
+            "GameName": "Tomb Raider",
+            "GameCode": "SMG_tombRaider",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_tombraider_icon_square_600x600_en.jpg",
+            "cnName": "古墓奇兵"
+        },
+        {
+            "GameName": "Tomb Raider Secret of the Sword",
+            "GameCode": "SMG_RubyTombRaiderII",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_rubytombraiderii_icon_square_600x600_en.jpg",
+            "cnName": "古墓丽影 剑的秘密"
+        },
+        {
+            "GameName": "Treasure Dash",
+            "GameCode": "SMG_treasureDash",
+            "GameType": "Arcade",
+            "ImageIcon": "/media/egames/microgaming/smg_treasuredash_icon_square_600x600_en.jpg",
+            "cnName": "逃宝街机游戏"
+        },
+        {
+            "GameName": "Treasure Palace",
+            "GameCode": "SMG_treasurePalace",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_treasurepalace_icon_square_600x600_en.jpg",
+            "cnName": "财宝宫殿"
+        },
+        {
+            "GameName": "Treasures of Lion City",
+            "GameCode": "SMG_treasuresOfLionCity",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_treasuresoflioncity_icon_square_600x600_en.jpg",
+            "cnName": "海底宝城"
+        },
+        {
+            "GameName": "Untamed - Giant Panda",
+            "GameCode": "SMG_untamedGiantPanda",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_untamedgiantpanda_icon_square_600x600_en.jpg",
+            "cnName": "野生大熊猫"
+        },
+        {
+            "GameName": "Village People Macho Moves",
+            "GameCode": "SMG_villagePeople",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_villagepeople_icon_square_600x600_en.jpg",
+            "cnName": "型男舞步"
+        },
+        {
+            "GameName": "Vinyl Countdown",
+            "GameCode": "SMG_vinylCountdown",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_vinylcountdown_icon_square_600x600_en.jpg",
+            "cnName": "黑胶热舞"
+        },
+        {
+            "GameName": "Voila!",
+            "GameCode": "SMG_voila",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_voila_icon_square_600x600_en.jpg",
+            "cnName": "哈啰巴黎"
+        },
+        {
+            "GameName": "Wacky Panda",
+            "GameCode": "SMG_wackyPanda",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_wackypanda_icon_square_600x600_en.jpg",
+            "cnName": "囧囧熊猫"
+        },
+        {
+            "GameName": "Wanted Outlaws",
+            "GameCode": "SMG_wantedOutlaws",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_wantedoutlaws_icon_square_600x600_en.jpg",
+            "cnName": "歹徒通缉令"
+        },
+        {
+            "GameName": "Western Gold",
+            "GameCode": "SMG_westernGold",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_westerngold_icon_square_600x600_en.jpg",
+            "cnName": "西域黄金"
+        },
+        {
+            "GameName": "What A Hoot",
+            "GameCode": "SMG_whatAHoot",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_whatahoot_icon_square_600x600_en.jpg",
+            "cnName": "滑稽猫头鹰"
+        },
+        {
+            "GameName": "Wicked Tales: Dark Red",
+            "GameCode": "SMG_wickedTalesDarkRed",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_wickedtalesdarkred_icon_square_600x600_en.jpg",
+            "cnName": "黑暗故事: 神秘深红"
+        },
+        {
+            "GameName": "Wild Catch (New)",
+            "GameCode": "SMG_wildCatchNew",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_wildcatchnew_icon_square_600x600_en.jpg",
+            "cnName": "荒野垂钓"
+        },
+        {
+            "GameName": "Wild Orient",
+            "GameCode": "SMG_wildOrient",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_wildorient_icon_square_600x600_en.jpg",
+            "cnName": "东方珍兽"
+        },
+        {
+            "GameName": "Wild Scarabs",
+            "GameCode": "SMG_wildScarabs",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_wildscarabs_icon_square_600x600_en.jpg",
+            "cnName": "百搭圣甲虫"
+        },
+        {
+            "GameName": "Win Sum Dim Sum",
+            "GameCode": "SMG_winSumDimSum",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_winsumdimsum_icon_square_600x600_en.jpg",
+            "cnName": "开心点心"
+        },
+        {
+            "GameName": "WWE Legends: Link & Win",
+            "GameCode": "SMG_wweLegendsLinkWin",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_wwelegendslinkwin_icon_square_600x600_en.jpg",
+            "cnName": "WWE摔角传奇"
+        },
+        {
+            "GameName": "Zombie Hoard",
+            "GameCode": "SMG_zombieHoard",
+            "GameType": "Slots",
+            "ImageIcon": "/media/egames/microgaming/smg_zombiehoard_icon_square_600x600_en.jpg",
+            "cnName": "丧尸来袭"
+        }
+]

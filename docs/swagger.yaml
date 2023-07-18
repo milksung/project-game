@@ -1,0 +1,4990 @@
+definitions:
+  handler.ErrorResponse:
+    properties:
+      message: {}
+    type: object
+  main.ping:
+    properties:
+      message:
+        example: pong
+        type: string
+    type: object
+  model.AdminBody:
+    properties:
+      adminGroupId:
+        type: integer
+      email:
+        type: string
+      fullname:
+        maxLength: 30
+        minLength: 5
+        type: string
+      status:
+        default: ACTIVE
+        type: string
+    required:
+    - email
+    - fullname
+    - status
+    type: object
+  model.AdminUpdateGroup:
+    properties:
+      name:
+        description: GroupId     int64           `json:"groupId" validate:"required"`
+        type: string
+      permissionIds:
+        items:
+          type: integer
+        type: array
+    required:
+    - name
+    - permissionIds
+    type: object
+  model.AdminUpdatePassword:
+    properties:
+      password:
+        maxLength: 30
+        minLength: 8
+        type: string
+    required:
+    - password
+    type: object
+  model.BankAccountCreateBody:
+    properties:
+      accounTypeId:
+        type: integer
+      accountName:
+        type: string
+      accountNumber:
+        type: string
+      accountPriorityId:
+        type: integer
+      accountStatus:
+        type: string
+      autoCreditFlag:
+        type: string
+      autoTransferMaxAmount:
+        type: string
+      autoWithdrawConfirmFlag:
+        type: string
+      autoWithdrawCreditFlag:
+        type: string
+      autoWithdrawFlag:
+        type: string
+      autoWithdrawMaxAmount:
+        type: string
+      bankId:
+        type: integer
+      deviceUid:
+        type: string
+      isMainWithdraw:
+        type: boolean
+      pinCode:
+        type: string
+      qrWalletStatus:
+        type: string
+    required:
+    - accounTypeId
+    - accountName
+    - accountNumber
+    - bankId
+    type: object
+  model.BankAccountTransactionBody:
+    properties:
+      accountId:
+        type: integer
+      amount:
+        type: number
+      description:
+        type: string
+      transferAt:
+        type: string
+      transferType:
+        type: string
+    required:
+    - accountId
+    - amount
+    - transferAt
+    - transferType
+    type: object
+  model.BankAccountTransferBody:
+    properties:
+      amount:
+        type: number
+      fromAccountId:
+        type: integer
+      toAccountId:
+        type: integer
+      transferAt:
+        type: string
+    required:
+    - amount
+    - fromAccountId
+    - toAccountId
+    - transferAt
+    type: object
+  model.BankAccountUpdateRequest:
+    properties:
+      accounTypeId:
+        type: integer
+      accountPriorityId:
+        type: integer
+      accountStatus:
+        type: string
+      autoCreditFlag:
+        type: string
+      autoTransferMaxAmount:
+        type: string
+      autoWithdrawConfirmFlag:
+        type: string
+      autoWithdrawCreditFlag:
+        type: string
+      autoWithdrawFlag:
+        type: string
+      autoWithdrawMaxAmount:
+        type: string
+      deviceUid:
+        type: string
+      isMainWithdraw:
+        type: boolean
+      pinCode:
+        type: string
+      qrWalletStatus:
+        type: string
+    type: object
+  model.BankConfirmCreditWithdrawRequest:
+    properties:
+      bankChargeAmount:
+        type: number
+      creditAmount:
+        type: number
+      fromAccountId:
+        type: integer
+    type: object
+  model.BankConfirmDepositRequest:
+    properties:
+      bonusAmount:
+        type: number
+      slipUrl:
+        type: string
+      transferAt:
+        type: string
+    type: object
+  model.BankConfirmTransferWithdrawRequest:
+    properties:
+      bankChargeAmount:
+        type: number
+      fromAccountId:
+        type: integer
+    type: object
+  model.BankStatementCreateBody:
+    properties:
+      accountId:
+        type: integer
+      amount:
+        type: number
+      detail:
+        type: string
+      externalId:
+        type: integer
+      fromAccountNumber:
+        type: string
+      fromBankId:
+        type: integer
+      id:
+        type: integer
+      statementType:
+        type: string
+      transferAt:
+        type: string
+    type: object
+  model.BankStatementMatchRequest:
+    properties:
+      userId:
+        type: integer
+    required:
+    - userId
+    type: object
+  model.BankTransactionCancelBody:
+    properties:
+      cancelRemark:
+        type: string
+    required:
+    - cancelRemark
+    type: object
+  model.BankTransactionCreateBody:
+    properties:
+      bonusAmount:
+        type: number
+      creditAmount:
+        type: number
+      depositChannel:
+        type: string
+      fromAccountId:
+        type: integer
+      isAutoCredit:
+        type: boolean
+      memberCode:
+        type: string
+      overAmount:
+        type: number
+      promotionId:
+        type: integer
+      toAccountId:
+        type: integer
+      transferAt:
+        example: "2023-05-31T22:33:44+07:00"
+        type: string
+      transferType:
+        example: deposit
+        type: string
+    required:
+    - creditAmount
+    - memberCode
+    - transferType
+    type: object
+  model.BankTransactionUpdateRequest:
+    properties:
+      isAutoCredit:
+        type: boolean
+    type: object
+  model.BonusTransactionCreateBody:
+    properties:
+      bonusAmount:
+        type: number
+      bonusReason:
+        type: string
+      memberCode:
+        type: string
+      transferAt:
+        example: "2023-05-31T22:33:44+07:00"
+        type: string
+    required:
+    - bonusAmount
+    - memberCode
+    - transferAt
+    type: object
+  model.BotAccountConfigCreateBody:
+    properties:
+      configKey:
+        type: string
+      configVal:
+        type: string
+    type: object
+  model.ConfirmRequest:
+    properties:
+      password:
+        type: string
+    type: object
+  model.CreateAdmin:
+    properties:
+      adminGroupId:
+        type: integer
+      email:
+        type: string
+      fullname:
+        maxLength: 30
+        minLength: 5
+        type: string
+      password:
+        maxLength: 30
+        minLength: 8
+        type: string
+      phone:
+        maxLength: 12
+        minLength: 10
+        type: string
+      status:
+        default: ACTIVE
+        type: string
+      username:
+        maxLength: 30
+        minLength: 8
+        type: string
+    required:
+    - adminGroupId
+    - email
+    - fullname
+    - password
+    - phone
+    - status
+    - username
+    type: object
+  model.CreateGroup:
+    properties:
+      name:
+        type: string
+      permissionIds:
+        items:
+          type: integer
+        type: array
+    required:
+    - name
+    - permissionIds
+    type: object
+  model.CreatePermission:
+    properties:
+      permissions:
+        items:
+          $ref: '#/definitions/model.PermissionName'
+        type: array
+    required:
+    - permissions
+    type: object
+  model.CreateRecommend:
+    properties:
+      status:
+        enum:
+        - ACTIVE
+        - DEACTIVE
+        maxLength: 10
+        type: string
+      title:
+        maxLength: 255
+        type: string
+      url:
+        example: https://www.facebook.com/.../
+        maxLength: 255
+        type: string
+    required:
+    - status
+    - title
+    - url
+    type: object
+  model.CreateScammer:
+    properties:
+      bankAccount:
+        maxLength: 15
+        type: string
+      bankname:
+        maxLength: 50
+        type: string
+      fullname:
+        type: string
+      phone:
+        maxLength: 12
+        minLength: 10
+        type: string
+      reason:
+        maxLength: 255
+        type: string
+    required:
+    - phone
+    type: object
+  model.CreateUser:
+    properties:
+      bankAccount:
+        maxLength: 15
+        type: string
+      bankCode:
+        maxLength: 10
+        type: string
+      bankname:
+        maxLength: 50
+        type: string
+      channel:
+        example: Google
+        maxLength: 20
+        type: string
+      contact:
+        maxLength: 255
+        type: string
+      course:
+        maxLength: 50
+        type: string
+      fullname:
+        maxLength: 255
+        type: string
+      ipRegistered:
+        example: 1.1.1.1
+        maxLength: 20
+        type: string
+      memberCode:
+        maxLength: 255
+        type: string
+      note:
+        maxLength: 255
+        type: string
+      partner:
+        maxLength: 20
+        type: string
+      password:
+        maxLength: 255
+        minLength: 8
+        type: string
+      phone:
+        example: "0812345678"
+        maxLength: 12
+        minLength: 10
+        type: string
+      promotion:
+        maxLength: 20
+        type: string
+      trueWallet:
+        maxLength: 20
+        type: string
+    required:
+    - bankAccount
+    - bankCode
+    - bankname
+    - channel
+    - fullname
+    - ipRegistered
+    - password
+    - phone
+    - trueWallet
+    type: object
+  model.DeletePermission:
+    properties:
+      permissionIds:
+        items:
+          type: integer
+        type: array
+    required:
+    - permissionIds
+    type: object
+  model.ExternalAccountCreateBody:
+    properties:
+      accountNo:
+        type: string
+      bankCode:
+        type: string
+      deviceId:
+        type: string
+      password:
+        type: string
+      pin:
+        type: string
+      username:
+        type: string
+      webhookNotifyUrl:
+        type: string
+      webhookUrl:
+        type: string
+    type: object
+  model.ExternalAccountEnableRequest:
+    properties:
+      accountNo:
+        type: string
+      enable:
+        type: boolean
+    type: object
+  model.ExternalAccountTransferRequest:
+    properties:
+      accountNumber:
+        type: string
+      amount:
+        type: string
+      bankCode:
+        type: string
+      systemAccountId:
+        type: integer
+    required:
+    - accountNumber
+    - amount
+    - bankCode
+    - systemAccountId
+    type: object
+  model.LineNoifyCyberGameBody:
+    properties:
+      adminId:
+        type: integer
+      token:
+        type: string
+      type:
+        items:
+          type: integer
+        type: array
+      typenotifyId:
+        type: integer
+    required:
+    - adminId
+    - token
+    - type
+    type: object
+  model.LinenotifyCreateBody:
+    properties:
+      notifyId:
+        type: integer
+      startcredit:
+        type: number
+      status:
+        type: string
+      token:
+        type: string
+    required:
+    - notifyId
+    - token
+    type: object
+  model.LinenotifyUpdateBody:
+    properties:
+      notifyId:
+        type: integer
+      startcredit:
+        type: number
+      status:
+        type: string
+      token:
+        type: string
+    required:
+    - notifyId
+    - token
+    type: object
+  model.LoginAdmin:
+    properties:
+      ip:
+        type: string
+      password:
+        maxLength: 30
+        minLength: 8
+        type: string
+      username:
+        maxLength: 30
+        minLength: 8
+        type: string
+    required:
+    - password
+    - username
+    type: object
+  model.LoginResponse:
+    properties:
+      token:
+        type: string
+    type: object
+  model.MemberStatementCreateRequest:
+    properties:
+      amount:
+        type: number
+      userId:
+        type: integer
+    type: object
+  model.PermissionName:
+    properties:
+      isMain:
+        default: false
+        type: boolean
+      name:
+        type: string
+      permissionKey:
+        type: string
+    required:
+    - name
+    - permissionKey
+    type: object
+  model.RecheckWebhookRequest:
+    properties:
+      accountId:
+        type: integer
+      externalId:
+        type: integer
+      ofDateTime:
+        type: string
+    required:
+    - accountId
+    - externalId
+    - ofDateTime
+    type: object
+  model.SendOTP:
+    properties:
+      phone:
+        maxLength: 12
+        minLength: 10
+        type: string
+    required:
+    - phone
+    type: object
+  model.SettingwebCreateBody:
+    properties:
+      autowithdraw:
+        type: string
+      backgrondcolor:
+        type: string
+      depositFirst:
+        type: string
+      depositNext:
+        type: string
+      line:
+        type: string
+      logo:
+        type: string
+      opt:
+        type: string
+      otpRegister:
+        type: string
+      register:
+        type: string
+      tranWithdraw:
+        type: string
+      url:
+        type: string
+      userAuto:
+        type: string
+      withdraw:
+        type: string
+    required:
+    - autowithdraw
+    - backgrondcolor
+    - depositFirst
+    - depositNext
+    - line
+    - opt
+    - otpRegister
+    - register
+    - tranWithdraw
+    - url
+    - userAuto
+    - withdraw
+    type: object
+  model.Success:
+    properties:
+      message:
+        type: string
+    type: object
+  model.SuccessWithData:
+    properties:
+      data: {}
+      message:
+        type: string
+    type: object
+  model.SuccessWithList:
+    properties:
+      list: {}
+      message:
+        type: string
+    type: object
+  model.SuccessWithPagination:
+    properties:
+      list: {}
+      message:
+        maxLength: 255
+        minLength: 1
+        type: string
+      total:
+        type: integer
+    required:
+    - message
+    type: object
+  model.UpdateStatusCyberGame:
+    properties:
+      Status:
+        type: string
+    required:
+    - Status
+    type: object
+  model.UpdateStatusTypeCyberGame:
+    properties:
+      Status:
+        type: string
+    required:
+    - Status
+    type: object
+  model.UpdateUser:
+    properties:
+      bankAccount:
+        maxLength: 15
+        type: string
+      bankCode:
+        maxLength: 10
+        type: string
+      bankname:
+        maxLength: 50
+        type: string
+      channel:
+        example: Google
+        maxLength: 20
+        type: string
+      contact:
+        maxLength: 255
+        type: string
+      course:
+        maxLength: 50
+        type: string
+      ip:
+        example: 1.1.1.1
+        maxLength: 20
+        type: string
+      memberCode:
+        maxLength: 255
+        type: string
+      note:
+        maxLength: 255
+        type: string
+      partner:
+        maxLength: 20
+        type: string
+      promotion:
+        maxLength: 20
+        type: string
+      trueWallet:
+        maxLength: 20
+        type: string
+    type: object
+  model.UserUpdatePassword:
+    properties:
+      password:
+        maxLength: 30
+        minLength: 8
+        type: string
+    required:
+    - password
+    type: object
+  model.UserVerifyOTP:
+    properties:
+      code:
+        maxLength: 6
+        minLength: 6
+        type: string
+      phone:
+        maxLength: 12
+        minLength: 10
+        type: string
+    required:
+    - code
+    - phone
+    type: object
+info:
+  contact: {}
+  title: CyberGame API
+paths:
+  /accounting/accountbotstatuses/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก สถานะบอท
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: getAccountBotStatuses
+      tags:
+      - Accounting - Options
+  /accounting/accountpriorities/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก ลำดับความสำคัญบัญชีธนาคาร
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: getAccountPriorities
+      tags:
+      - Accounting - Options
+  /accounting/accountstatuses/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก สถานะบัญชีธนาคาร
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: getAccountStatuses
+      tags:
+      - Accounting - Options
+  /accounting/accounttypes/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก ประเภทบัญชีธนาคารทั้งหมด
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: getAccountTypes
+      tags:
+      - Accounting - Options
+  /accounting/autocreditflags/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก การตั้งค่าปรับเครดิตอัตโนมัติ
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: getAutoCreditFlags
+      tags:
+      - Accounting - Options
+  /accounting/autowithdrawflags/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก การตั้งค่าถอนโอนเงินอัตโนมัติ
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: getAutoWithdrawFlags
+      tags:
+      - Accounting - Options
+  /accounting/bankaccounts:
+    post:
+      consumes:
+      - application/json
+      description: สร้าง บัญชีธนาคาร ใหม่ ในหน้า จัดการธนาคาร
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankAccountCreateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateBankAccount
+      tags:
+      - Accounting - Bank Accounts
+  /accounting/bankaccounts/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: ลบข้อมูลบัญชีธนาคาร ด้วย id
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: DeleteBankAccount
+      tags:
+      - Accounting - Bank Accounts
+    patch:
+      consumes:
+      - application/json
+      description: แก้ไข บัญชีธนาคาร ในหน้า จัดการธนาคาร
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankAccountUpdateRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: UpdateBankAccount
+      tags:
+      - Accounting - Bank Accounts
+  /accounting/bankaccounts/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลบัญชีธนาคาร ด้วย id
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankAccountById
+      tags:
+      - Accounting - Bank Accounts
+  /accounting/bankaccounts/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสบัญชีธนาคาร ใช้แสดงในหน้า จัดการธนาคาร
+      parameters:
+      - in: query
+        name: accountNumber
+        type: string
+      - in: query
+        name: accountType
+        type: string
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+      - default: 1
+        in: query
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - in: query
+        name: sortAsc
+        type: string
+      - in: query
+        name: sortCol
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankAccountList
+      tags:
+      - Accounting - Bank Accounts
+  /accounting/bankaccounts2:
+    post:
+      consumes:
+      - application/json
+      description: สร้าง บัญชีธนาคารภายนอก ใหม่
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.ExternalAccountCreateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateExternalAccount
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/:
+    put:
+      consumes:
+      - application/json
+      description: อัพเดทข้อมูล บัญชีธนาคารบอท ด้วยเลขบัญชี
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.ExternalAccountCreateBody'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: UpdateExternalAccount
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/{account}:
+    delete:
+      consumes:
+      - application/json
+      description: ลบข้อมูล บัญชีธนาคารบอท ด้วยเลขบัญชี
+      parameters:
+      - description: accountNumber
+        in: path
+        name: account
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: DeleteExternalAccount
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/balance/{account}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูล บัญชีธนาคารบอท ด้วยเลขบัญชี
+      parameters:
+      - description: accountNumber
+        in: path
+        name: account
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetExternalAccountBalance
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/config:
+    post:
+      consumes:
+      - application/json
+      description: เพิ่ม การตั้งค่าบัญชีธนาคาร ใหม่
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BotAccountConfigCreateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateBotaccountConfig
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/customeraccount:
+    post:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลบัญชีธนาคารของลูกค้า เพื่อเช็คชื่อบัญชีธนาคาร
+      parameters:
+      - in: query
+        name: '-'
+        type: string
+      - in: query
+        name: accountTo
+        required: true
+        type: string
+      - in: query
+        name: bankCode
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetCustomerAccountsInfo เช็คชื่อบัญชีธนาคารลูกค้า
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสบัญชีธนาคาร บอท
+      parameters:
+      - in: query
+        name: accountNumber
+        type: string
+      - in: query
+        name: accountType
+        type: string
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+      - default: 1
+        in: query
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - in: query
+        name: sortAsc
+        type: string
+      - in: query
+        name: sortCol
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetExternalAccounts
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/logs:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูล Logs บัญชีธนาคารบอท
+      parameters:
+      - in: query
+        name: accountNumber
+        required: true
+        type: string
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+      - in: query
+        name: ofDateTime
+        type: string
+      - default: 1
+        in: query
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - in: query
+        name: sortAsc
+        type: string
+      - in: query
+        name: sortCol
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetExternalAccountLogs
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/settings:
+    get:
+      consumes:
+      - application/json
+      description: อัพเดทข้อมูล บัญชีธนาคารบอท ด้วยเลขบัญชี
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetExternalSettings
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/statements:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูล Statement บัญชีธนาคารบอท
+      parameters:
+      - in: query
+        name: accountNumber
+        required: true
+        type: string
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+      - in: query
+        name: ofDateTime
+        type: string
+      - default: 1
+        in: query
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - in: query
+        name: sortAsc
+        type: string
+      - in: query
+        name: sortCol
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetExternalAccountStatements
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/status:
+    put:
+      consumes:
+      - application/json
+      description: เปิด ปิด สถานะบัญชีธนาคารบอท ด้วยเลขบัญชี
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.ExternalAccountEnableRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: EnableExternalAccount
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/status/{account}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูล บัญชีธนาคารบอท ด้วยเลขบัญชี
+      parameters:
+      - description: accountNumber
+        in: path
+        name: account
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetExternalAccountStatus
+      tags:
+      - Accounting - FASTBANK
+  /accounting/bankaccounts2/transfer:
+    post:
+      consumes:
+      - application/json
+      description: โอนเงิน บัญชีธนาคารบอท
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.ExternalAccountTransferRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: TransferExternalAccount
+      tags:
+      - Accounting - FASTBANK
+  /accounting/banks/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก รายชื่อธนาคารทั้งหมด
+      parameters:
+      - description: page
+        in: query
+        name: page
+        type: integer
+      - description: limit
+        in: query
+        name: limit
+        type: integer
+      - description: search
+        in: query
+        name: search
+        type: string
+      - description: sortCol
+        in: query
+        name: sortCol
+        type: string
+      - description: sortAsc
+        in: query
+        name: sortAsc
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: getBanks get Bank List
+      tags:
+      - Accounting - Options
+  /accounting/qrwalletstatuses/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก การเปิดใช้งาน QR Wallet
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: getQrWalletStatuses
+      tags:
+      - Accounting - Options
+  /accounting/statements/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลการโอนด้วย id *ยังไม่ได้ใช้งาน*
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetAccountStatementById
+      tags:
+      - Accounting - Bank Account Statements
+  /accounting/statements/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูล Statement รายการเดินบัญชีธนาคาร จาก FASTBANK ตรงๆ
+      parameters:
+      - in: query
+        name: accountId
+        type: integer
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:3: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+      - default: 1
+        in: query
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: sortAsc
+        type: string
+      - in: query
+        name: sortCol
+        type: string
+      - in: query
+        name: statementType
+        type: string
+        x-order:2: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:4: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: getAccountStatements รายการเดินบัญชีธนาคาร
+      tags:
+      - Accounting - Bank Account Statements
+  /accounting/statements/webhook:
+    post:
+      consumes:
+      - application/json
+      description: สั่งให้ยิง Statement ใหม่ ไปที่ Webhook ที่ตั้งไว้
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.RecheckWebhookRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: AddAccountStatementToWebhook
+      tags:
+      - Accounting - Bank Account Statements
+  /accounting/transactions:
+    post:
+      consumes:
+      - application/json
+      description: สร้าง ธุรกรรม ในหน้า จัดการธนาคาร - ธุรกรรม ส่ง AccountId มาด้วย
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankAccountTransactionBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateTransaction
+      tags:
+      - Accounting - Bank Account Transactions
+  /accounting/transactions/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: ลบข้อมูลธุรกรรมด้วย id ใช้ในหน้า จัดการธนาคาร - ธุรกรรม ส่งรหัสผ่านมาเพื่อยืนยันด้วย
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.ConfirmRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: DeleteTransaction
+      tags:
+      - Accounting - Bank Account Transactions
+  /accounting/transactions/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลธุรกรรมด้วย id *ยังไม่ได้ใช้งาน*
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetTransactionById
+      tags:
+      - Accounting - Bank Account Transactions
+  /accounting/transactions/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสธุรกรรม ใช้แสดงในหน้า จัดการธนาคาร - ธุรกรรม และ รายการฝากถอนเงินสด
+      parameters:
+      - in: query
+        name: accountId
+        type: integer
+      - in: query
+        name: fromCreatedDate
+        type: string
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+      - default: 1
+        in: query
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - in: query
+        name: sortAsc
+        type: string
+      - in: query
+        name: sortCol
+        type: string
+      - in: query
+        name: toCreatedDate
+        type: string
+      - in: query
+        name: transferType
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetTransactionList
+      tags:
+      - Accounting - Bank Account Transactions
+  /accounting/transfers:
+    post:
+      consumes:
+      - application/json
+      description: สร้างข้อมูลการโอน
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankAccountTransferBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateTransfer
+      tags:
+      - Accounting - Bank Account Transfers
+  /accounting/transfers/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: ลบข้อมูลการโอนด้วย id ใช้ในหน้า จัดการธนาคาร - ธุรกรรม ส่งรหัสผ่านมาเพื่อยืนยันด้วย
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.ConfirmRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: DeleteTransfer
+      tags:
+      - Accounting - Bank Account Transfers
+  /accounting/transfers/confirm/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ยืนยันการโอน
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: ConfirmTransfer
+      tags:
+      - Accounting - Bank Account Transfers
+  /accounting/transfers/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลการโอนด้วย id *ยังไม่ได้ใช้งาน*
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetTransferByID
+      tags:
+      - Accounting - Bank Account Transfers
+  /accounting/transfers/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการโอนเงิน ใช้แสดงในหน้า จัดการธนาคาร - ธุรกรรม
+      parameters:
+      - in: query
+        name: accountId
+        type: integer
+      - in: query
+        name: fromCreatedDate
+        type: string
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+      - default: 1
+        in: query
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - in: query
+        name: sortAsc
+        type: string
+      - in: query
+        name: sortCol
+        type: string
+      - in: query
+        name: status
+        type: string
+      - in: query
+        name: toAccountId
+        type: integer
+      - in: query
+        name: toCreatedDate
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetTransferList
+      tags:
+      - Accounting - Bank Account Transfers
+  /accounting/transfertypes/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก ประเภทการทำธุรกรรม (ฝาก/ถอน)
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: get Transfer Types
+      tags:
+      - Accounting - Options
+  /accounting/webhooks/action:
+    post:
+      consumes:
+      - application/json
+      description: เว็บฮุคแบบ GET
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.ExternalAccountEnableRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      summary: WebhookAction
+      tags:
+      - Accounting - FASTBANK
+  /accounting/webhooks/noti:
+    post:
+      consumes:
+      - application/json
+      description: เว็บฮุคแบบ POST
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.ExternalAccountEnableRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      summary: WebhookNoti
+      tags:
+      - Accounting - FASTBANK
+  /admins/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete Admin
+      parameters:
+      - description: Admin ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Delete Admin
+      tags:
+      - Admins
+  /admins/create:
+    post:
+      consumes:
+      - application/json
+      description: Create Admin
+      parameters:
+      - description: Create Admin
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/model.CreateAdmin'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Create Admin
+      tags:
+      - Admins
+  /admins/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get Admin
+      parameters:
+      - description: Admin ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get Admin
+      tags:
+      - Admins
+  /admins/group:
+    get:
+      consumes:
+      - application/json
+      description: Group List
+      parameters:
+      - in: query
+        maximum: 100
+        minimum: 1
+        name: limit
+        type: integer
+      - in: query
+        minimum: 1
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Group List
+      tags:
+      - Admins
+  /admins/group/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete Group
+      parameters:
+      - description: Group ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Delete Group
+      tags:
+      - Admins
+    get:
+      consumes:
+      - application/json
+      description: Get Group
+      parameters:
+      - description: Group ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get Group
+      tags:
+      - Admins
+    put:
+      consumes:
+      - application/json
+      description: Update Group
+      parameters:
+      - description: Group ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Update Group
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/model.AdminUpdateGroup'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Update Group
+      tags:
+      - Admins
+  /admins/list:
+    get:
+      consumes:
+      - application/json
+      description: Get Admin List
+      parameters:
+      - in: query
+        name: adminGroupId
+        type: string
+      - in: query
+        maximum: 100
+        minimum: 1
+        name: limit
+        type: integer
+      - in: query
+        minimum: 1
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - in: query
+        name: status
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get Admin List
+      tags:
+      - Admins
+  /admins/password/{id}:
+    put:
+      consumes:
+      - application/json
+      description: Update Admin Password
+      parameters:
+      - description: Admin ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Update Admin Password
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/model.AdminUpdatePassword'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Update Admin Password
+      tags:
+      - Admins
+  /admins/permission:
+    delete:
+      consumes:
+      - application/json
+      description: Delete Permission
+      parameters:
+      - description: Delete Permission
+        in: body
+        name: delete
+        required: true
+        schema:
+          $ref: '#/definitions/model.DeletePermission'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Delete Permission
+      tags:
+      - Admins
+  /admins/update/{id}:
+    put:
+      consumes:
+      - application/json
+      description: Update Admin
+      parameters:
+      - description: Admin ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Update Admin
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/model.AdminBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Update Admin
+      tags:
+      - Admins
+  /banking/member/info/{code}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลสมาชิกด้วยโค้ด
+      parameters:
+      - description: memberCode
+        in: path
+        name: code
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetMemberByCode
+      tags:
+      - Banking - Member Transaction
+  /banking/member/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสมาชิก
+      parameters:
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:8: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:7: true
+      - in: query
+        name: search
+        type: string
+        x-order:1: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:10: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:9: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetMembers
+      tags:
+      - Banking - Bank Account Statements
+  /banking/member/possibleowner:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสสมาชิก ที่มีข้อมูลใกล้เคียงกับรายการสเตทเม้นที่รอดำเนินการ
+      parameters:
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:8: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:7: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:10: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:9: true
+      - in: query
+        name: unknownStatementId
+        type: integer
+        x-order:1: true
+      - in: query
+        name: userAccountNumber
+        type: string
+        x-order:2: true
+      - in: query
+        name: userBankCode
+        type: string
+        x-order:3: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetPossibleStatementOwners
+      tags:
+      - Banking - Bank Account Statements
+  /banking/member/statements:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลรายการทางการเงินทั้งหมดของสมาชิก
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:2: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:7: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:6: true
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:9: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:8: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:3: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:4: true
+      - in: query
+        name: userId
+        type: string
+        x-order:1: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetMemberStatements ดึงข้อมูลรายการทางการเงินทั้งหมดของสมาชิก
+      tags:
+      - Banking - Member Statement
+  /banking/member/statements/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลรายการทางการเงินทั้งหมดของสมาชิกด้วย id
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetMemberStatementById
+      tags:
+      - Banking - Member Statement
+  /banking/member/statements1:
+    post:
+      consumes:
+      - application/json
+      description: สร้างข้อมูลรายการทางการเงิน
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.MemberStatementCreateRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: ProcessMemberDepositCredit
+      tags:
+      - Banking - Member Statement
+  /banking/member/statements2:
+    post:
+      consumes:
+      - application/json
+      description: สร้างข้อมูลรายการทางการเงิน
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.MemberStatementCreateRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: ProcessMemberWithdrawCredit
+      tags:
+      - Banking - Member Statement
+  /banking/member/statements3:
+    post:
+      consumes:
+      - application/json
+      description: สร้างข้อมูลรายการทางการเงิน
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.MemberStatementCreateRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: ProcessMemberBonusCredit
+      tags:
+      - Banking - Member Statement
+  /banking/member/statements4:
+    post:
+      consumes:
+      - application/json
+      description: สร้างข้อมูลรายการทางการเงิน
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.MemberStatementCreateRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: ProcessMemberGetbackCredit
+      tags:
+      - Banking - Member Statement
+  /banking/member/transactions:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการฝากถอนของสมาชิก
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:2: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:7: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:6: true
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:9: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:8: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:3: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:4: true
+      - in: query
+        name: userId
+        type: string
+        x-order:1: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetMemberTransactions
+      tags:
+      - Banking - Member Transaction
+  /banking/member/transactionsummary:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลสรุปการฝากถอนของสมาชิก
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:2: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:7: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:6: true
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:9: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:8: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:3: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:4: true
+      - in: query
+        name: userId
+        type: string
+        x-order:1: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetMemberTransactionSummary
+      tags:
+      - Banking - Member Transaction
+  /banking/statements:
+    post:
+      consumes:
+      - application/json
+      description: สร้างข้อมูลการโอน
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankStatementCreateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateStatement
+      tags:
+      - Banking - Bank Account Statements
+  /banking/statements/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: ลบข้อมูลการโอนด้วย id ใช้ในหน้า จัดการธนาคาร - ธุรกรรม ส่งรหัสผ่านมาเพื่อยืนยันด้วย
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: DeleteBankStatement
+      tags:
+      - Banking - Bank Account Statements
+  /banking/statements/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลการโอนด้วย id *ยังไม่ได้ใช้งาน*
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetStatementByID
+      tags:
+      - Banking - Bank Account Statements
+  /banking/statements/ignoreowner/{id}:
+    post:
+      consumes:
+      - application/json
+      description: เพิกเฉยข้อมูลการเดินบัญชี
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: IgnoreStatementOwner เพิกเฉยข้อมูลการเดินบัญชี
+      tags:
+      - Banking - Bank Account Statements
+  /banking/statements/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการโอนเงิน ใช้แสดงในหน้า จัดการธนาคาร - ธุรกรรม
+      parameters:
+      - in: query
+        name: accountId
+        type: string
+        x-order:1: true
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:3: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:8: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:7: true
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: similarId
+        type: integer
+        x-order:6: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:10: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:9: true
+      - in: query
+        name: statementType
+        type: string
+        x-order:2: true
+      - in: query
+        name: status
+        type: string
+        x-order:7: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:4: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetStatementList รายการเดินบัญชี รายการโอนรอดำเนินการ
+      tags:
+      - Banking - Bank Account Statements
+  /banking/statements/matchowner/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ดำเนินการข้อมูลการเดินบัญชี
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankStatementMatchRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: MatchStatementOwner ดำเนินการข้อมูลการเดินบัญชี
+      tags:
+      - Banking - Bank Account Statements
+  /banking/statements/summary:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลจำนวนรายการสรุป เช่น รายการโอนรอดำเนินการ รายการฝากถอนรอดำเนินการ
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankStatementSummary
+      tags:
+      - Banking - Bank Account Statements
+  /banking/statementtypes/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก ประเภทรายการเดินบัญชี
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: get Statement type List
+      tags:
+      - Banking - Options
+  /banking/transactions:
+    post:
+      consumes:
+      - application/json
+      description: สร้างข้อมูล บันทึกรายการฝาก-ถอน
+      parameters:
+      - description: '*บังคับกรอก memberCode และ creditAmount และ transferType'
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankTransactionCreateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateBankTransaction สร้าง บันทึกรายการฝาก-ถอน ของลูกค้า
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/{id}:
+    patch:
+      consumes:
+      - application/json
+      description: อัพเดท บันทึกรายการฝาก-ถอน ส่งมาเฉพาะ ช่องที่อัพเดทเลย
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankTransactionUpdateRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: UpdateBankTransaction อัพเดท บันทึกรายการฝาก-ถอน ของลูกค้า
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/bonus:
+    post:
+      consumes:
+      - application/json
+      description: สร้างข้อมูล บันทึกแจกโบนัส
+      parameters:
+      - description: body description
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BonusTransactionCreateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateBonusTransaction
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/cancel/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ยกเลิก ไม่ยืนยัน ข้อมูลการฝากและถอน ที่รอยืนยัน
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankTransactionCancelBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CancelPendingTransaction ยกเลิก ข้อมูลการฝากและถอน ที่รอยืนยัน
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/confirmcreditwithdraw/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ยืนยัน/อนุมัติ รายการถอน ในสถานะ รอปรับเครดิต
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankConfirmCreditWithdrawRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: confirmCreditWithdrawTransaction ยืนยัน/อนุมัติ รายการถอน ในสถานะ รอปรับเครดิต
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/confirmdeposit/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ยืนยันข้อมูลการฝาก เฉยๆ
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankConfirmDepositRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: ConfirmDepositTransaction ยืนยันข้อมูลการฝาก เฉยๆ
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/confirmdepositcredit/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ยืนยันข้อมูลการฝาก เพื่ออนุมัติเครดิต
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankConfirmDepositRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: ConfirmDepositCreditTransaction ยืนยันข้อมูลการฝาก เพื่ออนุมัติเครดิต
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/confirmtransferwithdraw/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ยืนยัน/อนุมัติ รายการถอน ในสถานะ รอโอน
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.BankConfirmTransferWithdrawRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: confirmTransferWithdrawTransaction ยืนยัน/อนุมัติ รายการถอน ในสถานะ
+        รอโอน
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/continueautowithdraw/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ยืนยัน/อนุมัติ รายการถอน ในสถานะ รอโอน
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: continueAutoWithdrawTransaction ให้ระบบ
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/count_deposit_statuses:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลจำนวนรายการฝากทั้งหมด ตามสถานะ
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:4: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:10: true
+      - in: query
+        name: memberCode
+        type: string
+        x-order:2: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:9: true
+      - in: query
+        name: search
+        type: string
+        x-order:8: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:12: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:11: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:5: true
+      - in: query
+        name: transferStatus
+        type: string
+        x-order:7: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:6: true
+      - in: query
+        name: userId
+        type: string
+        x-order:3: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankDepositTransStatusCounts ดึงข้อมูลจำนวนรายการฝากทั้งหมด ตามสถานะ
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/count_withdraw_statuses:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลจำนวนรายการถอนทั้งหมด ตามสถานะ
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:4: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:10: true
+      - in: query
+        name: memberCode
+        type: string
+        x-order:2: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:9: true
+      - in: query
+        name: search
+        type: string
+        x-order:8: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:12: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:11: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:5: true
+      - in: query
+        name: transferStatus
+        type: string
+        x-order:7: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:6: true
+      - in: query
+        name: userId
+        type: string
+        x-order:3: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankWithdrawTransStatusCounts ดึงข้อมูลจำนวนรายการถอนทั้งหมด ตามสถานะ
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/deposit_list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการฝาก ที่จะมีทั้ง ฝาก และ โบนัส
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:4: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:10: true
+      - in: query
+        name: memberCode
+        type: string
+        x-order:2: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:9: true
+      - in: query
+        name: search
+        type: string
+        x-order:8: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:12: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:11: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:5: true
+      - in: query
+        name: transferStatus
+        type: string
+        x-order:7: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:6: true
+      - in: query
+        name: userId
+        type: string
+        x-order:3: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankTransactions ดึงข้อมูลลิสการฝาก ที่จะมีทั้ง ฝาก และ โบนัส
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลการฝากถอน ด้วย id
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankTransactionById
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/finishedlist:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการถอน ที่รออนุมัติ
+      parameters:
+      - in: query
+        name: accountId
+        type: string
+        x-order:3: true
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:1: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:7: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:6: true
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:9: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:8: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:2: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:4: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetFinishedTransactions
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการฝากถอน
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:4: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:10: true
+      - in: query
+        name: memberCode
+        type: string
+        x-order:2: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:9: true
+      - in: query
+        name: search
+        type: string
+        x-order:8: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:12: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:11: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:5: true
+      - in: query
+        name: transferStatus
+        type: string
+        x-order:7: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:6: true
+      - in: query
+        name: userId
+        type: string
+        x-order:3: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankTransactions
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/pendingdepositlist:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการฝาก ที่รออนุมัติ
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:3: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:7: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:6: true
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:9: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:8: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:4: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetPendingDepositTransactions
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/pendingwithdrawlist:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการถอน ที่รออนุมัติ
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:3: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:7: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:6: true
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:9: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:8: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:4: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetPendingWithdrawTransactions
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/remove/{id}:
+    post:
+      consumes:
+      - application/json
+      description: ลบข้อมูลการฝากถอน ที่เสร็จสิ้นไปแล้ว
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: RemoveFinishedTransaction
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/removedlist:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการฝากถอนที่ถูกลบ
+      parameters:
+      - in: query
+        name: accountId
+        type: string
+        x-order:3: true
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:1: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:7: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:6: true
+      - in: query
+        name: search
+        type: string
+        x-order:5: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:9: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:8: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:2: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:4: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetRemovedTransactions
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactions/withdraw_list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลลิสการถอน ที่จะมีทั้ง ถอน และ ดึงเครดิตกลับ
+      parameters:
+      - in: query
+        name: fromTransferDate
+        type: string
+        x-order:4: true
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+        x-order:10: true
+      - in: query
+        name: memberCode
+        type: string
+        x-order:2: true
+      - default: 1
+        in: query
+        name: page
+        type: integer
+        x-order:9: true
+      - in: query
+        name: search
+        type: string
+        x-order:8: true
+      - in: query
+        name: sortAsc
+        type: string
+        x-order:12: true
+      - in: query
+        name: sortCol
+        type: string
+        x-order:11: true
+      - in: query
+        name: toTransferDate
+        type: string
+        x-order:5: true
+      - in: query
+        name: transferStatus
+        type: string
+        x-order:7: true
+      - in: query
+        name: transferType
+        type: string
+        x-order:6: true
+      - in: query
+        name: userId
+        type: string
+        x-order:3: true
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetBankTransactions ดึงข้อมูลลิสการถอน ที่จะมีทั้ง ถอน และ ดึงเครดิตกลับ
+      tags:
+      - Banking - Bank Transaction
+  /banking/transactionstatuses/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก สถานะรายการฝากถอน
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: get Transaction Status List
+      tags:
+      - Banking - Options
+  /banking/transactiontypes/list:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลตัวเลือก ประเภทการทำรายการ
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithPagination'
+      security:
+      - BearerAuth: []
+      summary: get Transaction Type List
+      tags:
+      - Banking - Options
+  /groups/create:
+    post:
+      consumes:
+      - application/json
+      description: Create Group
+      parameters:
+      - description: Create Group
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/model.CreateGroup'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Create Group And Permission
+      tags:
+      - Groups
+  /linenotify/create:
+    post:
+      consumes:
+      - application/json
+      description: ตั้งค่าแจ้งเตือนไลน์
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.LinenotifyCreateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateLineNotify
+      tags:
+      - LineNotify
+  /linenotify/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลการcแจ้งเตือนไลน์ ด้วย id
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetLineNotifyById
+      tags:
+      - LineNotify
+  /linenotify/game/create:
+    post:
+      consumes:
+      - application/json
+      description: ตั้งค่าแจ้งเตือนไลน์
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.LineNoifyCyberGameBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateLineNotifyCyberGame
+      tags:
+      - LineNotify
+  /linenotify/game/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลการcแจ้งเตือนไลน์ ด้วย id
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetLineNotifyCyberGameById
+      tags:
+      - LineNotify
+  /linenotify/game/list:
+    get:
+      consumes:
+      - application/json
+      description: Get LinenotifyTypeCyberGame List
+      parameters:
+      - example: ""
+        in: query
+        name: filter
+        type: string
+      - default: 10
+        in: query
+        maximum: 100
+        minimum: 1
+        name: limit
+        type: integer
+      - default: 1
+        in: query
+        minimum: 1
+        name: page
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get LinenotifyTypeCyberGame List
+      tags:
+      - LineNotify
+  /linenotify/game/type/update/{id}:
+    put:
+      consumes:
+      - application/json
+      description: แก้ไขสถานะประเภทเกม
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.UpdateStatusTypeCyberGame'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: UpdateNotifyCyberTypeGame
+      tags:
+      - LineNotify
+  /linenotify/game/update/{id}:
+    put:
+      consumes:
+      - application/json
+      description: แก้ไขการเชื่อมต่อไลน์
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.UpdateStatusCyberGame'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: UpdateNotifyCyberGame
+      tags:
+      - LineNotify
+  /linenotify/update/{id}:
+    put:
+      consumes:
+      - application/json
+      description: แก้ไข แจ้งเตือนไลน์
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.LinenotifyUpdateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: UpdateNotify
+      tags:
+      - LineNotify
+  /login:
+    post:
+      consumes:
+      - application/json
+      description: Login
+      parameters:
+      - description: Login
+        in: body
+        name: login
+        required: true
+        schema:
+          $ref: '#/definitions/model.LoginAdmin'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.LoginResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      summary: Login
+      tags:
+      - Auth
+  /menu:
+    get:
+      consumes:
+      - application/json
+      description: Get Menu
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get Menu
+      tags:
+      - Menu
+  /permissions/create:
+    post:
+      consumes:
+      - application/json
+      description: Create Permission
+      parameters:
+      - description: Create Permission
+        in: body
+        name: register
+        required: true
+        schema:
+          $ref: '#/definitions/model.CreatePermission'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Create Permission
+      tags:
+      - Permissions
+  /ping:
+    get:
+      consumes:
+      - application/json
+      description: do ping
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/main.ping'
+      summary: ping example
+      tags:
+      - Test
+  /recommends/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete Recommend
+      parameters:
+      - description: Recommend ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Delete Recommend
+      tags:
+      - Recommends
+  /recommends/create:
+    post:
+      consumes:
+      - application/json
+      description: Create Recommend
+      parameters:
+      - description: Create Recommend
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/model.CreateRecommend'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Create Recommend
+      tags:
+      - Recommends
+  /recommends/list:
+    get:
+      consumes:
+      - application/json
+      description: Get Recommend List
+      parameters:
+      - example: ""
+        in: query
+        name: filter
+        type: string
+      - default: 10
+        in: query
+        maximum: 100
+        minimum: 1
+        name: limit
+        type: integer
+      - default: 1
+        in: query
+        minimum: 1
+        name: page
+        type: integer
+      - example: ""
+        in: query
+        name: status
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get Recommend List
+      tags:
+      - Recommends
+  /recommends/update/{id}:
+    put:
+      consumes:
+      - application/json
+      description: Update Recommend
+      parameters:
+      - description: Recommend ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Update Recommend
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/model.CreateRecommend'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Update Recommend
+      tags:
+      - Recommends
+  /scammers/create:
+    post:
+      consumes:
+      - application/json
+      description: Create Scammer
+      parameters:
+      - description: Create Scammer
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/model.CreateScammer'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Create Scammer
+      tags:
+      - Scammers
+  /scammers/list:
+    get:
+      consumes:
+      - application/json
+      description: Get Scammer List
+      parameters:
+      - in: query
+        name: bankName
+        type: string
+      - default: "2021-01-01T00:00:00+07:00"
+        in: query
+        name: dateEnd
+        type: string
+      - default: "2021-01-01T00:00:00+07:00"
+        in: query
+        name: dateStart
+        type: string
+      - in: query
+        name: filter
+        type: string
+      - default: 10
+        in: query
+        name: limit
+        type: integer
+      - default: 1
+        in: query
+        name: page
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get Scammer List
+      tags:
+      - Scammers
+  /settingweb/create:
+    post:
+      consumes:
+      - application/json
+      description: ตั้งค่าหน้าเว็บไซต์
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.SettingwebCreateBody'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: CreateSettingWeb
+      tags:
+      - Settingweb
+  /settingweb/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: ดึงข้อมูลการตั้งค่า ด้วย id
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: GetSettingWebById
+      tags:
+      - Settingweb
+  /users/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete User
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Delete User
+      tags:
+      - Users
+  /users/create:
+    post:
+      consumes:
+      - application/json
+      description: Create User
+      parameters:
+      - description: Create User
+        in: body
+        name: body
+        schema:
+          $ref: '#/definitions/model.CreateUser'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Create User
+      tags:
+      - Users
+  /users/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get User
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get User
+      tags:
+      - Users
+  /users/list:
+    get:
+      consumes:
+      - application/json
+      description: Get User List
+      parameters:
+      - default: "2023-04-01T00:00:00+07:00"
+        in: query
+        name: from
+        type: string
+      - in: query
+        maximum: 100
+        minimum: 1
+        name: limit
+        type: integer
+      - default: false
+        in: query
+        name: nonMember
+        type: boolean
+      - in: query
+        minimum: 1
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - default: "2023-04-30T00:00:00+07:00"
+        in: query
+        name: to
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get User List
+      tags:
+      - Users
+  /users/loginlogs/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Login Logs
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: แสดงลิสประวัติการเข้าสู่ระบบของ User
+      tags:
+      - Users
+  /users/password/{id}:
+    put:
+      consumes:
+      - application/json
+      description: Update User Password
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Update User Password
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.UserUpdatePassword'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Update User Password
+      tags:
+      - Users
+  /users/update/{id}:
+    put:
+      consumes:
+      - application/json
+      description: Update User
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Update User
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.UpdateUser'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Update User
+      tags:
+      - Users
+  /users/updatelogs:
+    get:
+      consumes:
+      - application/json
+      description: Get User Update Logs
+      parameters:
+      - default: "2023-04-01T00:00:00+07:00"
+        in: query
+        name: from
+        type: string
+      - in: query
+        maximum: 100
+        minimum: 1
+        name: limit
+        type: integer
+      - in: query
+        minimum: 1
+        name: page
+        type: integer
+      - in: query
+        name: search
+        type: string
+      - default: "2023-04-30T00:00:00+07:00"
+        in: query
+        name: to
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get User Update Logs
+      tags:
+      - Users
+  /v1/front/users/detail/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get User
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithData'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Get User
+      tags:
+      - Front - Users
+  /v1/front/users/loginlogs/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Login Logs
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.SuccessWithList'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: แสดงลิสประวัติการเข้าสู่ระบบของ User
+      tags:
+      - Front - Users
+  /v1/front/users/password/{id}:
+    put:
+      consumes:
+      - application/json
+      description: Update User Password
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Update User Password
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.UserUpdatePassword'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Update User Password
+      tags:
+      - Front - Users
+  /v1/front/users/update/{id}:
+    put:
+      consumes:
+      - application/json
+      description: Update User
+      parameters:
+      - description: User ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: Update User
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.UpdateUser'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/model.Success'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      security:
+      - BearerAuth: []
+      summary: Update User
+      tags:
+      - Front - Users
+  /v1/frontend/otp:
+    post:
+      consumes:
+      - application/json
+      description: Send OTP
+      parameters:
+      - description: Send OTP
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.SendOTP'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            type: string
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      summary: ส่ง OTP ไปยังเบอร์โทรศัพท์
+      tags:
+      - Front - Auth
+  /v1/frontend/verify-otp:
+    post:
+      consumes:
+      - application/json
+      description: Verify OTP
+      parameters:
+      - description: Verify OTP
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/model.UserVerifyOTP'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            type: string
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      summary: ยืนยัน OTP
+      tags:
+      - Front - Auth
+securityDefinitions:
+  BearerAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

@@ -1,0 +1,1296 @@
+[
+  {
+    "GameCode": "twentyfourkdragon",
+    "GameName": "24k Dragon",
+    "GameType": "slot",
+	   "ImageIcon": "/media/egames/playgo/twentyfourkdragon_en-us.jpg"
+  },
+  {
+    "GameCode": "threeclownmonty",
+    "GameName": "3 Clown Monty",
+	   "ImageIcon": "/media/egames/playgo/threeclownmonty_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "threehandholdem",
+    "GameName": "3-Hand Casino Hold'em",
+	"ImageIcon": "/media/egames/playgo/threehandholdem_en-us.jpg?v=1",
+    "GameType": "tablegames"
+  },
+  {
+    "GameCode": "5xmagic",
+    "GameName": "5x Magic",
+	"ImageIcon": "/media/egames/playgo/5xmagic_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "sevensins",
+    "GameName": "7 Sins",
+      "ImageIcon": "/media/egames/playgo/sevensins_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "aceofspades",
+    "GameName": "Ace of Spades",
+      "ImageIcon": "/media/egames/playgo/aceofspades_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "agentdestiny",
+    "GameName": "Agent Destiny",
+      "ImageIcon": "/media/egames/playgo/agentdestiny_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "agentofhearts",
+    "GameName": "Agent of Hearts",
+      "ImageIcon": "/media/egames/playgo/agentofhearts_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "alicecooper",
+    "GameName": "Alice Copper and the Tome of Madness",
+      "ImageIcon": "/media/egames/playgo/alicecooper_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "ankhofanubis",
+    "GameName": "Ankh of Anubis",
+      "ImageIcon": "/media/egames/playgo/ankhofanubis_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "annihilator",
+    "GameName": "Annihilator",
+    "ImageIcon": "/media/egames/playgo/annihilator_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "aztecidols",
+    "GameName": "Aztec Idols",
+    "ImageIcon": "/media/egames/playgo/aztecidols_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "aztecwarriorprincess",
+    "GameName": "Aztec Warrior Princess",
+    "ImageIcon": "/media/egames/playgo/aztecwarriorprincess_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "bakerstreat",
+    "GameName": "Baker's Treat",
+    "ImageIcon": "/media/egames/playgo/bakerstreat_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "bananarock",
+    "GameName": "Banana Rock",
+    "ImageIcon": "/media/egames/playgo/bananarock_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "battleroyal",
+    "GameName": "Battle Royal",
+    "ImageIcon": "/media/egames/playgo/battleroyal_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "beastofwealth",
+    "GameName": "Beast of Wealth",
+    "ImageIcon": "/media/egames/playgo/beastofwealth_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "belloffortune",
+    "GameName": "Bell of Fortune",
+    "ImageIcon": "/media/egames/playgo/belloffortune_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "bigwin777",
+    "GameName": "Big Win 777",
+    "ImageIcon": "/media/egames/playgo/bigwin777_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "bigwincat",
+    "GameName": "Big Win Cat",
+    "ImageIcon": "/media/egames/playgo/bigwincat_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "blackmamba",
+    "GameName": "Black Mamba",
+    "ImageIcon": "/media/egames/playgo/blackmamba_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "blackjackmh",
+    "GameName": "BlackJack MH",
+    "ImageIcon": "/media/egames/playgo/blackjackmh_en-us.jpg?v=1",
+    "GameType": "blackjack"
+  },
+  {
+    "GameCode": "blazinbullfrog",
+    "GameName": "Blazin' Bullfrog",
+    "ImageIcon": "/media/egames/playgo/blazinbullfrog_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "blinged",
+    "GameName": "Blinged",
+    "ImageIcon": "/media/egames/playgo/blinged_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "bookofdead",
+    "GameName": "Book of Dead",
+    "ImageIcon": "/media/egames/playgo/bookofdead_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "bugsparty",
+    "GameName": "Bugs Party",
+    "ImageIcon": "/media/egames/playgo/bugsparty_en-us.jpg?v=1",
+    "GameType": "bingo"
+  },
+  {
+    "GameCode": "bullinachinashop",
+    "GameName": "Bull in a China Shop",
+    "ImageIcon": "/media/egames/playgo/bullinachinashop_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "candyislandprincess",
+    "GameName": "Candy Island Princess",
+    "ImageIcon": "/media/egames/playgo/candyislandprincess_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "cashpump",
+    "GameName": "Cash Pump",
+    "ImageIcon": "/media/egames/playgo/cashpump_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "cashvandal",
+    "GameName": "Cash Vandal",
+    "ImageIcon": "/media/egames/playgo/cashvandal_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "casinoholdem",
+    "GameName": "Casino Hold'em",
+    "ImageIcon": "/media/egames/playgo/casinoholdem_en-us.jpg?v=1",
+    "GameType": "tablegames"
+  },
+  {
+    "GameCode": "casinostudpoker",
+    "GameName": "Casino Stud Poker",
+    "ImageIcon": "/media/egames/playgo/casinostudpoker_en-us.jpg?v=1",
+    "GameType": "tablegames"
+  },
+  {
+    "GameCode": "doomofdead",
+    "GameName": "Cat Wilde and the Doom of Dead",
+    "ImageIcon": "/media/egames/playgo/doomofdead_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "catwildeeclipse",
+    "GameName": "Cat Wilde in the Eclipse of the Sun God",
+    "ImageIcon": "/media/egames/playgo/catwildeeclipse_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "catsandcash",
+    "GameName": "Cats and Cash",
+    "ImageIcon": "/media/egames/playgo/catsandcash_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "celebrationofwealth",
+    "GameName": "Celebration of Wealth",
+    "ImageIcon": "/media/egames/playgo/celebrationofwealth_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "charliechance",
+    "GameName": "Charlie Chance",
+    "ImageIcon": "/media/egames/playgo/charliechance_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "curseofcleopatra",
+    "GameName": "Charlie Chance and the Curse of Cleopatra",
+    "ImageIcon": "/media/egames/playgo/curseofcleopatra_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "charliechancehelltopay",
+    "GameName": "Charlie Chance in Hell to Pay",
+    "ImageIcon": "/media/egames/playgo/charliechancehelltopay_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "chinesenewyear",
+    "GameName": "Chinese New Year",
+    "ImageIcon": "/media/egames/playgo/chinesenewyear_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "chronosjoker",
+    "GameName": "Chronos Joker",
+    "ImageIcon": "/media/egames/playgo/chronosjoker_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "cloudquest",
+    "GameName": "Cloud Quest",
+    "ImageIcon": "/media/egames/playgo/cloudquest_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "coilsofcash",
+    "GameName": "Coils of Cash",
+    "ImageIcon": "/media/egames/playgo/coilsofcash_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "contact",
+    "GameName": "Contact",
+    "ImageIcon": "/media/egames/playgo/contact_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "copsnrobbers",
+    "GameName": "Cops'n'Robbers",
+    "ImageIcon": "/media/egames/playgo/copsnrobbers_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "coywolfcash",
+    "GameName": "Coywolf Cash",
+    "ImageIcon": "/media/egames/playgo/coywolfcash_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "crazycows",
+    "GameName": "Crazy Cows",
+    "ImageIcon": "/media/egames/playgo/crazycows_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "crystalsun",
+    "GameName": "Crystal Sun",
+    "ImageIcon": "/media/egames/playgo/crystalsun_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "dawnofegypt",
+    "GameName": "Dawn of Egypt",
+    "ImageIcon": "/media/egames/playgo/dawnofegypt_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "demon",
+    "GameName": "Demon",
+    "ImageIcon": "/media/egames/playgo/demon_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "deuceswild",
+    "GameName": "Deuces Wild MH",
+    "ImageIcon": "/media/egames/playgo/deuceswild_en-us.jpg?v=1",
+    "GameType": "videopoker"
+  },
+  {
+    "GameCode": "diamondsoftherealm",
+    "GameName": "Diamonds of the Realm",
+    "ImageIcon": "/media/egames/playgo/diamondsoftherealm_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "diamondvortex",
+    "GameName": "Diamond Vortex",
+    "ImageIcon": "/media/egames/playgo/diamondvortex_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "discodiamonds",
+    "GameName": "Disco Diamonds",
+    "ImageIcon": "/media/egames/playgo/discodiamonds_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "divineshowdown",
+    "GameName": "Divine Showdown",
+    "ImageIcon": "/media/egames/playgo/divineshowdown_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "doomofegypt",
+    "GameName": "Doom of Egypt",
+    "ImageIcon": "/media/egames/playgo/doomofegypt_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "doubleexposureblackjackmh",
+    "GameName": "Double Exposure BlackJack MH",
+    "ImageIcon": "/media/egames/playgo/doubleexposureblackjackmh_en-us.jpg?v=1",
+    "GameType": "blackjack"
+  },
+  {
+    "GameCode": "drtoonz",
+    "GameName": "Dr. Toonz",
+    "ImageIcon": "/media/egames/playgo/drtoonz_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "dragonmaiden",
+    "GameName": "Dragon Maiden",
+    "ImageIcon": "/media/egames/playgo/dragonmaiden_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "dragonship",
+    "GameName": "Dragon Ship",
+    "ImageIcon": "/media/egames/playgo/dragonship_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "eastereggs",
+    "GameName": "Easter Eggs",
+    "ImageIcon": "/media/egames/playgo/eastereggs_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "enchantedcrystals",
+    "GameName": "Enchanted Crystals",
+    "ImageIcon": "/media/egames/playgo/enchantedcrystals_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "enchantedmeadow",
+    "GameName": "Enchanted Meadow",
+    "ImageIcon": "/media/egames/playgo/enchantedmeadow_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "energoonz",
+    "GameName": "Energoonz",
+    "ImageIcon": "/media/egames/playgo/energoonz_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "europeanblackjackmh",
+    "GameName": "European BlackJack MH",
+    "ImageIcon": "/media/egames/playgo/europeanblackjackmh_en-us.jpg?v=1",
+    "GameType": "blackjack"
+  },
+  {
+    "GameCode": "eyeofthekraken",
+    "GameName": "Eye of the Kraken",
+    "ImageIcon": "/media/egames/playgo/eyeofthekraken_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "felinefury",
+    "GameName": "Feline Fury",
+    "ImageIcon": "/media/egames/playgo/felinefury_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "firejoker",
+    "GameName": "Fire Joker",
+    "ImageIcon": "/media/egames/playgo/firejoker_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "firejokerfreeze",
+    "GameName": "Fire Joker Freeze",
+    "ImageIcon": "/media/egames/playgo/firejokerfreeze_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "firetoad",
+    "GameName": "Fire Toad",
+    "ImageIcon": "/media/egames/playgo/firetoad_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "fireflyfrenzy",
+    "GameName": "Firefly Frenzy",
+    "ImageIcon": "/media/egames/playgo/fireflyfrenzy_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "flyingpigs",
+    "GameName": "Flying Pigs",
+    "ImageIcon": "/media/egames/playgo/flyingpigs_en-us.jpg?v=1",
+    "GameType": "bingo"
+  },
+  {
+    "GameCode": "fortuneteller",
+    "GameName": "Fortune Teller",
+    "ImageIcon": "/media/egames/playgo/fortuneteller_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "fortunesofalibaba",
+    "GameName": "Fortunes of Ali Baba",
+    "ImageIcon": "/media/egames/playgo/fortunesofalibaba_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "freereelinjoker",
+    "GameName": "Free Reelin' Joker",
+    "ImageIcon": "/media/egames/playgo/freereelinjoker_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "frozengems",
+    "GameName": "Frozen Gems",
+    "ImageIcon": "/media/egames/playgo/frozengems_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "fruitbonanza",
+    "GameName": "Fruit Bonanza",
+    "ImageIcon": "/media/egames/playgo/fruitbonanza_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "fuerdai",
+    "GameName": "FU ER DAI",
+    "ImageIcon": "/media/egames/playgo/fuerdai_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "gameofgladiators",
+    "GameName": "Game of Gladiators",
+    "ImageIcon": "/media/egames/playgo/gameofgladiators_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "gemix",
+    "GameName": "Gemix",
+    "ImageIcon": "/media/egames/playgo/gemix_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "gemix2",
+    "GameName": "Gemix 2",
+    "ImageIcon": "/media/egames/playgo/gemix2_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "ghostofdead",
+    "GameName": "Ghost of Dead",
+    "ImageIcon": "/media/egames/playgo/ghostofdead_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "giftshop",
+    "GameName": "Gift Shop",
+    "ImageIcon": "/media/egames/playgo/giftshop_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldking",
+    "GameName": "Gold King",
+    "ImageIcon": "/media/egames/playgo/goldking_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldtrophy2",
+    "GameName": "Gold Trophy 2",
+    "ImageIcon": "/media/egames/playgo/goldtrophy2_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldvolcano",
+    "GameName": "Gold Volcano",
+    "ImageIcon": "/media/egames/playgo/goldvolcano_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldencaravan",
+    "GameName": "Golden Caravan",
+    "ImageIcon": "/media/egames/playgo/goldencaravan_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldencolts",
+    "GameName": "Golden Colts",
+    "ImageIcon": "/media/egames/playgo/goldencolts_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldengoal",
+    "GameName": "Golden Goal",
+    "ImageIcon": "/media/egames/playgo/goldengoal_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldenlegend",
+    "GameName": "Golden Legend",
+    "ImageIcon": "/media/egames/playgo/goldenlegend_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldenosiris",
+    "GameName": "Golden Osiris",
+    "ImageIcon": "/media/egames/playgo/goldenosiris_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldenticket",
+    "GameName": "Golden Ticket",
+    "ImageIcon": "/media/egames/playgo/goldenticket_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "goldenticket2",
+    "GameName": "Golden Ticket 2",
+    "ImageIcon": "/media/egames/playgo/goldenticket2_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "grimmuerto",
+    "GameName": "Grim Muerto",
+    "ImageIcon": "/media/egames/playgo/grimmuerto_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "gunslingerreloaded",
+    "GameName": "Gunslinger: Reloaded",
+    "ImageIcon": "/media/egames/playgo/gunslingerreloaded_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "hammerfall",
+    "GameName": "HammerFall",
+    "ImageIcon": "/media/egames/playgo/hammerfall_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "happyhalloween",
+    "GameName": "Happy Halloween",
+    "ImageIcon": "/media/egames/playgo/happyhalloween_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "helloween",
+    "GameName": "Helloween",
+    "ImageIcon": "/media/egames/playgo/helloween_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "holidayseason",
+    "GameName": "Holiday Season",
+    "ImageIcon": "/media/egames/playgo/holidayseason_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "holidayspirits",
+    "GameName": "Holiday Spirits",
+    "ImageIcon": "/media/egames/playgo/holidayspirits_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "honeyrush",
+    "GameName": "Honey Rush",
+    "ImageIcon": "/media/egames/playgo/honeyrush_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "hotelyetiway",
+    "GameName": "Hotel Yeti-Way",
+    "ImageIcon": "/media/egames/playgo/hotelyetiway_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "houseofdoom",
+    "GameName": "House of Doom",
+    "ImageIcon": "/media/egames/playgo/houseofdoom_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "thecrypt",
+    "GameName": "House of Doom 2: The Crypt",
+    "ImageIcon": "/media/egames/playgo/thecrypt_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "hugo",
+    "GameName": "Hugo",
+    "ImageIcon": "/media/egames/playgo/hugo_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "hugotwo",
+    "GameName": "Hugo 2",
+    "ImageIcon": "/media/egames/playgo/hugotwo_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "hugocarts",
+    "GameName": "Hugo Carts",
+    "ImageIcon": "/media/egames/playgo/hugocarts_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "hugogoal",
+    "GameName": "Hugo Goal",
+    "ImageIcon": "/media/egames/playgo/hugogoal_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "hugosadventure",
+    "GameName": "Hugo's Adventure",
+    "ImageIcon": "/media/egames/playgo/hugosadventure_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "icejoker",
+    "GameName": "Ice Joker",
+    "ImageIcon": "/media/egames/playgo/icejoker_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "imperialopera",
+    "GameName": "Imperial Opera",
+    "ImageIcon": "/media/egames/playgo/imperialopera_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "infernojoker",
+    "GameName": "Inferno Joker",
+    "ImageIcon": "/media/egames/playgo/infernojoker_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "infernostar",
+    "GameName": "Inferno Star",
+    "ImageIcon": "/media/egames/playgo/infernostar_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "irishgold",
+    "GameName": "Irish Gold",
+    "ImageIcon": "/media/egames/playgo/irishgold_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "irongirl",
+    "GameName": "Iron Girl",
+    "ImageIcon": "/media/egames/playgo/irongirl_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "jackpotpoker",
+    "GameName": "Jackpot Poker",
+    "ImageIcon": "/media/egames/playgo/jackpotpoker_en-us.jpg?v=1",
+    "GameType": "videopoker"
+  },
+  {
+    "GameCode": "jacksorbetter",
+    "GameName": "Jacks or Better MH",
+    "ImageIcon": "/media/egames/playgo/jacksorbetter_en-us.jpg?v=1",
+    "GameType": "videopoker"
+  },
+  {
+    "GameCode": "jademagician",
+    "GameName": "Jade Magician",
+    "ImageIcon": "/media/egames/playgo/jademagician_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "jewelbox",
+    "GameName": "Jewel Box",
+    "ImageIcon": "/media/egames/playgo/jewelbox_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "jokerpoker",
+    "GameName": "Joker Poker MH",
+    "ImageIcon": "/media/egames/playgo/jokerpoker_en-us.jpg?v=1",
+    "GameType": "videopoker"
+  },
+  {
+    "GameCode": "jollyroger",
+    "GameName": "Jolly Roger",
+    "ImageIcon": "/media/egames/playgo/jollyroger_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "jollyroger2",
+    "GameName": "Jolly Roger 2",
+    "ImageIcon": "/media/egames/playgo/jollyroger2_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "keno",
+    "GameName": "Keno",
+    "ImageIcon": "/media/egames/playgo/keno_en-us.jpg?v=1",
+    "GameType": "othersgame"
+  },
+  {
+    "GameCode": "ladyoffortune",
+    "GameName": "Lady of Fortune",
+    "ImageIcon": "/media/egames/playgo/ladyoffortune_en-us.jpg?v=1",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "legacyofdead",
+    "GameName": "Legacy of Dead",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "legacyofegypt",
+    "GameName": "Legacy of Egypt",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "legendoftheicedragon",
+    "GameName": "Legend of the Ice Dragon",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "leprechaungoesegypt",
+    "GameName": "Leprechaun goes Egypt",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "leprechaungoestohell",
+    "GameName": "Leprechaun goes to Hell",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "leprechaungoeswild",
+    "GameName": "Leprechaun Goes Wild",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "ladyofthelake",
+    "GameName": "Lord Merlin and The Lady of The Lake",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "luckydiamonds",
+    "GameName": "Lucky Diamonds",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "madameink",
+    "GameName": "Madame Ink",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "mahjong88",
+    "GameName": "Mahjong 88",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "matsuri",
+    "GameName": "Matsuri",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "mermaidsdiamond",
+    "GameName": "Mermaid's Diamond",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "merryxmas",
+    "GameName": "Merry Xmas",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "minerdonkeytrouble",
+    "GameName": "Miner Donkey Trouble",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "missioncash",
+    "GameName": "Mission Cash",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "moneywheel",
+    "GameName": "Money Wheel",
+    "GameType": "tablegames"
+  },
+  {
+    "GameCode": "moonprincess",
+    "GameName": "Moon Princess",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "muertoenmictlan",
+    "GameName": "Muerto en Mictlan",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "multifruit81",
+    "GameName": "MULTIFRUIT 81",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "mysteryjoker",
+    "GameName": "Mystery Joker",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "mysteryjoker6000",
+    "GameName": "Mystery Joker 6000",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "myth",
+    "GameName": "Myth",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "newyearriches",
+    "GameName": "New Year Riches",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "ninjafruits",
+    "GameName": "Ninja Fruits",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "skateforgold",
+    "GameName": "Nyjah Huston: Skate for Gold",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "octopustreasure",
+    "GameName": "Octopus Treasure",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "odinprotectorofrealms",
+    "GameName": "Odin: Protector of Realms",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "packandcash",
+    "GameName": "Pack & Cash",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "pearllagoon",
+    "GameName": "Pearl Lagoon",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "pearlsofindia",
+    "GameName": "Pearls of India",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "perfectgems",
+    "GameName": "Perfect Gems",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "phoenixreborn",
+    "GameName": "Phoenix Reborn",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "photosafari",
+    "GameName": "Photo Safari",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "piggybankfarm",
+    "GameName": "Piggy Bank Farm",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "pimped",
+    "GameName": "Pimped",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "planetfortune",
+    "GameName": "Planet Fortune",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "prismofgems",
+    "GameName": "Prism of Gems",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "prissyprincess",
+    "GameName": "Prissy Princess",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "prosperitypalace",
+    "GameName": "Prosperity Palace",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "queensdaytilt",
+    "GameName": "Queen's Day Tilt",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "rabbitholeriches",
+    "GameName": "Rabbit Hole Riches",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "courtofhearts",
+    "GameName": "Rabbit Hole Riches - Court of Hearts",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "ragetoriches",
+    "GameName": "Rage to Riches",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "ragingrex",
+    "GameName": "Raging Rex",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "rainforestmagic",
+    "GameName": "Rainforest Magic",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "rainforestmagicbingo",
+    "GameName": "Rainforest Magic Bingo",
+    "GameType": "bingo"
+  },
+  {
+    "GameCode": "rally4riches",
+    "GameName": "Rally 4 Riches",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "reactoonz",
+    "GameName": "Reactoonz",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "reactoonztwo",
+    "GameName": "Reactoonz 2",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "shieldofathena",
+    "GameName": "Rich Wilde & The Shield of Athena",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "amuletofdead",
+    "GameName": "Rich Wilde and the Amulet of Dead",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "richesofra",
+    "GameName": "Riches of RA",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "richesofrobin",
+    "GameName": "Riches of Robin",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "riddlereels",
+    "GameName": "Riddle Reels: A Case of Riches",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "ringofodin",
+    "GameName": "Ring of Odin",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "riseofathena",
+    "GameName": "Rise of Athena",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "riseofdead",
+    "GameName": "Rise of Dead",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "riseofmerlin",
+    "GameName": "Rise of Merlin",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "riseofolympus",
+    "GameName": "Rise of Olympus",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "masquerade",
+    "GameName": "Royal Masquerade",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "sabaton",
+    "GameName": "Sabaton",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "sailsofgold",
+    "GameName": "Sails of Gold",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "sambacarnival",
+    "GameName": "Samba Carnival",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "saxon",
+    "GameName": "Saxon",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "scrollofdead",
+    "GameName": "Scroll of Dead",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "seahunter",
+    "GameName": "Sea Hunter",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "singledeckblackjackmh",
+    "GameName": "Single Deck BlackJack MH",
+    "GameType": "blackjack"
+  },
+  {
+    "GameCode": "sistersofthesun",
+    "GameName": "Sisters of the Sun",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "sizzlingspins",
+    "GameName": "Sizzling Spins",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "spacerace",
+    "GameName": "Space Race",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "speedcash",
+    "GameName": "Speed Cash",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "spinparty",
+    "GameName": "Spin Party",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "starjoker",
+    "GameName": "Star Joker",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "stickyjoker",
+    "GameName": "Sticky Joker",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "streetmagic",
+    "GameName": "Street Magic",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "superflip",
+    "GameName": "Super Flip",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "superwheel",
+    "GameName": "Super Wheel",
+    "GameType": "tablegames"
+  },
+  {
+    "GameCode": "sweet27",
+    "GameName": "Sweet 27",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "sweetalchemy",
+    "GameName": "Sweet Alchemy",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "sweetalchemybingo",
+    "GameName": "Sweet Alchemy Bingo",
+    "GameType": "bingo"
+  },
+  {
+    "GameCode": "templeofwealth",
+    "GameName": "Temple of Wealth ",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "testament",
+    "GameName": "Testament",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "thatsrich",
+    "GameName": "That's Rich",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "thefacesoffreya",
+    "GameName": "The Faces of Freya",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "thegreenknight",
+    "GameName": "The Green Knight",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "thepayingpianoclub",
+    "GameName": "The Paying Piano Club",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "theshimmeringwoods",
+    "GameName": "The Shimmering Woods",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "theswordandthegrail",
+    "GameName": "The Sword and The Grail",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "thewildclass",
+    "GameName": "The Wild Class",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "thunderscreech",
+    "GameName": "Thunder Screech",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "tomeofmadness",
+    "GameName": "Tome of Madness",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "towerquest",
+    "GameName": "Tower Quest",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "trollhunters",
+    "GameName": "Troll Hunters",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "trollhunters2",
+    "GameName": "Troll Hunters 2",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "twistedsister",
+    "GameName": "Twisted Sister",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "vikingrunecraft",
+    "GameName": "Viking Runecraft",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "vikingrunecraftbingo",
+    "GameName": "Viking Runecraft Bingo",
+    "GameType": "bingo"
+  },
+  {
+    "GameCode": "wildblood",
+    "GameName": "Wild Blood",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "wildblood2",
+    "GameName": "Wild Blood 2",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "wildfalls",
+    "GameName": "Wild Falls",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "wildframes",
+    "GameName": "Wild Frames",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "wildmelon",
+    "GameName": "Wild Melon",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "wildnorth",
+    "GameName": "Wild North",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "wildrails",
+    "GameName": "Wild Rails",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "wildhoundderby",
+    "GameName": "Wildhound Derby",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "winabeest",
+    "GameName": "Win-A-Beest",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "wizardofgems",
+    "GameName": "Wizard of Gems",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "christmasjoker",
+    "GameName": "Xmas Joker",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "xmasmagic",
+    "GameName": "Xmas Magic",
+    "GameType": "slot"
+  },
+  {
+    "GameCode": "zztoproadside",
+    "GameName": "ZZ Top Roadside Riches",
+    "GameType": "slot"
+  }
+]
